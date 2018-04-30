@@ -1,0 +1,90 @@
+@mixin section($bgColor, $fontColor, $location){
+
+@if $location == "top"{
+  h1{
+    color:$fontColor;
+    font-size:2.5em;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    padding-top:30%;
+
+    @media (min-width: 768px){
+padding-top:30%;
+
+    }
+
+    @media (min-width: 992px){
+
+padding-top:15%;
+    }
+
+    @media (min-width: 1200px){
+
+        padding-top:15%;
+    }
+  }
+}@else {
+
+padding-top: 5%;
+margin-top: 5%;
+  h1{
+    color:$fontColor;
+    font-size:2.5em;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+padding-top: 1%;
+
+    @media (min-width: 768px){
+
+
+    }
+
+    @media (min-width: 992px){
+
+
+    }
+
+    @media (min-width: 1200px){
+
+
+    }
+  }
+
+}
+
+  width: 100%;
+  background-color:$bgColor;
+  display:block;
+  text-align:center;
+  font:inherit;
+  vertical-align:baseline;
+  margin-right:auto;
+  margin-left:auto;
+  padding-left:15px;
+  padding-right:15px;
+  padding-bottom:5%;
+
+
+
+
+  hr{
+  width:10%;border:solid 1px #1bd982;
+  margin-top:18px;
+
+box-sizing:content-box;height:0;}
+
+@media (min-width: 768px){
+
+
+}
+
+@media (min-width: 992px){
+
+
+}
+
+
+
+}

@@ -41,3 +41,12 @@ margin: 0.83em 0px;
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone;
 }
+
+
+.titleSection{
+  @include section($darkThemePrimaryColor, $white, top)
+}
+
+.titleSection2{
+  @include section($darkThemePrimaryColor, $white, rest)
+}

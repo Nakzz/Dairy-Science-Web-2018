@@ -10397,7 +10397,6 @@ body {
   padding: 0; }
 
 .team-member-image {
-  float: none;
   overflow: hidden;
   height: 0;
   /*width: 100%;*/
@@ -10470,7 +10469,7 @@ body {
   .navBarVertical {
     padding-top: 20px !important; }
   .navbar-brand img {
-    width: 90%; }
+    width: 65%; }
   .paddingtop {
     padding-top: 120px !important; }
   .paddingtopsmall {
@@ -10581,6 +10580,69 @@ body {
   -webkit-box-decoration-break: clone;
   box-decoration-break: clone; }
 
+.titleSection {
+  width: 100%;
+  background-color: #212739;
+  display: block;
+  text-align: center;
+  font: inherit;
+  vertical-align: baseline;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5%; }
+  .titleSection h1 {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    padding-top: 30%; }
+    @media (min-width: 768px) {
+      .titleSection h1 {
+        padding-top: 30%; } }
+    @media (min-width: 992px) {
+      .titleSection h1 {
+        padding-top: 15%; } }
+    @media (min-width: 1200px) {
+      .titleSection h1 {
+        padding-top: 15%; } }
+  .titleSection hr {
+    width: 10%;
+    border: solid 1px #1bd982;
+    margin-top: 18px;
+    box-sizing: content-box;
+    height: 0; }
+
+.titleSection2 {
+  padding-top: 5%;
+  margin-top: 5%;
+  width: 100%;
+  background-color: #212739;
+  display: block;
+  text-align: center;
+  font: inherit;
+  vertical-align: baseline;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 5%; }
+  .titleSection2 h1 {
+    color: #fff;
+    font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    padding-top: 1%; }
+  .titleSection2 hr {
+    width: 10%;
+    border: solid 1px #1bd982;
+    margin-top: 18px;
+    box-sizing: content-box;
+    height: 0; }
+
 /** This is a dynamically generated file **/
 /*People Page*/
 .opportunities {
@@ -10605,6 +10667,23 @@ body {
 
 .thisIsATestClass {
   color: red; }
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background: #999;
+  background: rgba(153, 153, 153, 0.2);
+  background-color: rgba(153, 153, 153, 0.25);
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+  transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; }
 
 /** This is a dynamically generated file **/
 #name {
