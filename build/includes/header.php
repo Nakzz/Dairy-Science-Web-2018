@@ -20,7 +20,9 @@ head tags should be in each file. add the follow in each page head element.
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300,200,100,800,900' rel='stylesheet' type='text/css'>
 
 <!-- STYLESHEETS -->
-<link href="assets/css/bootstrap.css" rel="stylesheet">
+
+<?php // TODO: REMOVE THESE PRIOR TO DEPLOY ?>
+<!-- <link href="assets/css/bootstrap.css" rel="stylesheet">
 
 <link href="assets/css/flexslider.css" rel="stylesheet" >
 <link href="assets/css/animate.css" rel="stylesheet">
@@ -31,7 +33,9 @@ head tags should be in each file. add the follow in each page head element.
 <link href="assets/css/queries.css" rel="stylesheet"/>
 
 <link href="assets/css/ajmain.css" rel="stylesheet"/>
-<link href="assets/css/team-member.css" rel="stylesheet"/>
+<link href="assets/css/team-member.css" rel="stylesheet"/> -->
+
+<link href="assets/style.css" rel="stylesheet"/>
 
 <!--[if lt IE 9]>
 <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>

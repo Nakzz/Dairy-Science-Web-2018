@@ -1,5 +1,3 @@
-<?php // TODO: Footer backgroun-color is black, change to nav-bar
-// TODO: edit using SASS css management ?>
 <footer>
   <div class="container">
 
@@ -65,7 +63,7 @@
       <footer class="footer-wrap text-center">
           <div class="container">
             <div class="col-md-4 col-sm-12 wow fadeInDown" data-wow-duration="1s" data-wow-delay="0.7s">
-              <div class=" big-icon">
+              <div class="">
 
 
                 <a style="color:white" href="https://www.facebook.com/pages/University-of-Wisconsin-Dairy-Management/172972072340" target="_blank" class="facebook team-member-links-item"><i class="fab fa-facebook fa-2x"></i></a>

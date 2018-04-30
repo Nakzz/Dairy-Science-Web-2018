@@ -1,0 +1,116 @@
+/*Small devices (landscape phones, 576px and up)*/
+
+@media screen and (max-width: 540px) {
+
+  .dimmed div {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: 15%;
+    width: 70%;
+    color: #fff;
+    display: block;
+    padding: 0.5rem;
+    /* Needs prefixing */
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
+  .navBarVertical {
+    padding-top: 20px !important;
+  }
+  .paddingtop {
+    padding-top: 120px !important;
+  }
+  .paddingtopsmall {
+    padding-top: 25px !important;
+  }
+  .padding_bottom {
+    padding-bottom: 100px !important;
+  }
+  .paddingSmall_bottom {
+    padding-bottom: 60px !important;
+  }
+  .margin_top {
+    margin-top: 20px !important;
+  }
+  .marginBig_top {
+    margin-top: 40px !important;
+  }
+  .margin_bottom {
+    margin-bottom: 10px !important;
+  }
+  .padding_left {
+    padding-left: 50px !important;
+  }
+  .padding_right {
+    padding-right: 50px !important;
+  }
+  .go_up {
+    margin-top: -150px !important;
+  }
+
+  .customNavbar {
+    nav div {
+      display: block;
+    }
+    ul {
+      display: none;
+      position: static;
+      li {
+        display: block;
+      }
+      ul {
+        position: static;
+      }
+    }
+  }
+}
+
+.right {
+  position: absolute;
+  right: 0px;
+  width: auto;
+  padding: 10px;
+}
+
+/*Biography */
+
+.team-member-holder {
+  position: relative;
+  overflow: hidden;
+}
+
+.team-wrap .container {
+  padding-bottom: 50px;
+}
+
+.team-member {
+  display: block;
+  margin: 0 auto 50px;
+  width: 100%;
+  max-width: 350px;
+  padding: 0;
+}
+
+.team-member-image {
+  float: none;
+  overflow: hidden;
+  height: 0;
+  /*width: 100%;*/
+  padding-bottom: 100%;
+  img {
+    max-width: 100%;
+    -webkit-transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -o-transition: all .5s ease-in-out;
+    -ms-transition: all .5s ease-in-out;
+    transition: all .5s ease-in-out;
+  }
+  &:hover img {
+    transform: scale(1.1);
+    overflow: hidden;
+    -webkit-transform: rotate(10deg) scale(1.2);
+    -moz-transform: rotate(10deg) scale(1.2);
+    -ms-transform: rotate(10deg) scale(1.2);
+    -o-transform: rotate(10deg) scale(1.2);
+    transform: rotate(10deg) scale(1.2);
+  }
+ }

@@ -9,6 +9,15 @@
   "author": "Ajmain Naqib",
   "license": "ISC",
   "devDependencies": {
-    "gulp": "^3.9.1"
+    "gulp": "^3.9.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-deploy-ssh": "^1.0.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rsync": "git+https://github.com/stcruy/gulp-rsync.git",
+    "gulp-ssh": "^0.7.0",
+    "gulp-ssh-deploy": "0.0.3"
+  },
+  "dependencies": {
+    "bootstrap": "^3.1.1"
   }
 }

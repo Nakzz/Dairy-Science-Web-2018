@@ -1,5 +1,3 @@
-<?php // TODO: write a script to upload website based on changes. ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -89,24 +87,45 @@ include 'includes/nav-bar.php';
 <!--FEATURES-->
 <section class="features text-center" id="features">
 	<div class="row">
-		<div id="grid-gallery" class="grid-gallery">
+
 			<!-- /grid-gallery -->
 
-			<div class="container col-lg-8 col-lg-offset-2 col-md-12 col-sm-12 features-md">
+			<div class="padding_right padding_left features-md paddingSmall_bottom">
 				<div class="row">
-					<div class="col-sm-12 col-md-12 paddingtopsmall">
+					<div class="paddingtopsmall">
 						<div class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-							<div class="col-lg-6 col-md-6 col-sm-12 col-lg-offset-2 col-md-offset-2">
+							<div class="col-lg-3 col-lg-md-3 contact-details">
+								<div class="col-lg-12 col-md-12 col-sm-12 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+									<div class="light-box box-hover">
+
+										<p>282 Animal Sciences, <br> 1675 Observatory Dr. <br>Madison, WI 53706</p>
+									</div>
+								</div>
+								<div class="col-lg-12 col-md-12 col-sm-12 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.7s">
+									<div class="light-box box-hover">
+										<p style="color:white">Phone: (608) 265-8506<br>
+											E-mail: <a style="color: white;" href="mailto:name@email.com">vcabrera@wisc.edu</a><br>
+											<a style="color: white;" href="/apps/filemanager/uploads/CV_Cabrera.pdf" target="_blank">Curriculum Vitae</a>
+										</p>
+									</div>
+								</div>
+								<div class="col-sm-4 col-md-4">
+											<a id="get_directions" class="learn-more-btn btn-effect" href="https://www.google.com/maps/dir/''/Animal+Science,+Elm+Dr,+Madison,+WI+53706/data=!4m5!4m4!1m0!1m2!1m1!1s0x8807acc078fbc397:0xb7e3ed786867978f?sa=X&ved=0ahUKEwj_lY_i0qXaAhXE5YMKHUmAAHEQiBMINTAA" target="_blank"><i class="fas fa-map-marker-alt"></i><span>Get Directions</span></a>
+								</div>
+							</div>
+
+							<div class="col-lg-5 col-md-5 col-sm-12">
 								<div class="overlay-effect effects clearfix ">
 
 <?php // TODO: make column of 3 instead of 2. Either add texts from next row, or create a logo for tools and have similiar to old website ?>
 
 									<div class="team-member">
 											<div class="team-member-holder">
+												<div style="margin-left:54px" class="">
 													<div class="team-member-image center-block">
 															<img class="center-block" alt="" src="assets/img/team/crop_victor.jpg">
 															<div class="LINKoverlay">
-																<div style="padding-top:100%" class="light-box box-hover big-icon linksOnly">
+																<div style="padding-top:100%" class="light-box box-hover linksOnly">
 
 																	<a href="https://www.facebook.com/pages/University-of-Wisconsin-Dairy-Management/172972072340" target="_blank" class="blackIcon facebook team-member-links-item"><i class="fab fa-facebook fa-2x"></i></a>
 																	<a href="https://twitter.com/vecabrera" target="_blank" class="twitter team-member-links-item"><i class="blackIcon fab fa-twitter fa-2x"></i></a>
@@ -118,6 +137,8 @@ include 'includes/nav-bar.php';
 
 															</div>
 													</div>
+												</div>
+
 											</div>
 									</div>
 
@@ -125,6 +146,8 @@ include 'includes/nav-bar.php';
 											<h3>Associate Professor Extension Specialist in Dairy Management</h3>
 										</div>
 									</div>
+
+
 
 									<div class="col-lg-4 col-md-4 col-lg-4 paddingtopsmall paddingSmall_bottom">
 
@@ -136,39 +159,13 @@ include 'includes/nav-bar.php';
 
 								</div>
 							</div>
-							<div class="col-sm-12 col-md-9 col-md-offset-1">
-								<div class="row contact-details">
-									<div class="col-md-5 col-sm-5 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-										<div class="light-box box-hover">
 
-											<p>282 Animal Sciences, <br> 1675 Observatory Dr. <br>Madison, WI 53706</p>
-										</div>
-									</div>
-									<div class="col-md-5 col-sm-5 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.7s">
-										<div class="light-box box-hover">
-											<p style="color:white">Phone: (608) 265-8506<br>
-												E-mail: <a style="color: white;" href="mailto:name@email.com">vcabrera@wisc.edu</a><br>
-												<a style="color: white;" href="/apps/filemanager/uploads/CV_Cabrera.pdf" target="_blank">Curriculum Vitae</a>
-											</p>
-										</div>
-									</div>
-
-								</div>
-								<div class="row">
-									<div class="col-md-5 col-sm-5 col-md-offset-3">
-										<a id="get_directions" class="learn-more-btn btn-effect" href="https://www.google.com/maps/dir/''/Animal+Science,+Elm+Dr,+Madison,+WI+53706/data=!4m5!4m4!1m0!1m2!1m1!1s0x8807acc078fbc397:0xb7e3ed786867978f?sa=X&ved=0ahUKEwj_lY_i0qXaAhXE5YMKHUmAAHEQiBMINTAA" target="_blank"><i class="fas fa-map-marker-alt"></i><span>Get Directions</span></a>
-
-									</div>
-								</div>
-
-
-							</div>
 						</div>
 					</div>
 
 					<!-- Vimoe Video-->
 
-				</div><!--row ends here-->
+				<!--row ends here-->
 			</section>
 			<!--/FEATURES-->
 
@@ -426,37 +423,11 @@ include 'includes/nav-bar.php';
 				</section>
 				<!-- /SUBSCRIBE -->
 
-				<section>
-					<div class="container">
-						<div class="row">
-							<div class="col-md-12 footer paddingtopsmall paddingSmall_bottom">
-
-								<!-- Content box 1 -->
-								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-									<img  style="max-height:220px" src="assets/img/logos/wisconsin.png" class="img-responsive image">
-								</div>
-								<!-- /Content box 1 -->
-
-								<!-- Content box 2 -->
-								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-									<img  style="max-height:220px" src="assets/img/logos/science.jpg" class="img-responsive">
-								</div>
-								<!-- /Content box 2 -->
-
-								<!-- Content box 3 -->
-								<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-									<img  style="max-height:220px" src="assets/img/logos/extension.png" class="img-responsive">
-								</div>
-								<!-- /Content box 3 -->
-
-
-							</div>
-
-						</div>
-
-					</div>
-				</section>
-
+<!-- /Logo row -->
+				<?php
+				include 'includes/logoRow.php';
+				?>
+<!-- /logo row -->
 
 				<!--FOOTER & scripts-->
 				<?php

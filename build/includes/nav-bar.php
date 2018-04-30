@@ -6,10 +6,8 @@
 
   <nav class="navbar navbar-default " role="navigation">
     <div  class="col-md-3 col-sm-10 col-xs-10">
-      <a class="navbar-brand" data-scroll href="#sec_1"><img class="img-responsive" style="max-width:80%; pad" src="assets/img/logos/transparent_logo.png" alt="logo"/></a>
-<?php // TODO: make text in logo WHITE ?>
+      <a class="navbar-brand" data-scroll href="index.php"><img class="img-responsive" src="assets/img/logos/transparent_logo.png" alt="logo"/></a>
     </div>
-<?php // TODO: make img wider, make fonts of img bigger, and more legible ?>
 
      <div class="navbar-header">
        <div class="col-xs-2 ">
@@ -26,7 +24,7 @@
 
      <div class="col-md-9 col-sm-6">
 
-
+<?php // TODO: Fix style causing li to break when size is small ?>
 
      <div class="navBarVertical collapse navbar-collapse customNavbar right">
        <ul>
@@ -35,7 +33,6 @@
                  <li><a href="about.php">About</a></li>
                  <li><a href="awards.php">Awards</a></li>
                  <li><a href="contact.php">Contact</a></li>
-                 <li><a href="#">News</a></li>
                  <li><a href="people.php">People</a></li>
                  <li><a href="opportunities.php">Opportunities</a></li>
                  <li><a href="gallery.php">Gallery</a></li>

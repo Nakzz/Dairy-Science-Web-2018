@@ -1,9 +1,19 @@
 // IMPORT ALL SASS DIRECTORY FILES
 
 
-@import "0-plugins/plugins-dir";
-@import "1-helper/helper-dir";
-@import "2-base/base-dir";
-@import "3-layouts/layouts-dir";
-@import "4-modules/modules-dir";
-@import "5-templates/templates-dir";
+@import "0-plugins/all";
+@import "1-helper/all";
+@import "2-base/all";
+@import "3-layouts/all";
+@import "4-modules/all";
+@import "5-templates/all";
+
+
+#name{
+  color: green;
+}
+
+
+.testClass{
+  color: red;
+}

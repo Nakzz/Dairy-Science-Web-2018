@@ -1,0 +1,97 @@
+a {
+  font-size: 15px;
+  &:hover {
+    color: #1b95e0;
+  }
+}
+
+p {
+  font-size: 15px;
+}
+
+.img-responsive {
+  margin: 0 auto;
+}
+
+.big-icon {
+  font-size: 32px !important;
+}
+
+.resultContainer {
+  .viewThisResult {
+    display: none;
+  }
+  &:hover .viewThisResult {
+    display: inline;
+  }
+}
+
+.text-white {
+  color: white;
+}
+
+.big-font {
+  font-size: 25px;
+}
+
+
+
+/*Animation*/
+
+.overlayBehind {
+  /* background: url("../assets/img/bg_pattern.png") repeat scroll 0 0 rgba(33, 39, 57, 0.5) !important; */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Black background with opacity */
+  z-index: -92;
+  /* Specify a stack order in case you're using a different order for other elements */
+}
+
+
+
+
+.LINKoverlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: all .5s;
+  overflow: hidden;
+  height: 0;
+  background: rgba(255, 0, 0, 0);
+}
+
+.team-member-image:hover .LINKoverlay, .LINKoverlay:hover {
+  height: 100%;
+  background: rgba(255, 255, 255, 0.25);
+}
+
+.FeaturedImage img {
+  height: 350px;
+  width: auto !important;
+}
+
+.SlideOnClick {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s linear;
+}
+
+.buttonForSlide:hover .SlideOnClick, .SlideOnClick:hover {
+  display: block;
+  opacity: 1;
+}
+
+.blackIcon {
+  color: black;
+  opacity: .8;
+}
+
+.overlay-effect:hover .overlay {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  opacity: .5;
+  transition: opacity 2s;
+}
