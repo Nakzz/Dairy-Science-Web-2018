@@ -2,6 +2,56 @@
 <html>
 <head>
 
+	<script type="text/javascript">
+
+  var bugs = [
+    "1: Navbar doesnt work in mobile or tablet",
+    "2: Navbar elements shows under navbar element in mobile or tablet",
+    "3: Get direction is not centered",
+     "4: Links text color is white on hover and too small, not legible",
+    // "5: Re",
+    // "3: ",
+    // "3: ",
+    // "3: ",
+    // "3: ",
+    // "3: ",
+    // "3: ",
+    // "3: ",
+    // "3: ",
+
+     ""
+  ];
+
+  var review = [
+    "1: ",
+    "2:",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+
+     ""
+
+  ];
+
+  console.log("Known Bugs:");
+  for (var i = 0; i < bugs.length; i++) {
+    console.warn(bugs[i]);
+  }
+
+  console.log("Feedback:");
+  for (var i = 0; i < review.length; i++) {
+    console.info  (review[i]);
+  }
+
+  </script>
 
 	<!-- TITLE -->
 	<title>Dairy Management</title>

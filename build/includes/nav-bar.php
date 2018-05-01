@@ -69,9 +69,9 @@
 
              <li><a href="presentations.php">Presentations</a>
                    <ul>
-                     <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Wisconsin Audience</a></li>
-                     <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2">National Audience</a></li>
-                     <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse3">International Audience</a></li>
+                     <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="presentations#wisconsin">Wisconsin Audience</a></li>
+                     <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="presentations#national">National Audience</a></li>
+                     <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="presentations#international">International Audience</a></li>
                    </ul>
              </li>
 
