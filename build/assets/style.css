@@ -10581,24 +10581,24 @@ body {
   box-decoration-break: clone; }
 
 .titleSection {
+  padding-bottom: 5%;
   width: 100%;
   background-color: #212739;
   display: block;
-  text-align: center;
   font: inherit;
   vertical-align: baseline;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 5%; }
+  padding-right: 15px; }
   .titleSection h1 {
     color: #fff;
     font-size: 2.5em;
     font-weight: 700;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    padding-top: 30%; }
+    padding-top: 30%;
+    text-align: center; }
     @media (min-width: 768px) {
       .titleSection h1 {
         padding-top: 30%; } }
@@ -10608,40 +10608,223 @@ body {
     @media (min-width: 1200px) {
       .titleSection h1 {
         padding-top: 15%; } }
+  .titleSection span {
+    display: inline-block; }
+  .titleSection a {
+    color: #212639;
+    text-decoration: underline; }
+    .titleSection a:hover {
+      color: #171a27; }
+    .titleSection a:active {
+      color: #373b4c; }
+    .titleSection a:hover {
+      color: #171a27;
+      text-decoration: none; }
+  .titleSection p {
+    color: #fff;
+    font-size: 1.25em;
+    line-height: 1.6em;
+    padding: 1em; }
   .titleSection hr {
     width: 10%;
     border: solid 1px #1bd982;
     margin-top: 18px;
     box-sizing: content-box;
     height: 0; }
+  .titleSection ul {
+    text-align: left;
+    font-size: 1.25em;
+    padding-bottom: 2em; }
+  .titleSection ul li {
+    padding-left: 1em;
+    padding-bottom: .5em; }
+    .titleSection ul li::before {
+      content: '-';
+      color: #1bd982;
+      font-weight: 900;
+      padding-right: .5em; }
 
 .titleSection2 {
+  padding-bottom: 5%;
   padding-top: 5%;
   margin-top: 5%;
   width: 100%;
   background-color: #212739;
   display: block;
-  text-align: center;
   font: inherit;
   vertical-align: baseline;
   margin-right: auto;
   margin-left: auto;
   padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 5%; }
+  padding-right: 15px; }
   .titleSection2 h1 {
     color: #fff;
     font-size: 2.5em;
     font-weight: 700;
     letter-spacing: 0.3em;
     text-transform: uppercase;
-    padding-top: 1%; }
+    padding-top: 1%;
+    text-align: center; }
+  .titleSection2 span {
+    display: inline-block; }
+  .titleSection2 a {
+    color: #212639;
+    text-decoration: underline; }
+    .titleSection2 a:hover {
+      color: #171a27; }
+    .titleSection2 a:active {
+      color: #373b4c; }
+    .titleSection2 a:hover {
+      color: #171a27;
+      text-decoration: none; }
+  .titleSection2 p {
+    color: #fff;
+    font-size: 1.25em;
+    line-height: 1.6em;
+    padding: 1em; }
   .titleSection2 hr {
     width: 10%;
     border: solid 1px #1bd982;
     margin-top: 18px;
     box-sizing: content-box;
     height: 0; }
+  .titleSection2 ul {
+    text-align: left;
+    font-size: 1.25em;
+    padding-bottom: 2em; }
+  .titleSection2 ul li {
+    padding-left: 1em;
+    padding-bottom: .5em; }
+    .titleSection2 ul li::before {
+      content: '-';
+      color: #1bd982;
+      font-weight: 900;
+      padding-right: .5em; }
+
+.bodySection {
+  margin-top: 5%;
+  width: 100%;
+  background-color: #fff;
+  display: block;
+  font: inherit;
+  vertical-align: baseline;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .bodySection h1 {
+    color: #1bce7c;
+    font-size: 2.0em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    margin: 0.83em 0;
+    text-transform: uppercase; }
+  .bodySection h2 {
+    color: #1bce7c;
+    font-size: 1.5em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    margin: 0.83em 0;
+    text-transform: uppercase; }
+  .bodySection h3 {
+    color: #1bce7c;
+    font-size: 1.3em;
+    font-weight: 600;
+    letter-spacing: 0.2em;
+    margin: 0.83em 0;
+    text-transform: uppercase; }
+  .bodySection h4 {
+    color: #37e595;
+    font-size: 1.2em;
+    margin: -0.5em 0;
+    padding-bottom: 5%; }
+  .bodySection span {
+    display: inline-block; }
+  .bodySection a {
+    color: #212639;
+    text-decoration: underline; }
+    .bodySection a:hover {
+      color: #171a27; }
+    .bodySection a:active {
+      color: #373b4c; }
+    .bodySection a:hover {
+      color: #171a27;
+      text-decoration: none; }
+  .bodySection p {
+    color: #5f6061;
+    font-size: 1.25em;
+    line-height: 1.6em;
+    padding: 1em; }
+  .bodySection hr {
+    width: 10%;
+    border: solid 1px #1bd982;
+    margin-top: 18px;
+    box-sizing: content-box;
+    height: 0; }
+  .bodySection ul {
+    text-align: left;
+    font-size: 1.25em;
+    padding-bottom: 2em; }
+  .bodySection ul li {
+    padding-left: 1em;
+    padding-bottom: .5em; }
+    .bodySection ul li::before {
+      content: '-';
+      color: #1bd982;
+      font-weight: 900;
+      padding-right: .5em; }
+
+.footerSection {
+  margin-top: 5%;
+  margin-bottom: 5%;
+  width: 100%;
+  background-color: #fff;
+  display: block;
+  font: inherit;
+  vertical-align: baseline;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px; }
+  .footerSection span {
+    display: inline-block; }
+  .footerSection a {
+    color: #212639;
+    text-decoration: underline; }
+    .footerSection a:hover {
+      color: #171a27; }
+    .footerSection a:active {
+      color: #373b4c; }
+    .footerSection a:hover {
+      color: #171a27;
+      text-decoration: none; }
+  .footerSection p {
+    color: #5f6061;
+    font-size: 1.25em;
+    line-height: 1.6em;
+    padding: 1em; }
+  .footerSection hr {
+    width: 10%;
+    border: solid 1px #1bd982;
+    margin-top: 18px;
+    box-sizing: content-box;
+    height: 0; }
+  .footerSection ul {
+    text-align: left;
+    font-size: 1.25em;
+    padding-bottom: 2em; }
+  .footerSection ul li {
+    padding-left: 1em;
+    padding-bottom: .5em; }
+    .footerSection ul li::before {
+      content: '-';
+      color: #1bd982;
+      font-weight: 900;
+      padding-right: .5em; }
+
+.pagesBodyHeading {
+  font-weight: 400 !important;
+  letter-spacing: 0em !important; }
 
 /** This is a dynamically generated file **/
 /*People Page*/
@@ -10675,10 +10858,9 @@ body {
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
-  color: #555;
+  color: #5f6061;
   background: #999;
   background: rgba(153, 153, 153, 0.2);
-  background-color: rgba(153, 153, 153, 0.25);
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;

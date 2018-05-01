@@ -1,90 +1,156 @@
+//TODO: Create tint and contract changer
+
+
 @mixin section($bgColor, $fontColor, $location){
 
-@if $location == "top"{
-  h1{
-    color:$fontColor;
-    font-size:2.5em;
-    font-weight: 700;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-    padding-top:30%;
+  @if $location == "topHeader"{
+    padding-bottom:5%;
+    h1{
+      color:$white;
+      font-size:2.5em;
+      font-weight: 700;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      padding-top:30%;
+      text-align:center;
 
-    @media (min-width: 768px){
-padding-top:30%;
+      @media (min-width: 768px){
+        padding-top:30%;
 
-    }
+      }
 
-    @media (min-width: 992px){
-
-padding-top:15%;
-    }
-
-    @media (min-width: 1200px){
+      @media (min-width: 992px){
 
         padding-top:15%;
+      }
+
+      @media (min-width: 1200px){
+
+        padding-top:15%;
+      }
     }
+  }@else if $location == "restHeader" {
+    padding-bottom:5%;
+    padding-top: 5%;
+    margin-top: 5%;
+    h1{
+      color:$white;
+      font-size:2.5em;
+      font-weight: 700;
+      letter-spacing: 0.3em;
+      text-transform: uppercase;
+      padding-top: 1%;
+      text-align:center;
+
+    }
+
+  } @else if $location == "body" {
+    margin-top: 5%;
+    h1 {
+      color: #1bce7c;
+      font-size: 2.0em;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      margin: 0.83em 0;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      color: #1bce7c;
+      font-size: 1.5em;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      margin: 0.83em 0;
+      text-transform: uppercase;
+    }
+
+    h3 {
+      color: #1bce7c;
+      font-size: 1.3em;
+      font-weight: 600;
+      letter-spacing: 0.2em;
+      margin: 0.83em 0;
+      text-transform: uppercase;
+    }
+
+    h4 {
+      color: lighten( #1bce7c, 10% );
+      font-size: 1.2em;
+      margin: -0.5em 0;
+      padding-bottom: 5%;
+    }
+
+
+
+  } @else if $location == "footer" {
+    margin-top: 5%;
+    margin-bottom: 5%;
   }
-}@else {
 
-padding-top: 5%;
-margin-top: 5%;
-  h1{
-    color:$fontColor;
-    font-size:2.5em;
-    font-weight: 700;
-    letter-spacing: 0.3em;
-    text-transform: uppercase;
-padding-top: 1%;
-
-    @media (min-width: 768px){
-
-
-    }
-
-    @media (min-width: 992px){
-
-
-    }
-
-    @media (min-width: 1200px){
-
-
-    }
-  }
-
-}
 
   width: 100%;
   background-color:$bgColor;
   display:block;
-  text-align:center;
+
   font:inherit;
   vertical-align:baseline;
   margin-right:auto;
   margin-left:auto;
   padding-left:15px;
   padding-right:15px;
-  padding-bottom:5%;
 
+  span{
+    display: inline-block;
+  }
 
+  a {
+    color: #212639;
+    text-decoration: underline;
 
+    &:hover {
+      color: #171a27;
+    }
+    &:active {
+      color: #373b4c;
+    }
+
+    &:hover{
+      color: #171a27;
+      text-decoration: none;
+    }
+  }
+
+  p{
+    color: $fontColor;
+    font-size: 1.25em;
+    line-height: 1.6em;
+    padding: 1em;
+  }
 
   hr{
-  width:10%;border:solid 1px #1bd982;
-  margin-top:18px;
+    width:10%;border:solid 1px #1bd982;
+    margin-top:18px;
+    box-sizing:content-box;height:0;}
 
-box-sizing:content-box;height:0;}
+    ul{
+      text-align:left;
+      font-size:1.25em;
+      padding-bottom: 2em;
 
-@media (min-width: 768px){
 
+    }
 
+    ul li{
+padding-left: 1em;
+      padding-bottom: .5em;
+
+      &::before{
+        content: '-';
+        color: #1bd982;
+        font-weight: 900;
+        padding-right: .5em;
+      }
 }
 
-@media (min-width: 992px){
 
-
-}
-
-
-
-}
+  }

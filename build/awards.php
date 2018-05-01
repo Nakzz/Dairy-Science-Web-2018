@@ -7,7 +7,57 @@
 <html>
 <head>
 
+  <script type="text/javascript">
 
+  var bugs = [
+    "1: ",
+    "2:",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+
+     ""
+  ];
+
+  var review = [
+    "1: Notice each awards and their institution are in the same line. The page looks less empty",
+    "2:",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+    "3: ",
+
+     ""
+
+  ];
+
+
+  console.log("Known Bugs:");
+  for (var i = 0; i < bugs.length; i++) {
+    console.warn(bugs[i]);
+  }
+
+  console.log("Feedback:");
+  for (var i = 0; i < review.length; i++) {
+    console.info  (review[i]);
+  }
+
+  </script>
 	<!-- TITLE -->
   <?php // TODO: Change tittle ?>
 	<title>Dairy Management</title>
@@ -49,75 +99,77 @@ include 'includes/nav-bar.php';
 <!--/HEADER-->
 <?php // TODO: add animation and transition ?>
 
-<!--SPEAKERS-->
-<section class="team text-center section-padding" >
-	<div class="container paddingtop">
-		<div class="row">
-			<div class="col-lg-8 wow animated fadeInUp align-center" data-wow-duration="1s" data-wow-delay="1s">
-				<h1 class="arrow">Awards</h1><hr>
-			</div>
-		</div>
-    	</div>
-    </section>
-
-    <div style="background-color: #fff;"  class="container team">
-      <div style="color:black;" class="row">
-        <div class="col-sm-12" style="margin-top: 70px;">
-            <div class="col-sm-12">
-                <h2>Latest Awards</h2>
-                <ul style="text-align:left; font-size:1.3em;" >
-                    <li>
-                      <p></p>
-                        2016. University of Wisconsin-Madison. Vilas Faculty Mid-Career Investigator Award (<a href="./awards/Cabrera_Victor_Mid_Career_CALS.pdf" target="_blank">Letter</a>) (<a href="http://ecals.cals.wisc.edu/2016/12/29/victor-cabrera-receives-vilas-faculty-mid-career-investigator-award/" target="_blank">News</a>)
-                    </li>
-
-                    <li>
-                        2013. Wisconsin Association of County Agricultural Agents.<br/>
-                        Second Mile Award (<a href="./images/awards/PlaqueSecondMile.png" target="_blank">Plaque</a>) (<a href="./awards/CitationSecondMile.pdf" target="_blank">Citation</a>)
-                    </li>
-                    <li>
-                        2012. University of Wisconsin-Madison College of Agricultural and Life Sciences.<br/>
-                        Pound Extension Award (<a href="./awards/Pound_Letter.pdf" target="_blank">Letter</a>) (<a href="./images/awards/Pound_Plaque.png" target="_blank">Plaque</a>) (<a href="./awards/Pound_Words.pdf" target="_blank">Words</a>)
-                    </li>
-                    <li>
-                        2012. University of Florida School of Natural Resources and Environment.<br/>
-                        Distinguished Achievement Award (<a href="./images/awards/Distinguished_Plaque.png" target="_blank">Plaque</a>) (<a href="./awards/Distinguished_Words.pdf" target="_blank">Words</a>)
-                    </li>
-                    <li>
-                        2011. American Dairy Science Association.<br/>
-                        Foundation Scholar Award in Dairy Production (<a href="./awards/Foundation_Letter.pdf" target="_blank">Letter</a>) (<a href="./images/awards/Foundation_Plaque.png" target="_blank">Plaque</a>) (<a href="./awards/Foundation_Citation.pdf" target="_blank">Citations</a>)
-                    </li>
-                    <li>
-                        2011. University of Wisconsin-Madison College of Agricultural and Life Sciences.<br>
-                        Alfred Toepfer Faculty Fellow Award. (<a href="./awards/Toepfer_Letter.pdf" target="_blank">Letter</a>)
-                    </li>
-                </ul>
-            </div>
-
-            <div class="col-sm-12 paddingtopsmall">
-                <h2>Previous Awards</h2>
-                <ul style="text-align:left; font-size:1.3em;" >
-                    <li>
-                        1998, 1999, 2001-2004. University of Florida.<br/>
-                        Outstanding International Student (<a href="./images/uf1.jpg" target="_blank">Certificate</a>)
-                    </li>
-                    <li>
-                        2002. Agricultural Development Foundation, Managua, Nicaragua.<br/>
-                        Outstanding Contributions to Farming Systems in Nicaragua (<a href="./images/funica.jpg" target="_blank">Certificate</a>)
-                    </li>
-                    <li>
-                        1993. La Molina Agrarian University, Lima, Peru.<br/>
-                        Honor Diploma: Ranking 2/177 (<a href="./images/unalm1.jpg" target="_blank">Diploma</a>)
-                    </li>
-                </ul>
-            </div>
-
-        </div>
-
-      </div> <!--Row Ends Here-->
+<!-- Section Tittle-->
+<section class="titleSection" >
+  <div class="container">
+    <div class="row">
+      <div class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">
+        <h1>Awards</h1><hr>
+      </div>
     </div>
+  </div>
+</section>
+<!--END Section Tittle-->
 
-	</div>
+<!-- Section Body-->
+<section class="bodySection">
+  <div class="container">  <!--Container-->
+    <div class="row"> <!--Row-->
+      <div class="col-sm-12">
+        <h1>Latest Awards </h1>
+
+        <ul>
+            <li>
+                  2016. University of Wisconsin-Madison.
+                  Vilas Faculty Mid-Career Investigator Award (<a href="./awards/Cabrera_Victor_Mid_Career_CALS.pdf" target="_blank">Letter</a>) (<a href="http://ecals.cals.wisc.edu/2016/12/29/victor-cabrera-receives-vilas-faculty-mid-career-investigator-award/" target="_blank">News</a>)
+            </li>
+            <li>
+                2013. Wisconsin Association of County Agricultural Agents.
+                Second Mile Award (<a href="./images/awards/PlaqueSecondMile.png" target="_blank">Plaque</a>) (<a href="./awards/CitationSecondMile.pdf" target="_blank">Citation</a>)
+            </li>
+            <li>
+                2012. University of Wisconsin-Madison College of Agricultural and Life Sciences.
+                Pound Extension Award (<a href="./awards/Pound_Letter.pdf" target="_blank">Letter</a>) (<a href="./images/awards/Pound_Plaque.png" target="_blank">Plaque</a>) (<a href="./awards/Pound_Words.pdf" target="_blank">Words</a>)
+            </li>
+            <li>
+                2012. University of Florida School of Natural Resources and Environment.
+                Distinguished Achievement Award (<a href="./images/awards/Distinguished_Plaque.png" target="_blank">Plaque</a>) (<a href="./awards/Distinguished_Words.pdf" target="_blank">Words</a>)
+            </li>
+            <li>
+                2011. American Dairy Science Association.
+                Foundation Scholar Award in Dairy Production (<a href="./awards/Foundation_Letter.pdf" target="_blank">Letter</a>) (<a href="./images/awards/Foundation_Plaque.png" target="_blank">Plaque</a>) (<a href="./awards/Foundation_Citation.pdf" target="_blank">Citations</a>)
+            </li>
+            <li>
+                2011. University of Wisconsin-Madison College of Agricultural and Life Sciences.
+                Alfred Toepfer Faculty Fellow Award. (<a href="./awards/Toepfer_Letter.pdf" target="_blank">Letter</a>)
+            </li>
+        </ul>
+
+      </div>
+
+      <div class="col-sm-12">
+        <h2>Previous Awards</h2>
+        <ul style="text-align:left; font-size:1.3em;" >
+            <li>
+                1998, 1999, 2001-2004. University of Florida.
+                Outstanding International Student (<a href="./images/uf1.jpg" target="_blank">Certificate</a>)
+            </li>
+            <li>
+                2002. Agricultural Development Foundation, Managua, Nicaragua.
+                Outstanding Contributions to Farming Systems in Nicaragua (<a href="./images/funica.jpg" target="_blank">Certificate</a>)
+            </li>
+            <li>
+                1993. La Molina Agrarian University, Lima, Peru.
+                Honor Diploma: Ranking 2/177 (<a href="./images/unalm1.jpg" target="_blank">Diploma</a>)
+            </li>
+        </ul>
+      </div>
+    </div> <!--Row ends-->
+  </div>  <!--Container ends-->
+</section>
+<!--END Section Body-->
+
+
 
 
 

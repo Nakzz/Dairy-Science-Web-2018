@@ -1,7 +1,7 @@
-<section>
+<section class="footerSection">
   <div class="container">
     <div class="row">
-      <div class="col-md-12 footer paddingtopsmall paddingSmall_bottom">
+      <div class="col-md-12 footer">
 
         <!-- Content box 1 -->
         <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">

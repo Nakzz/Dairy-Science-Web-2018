@@ -1,7 +1,7 @@
 <footer>
   <div class="container">
 
-
+<?php // TODO: What is this? Use this for future design? ?>
     <!-- Jssor Slider Begin -->
     <div id="slider1_container" style=" ">
       <div class="inner_carousal" data-u="slides" style="">

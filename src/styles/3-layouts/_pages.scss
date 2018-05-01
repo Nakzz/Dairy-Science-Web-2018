@@ -44,9 +44,22 @@ margin: 0.83em 0px;
 
 
 .titleSection{
-  @include section($darkThemePrimaryColor, $white, top)
+  @include section($darkThemePrimaryColor, $white, topHeader)
 }
 
 .titleSection2{
-  @include section($darkThemePrimaryColor, $white, rest)
+  @include section($darkThemePrimaryColor, $white, restHeader)
+}
+
+.bodySection{
+  @include section($white, $bodyText, body)
+}
+
+.footerSection{
+  @include section($white, $bodyText, footer)
+}
+
+.pagesBodyHeading{
+   font-weight: 400 !important;
+ letter-spacing: 0em !important;
 }
