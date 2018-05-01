@@ -203,6 +203,10 @@ include 'includes/nav-bar.php';
   <div class="container">  <!--Container-->
     <div class="row"> <!--Row-->
       <div class="col-sm-12">
+        <h3 class="text-center pagesBodyHeading">Funded research, Extension, and integrated projects that were completed or are under development by the
+          UW Dairy Management program.
+        </h3>
+        
         <h1>H1: The Breakfast Drama </h1>
         <h2>H2: The Breakfast Drama </h2>
         <h3>H3: The Breakfast Drama </h3>

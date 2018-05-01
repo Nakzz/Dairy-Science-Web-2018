@@ -1,10 +1,17 @@
-V:1.02 - 04/30/2018
+V:1.02 - 05/01/2018
 - Fix minor bugs.
-- 
+- Accordian module created
+- Project.php Static page created
+- Accordian implemented in new pages
+- Footer modified
+- Publications and Presentation static page created from template
+- Search bar added, animated
+- Removed empty links from navigation bar
+
 
 
 V:1.01 - 04/29/2018
-- Bootstrap downgrade to 3.03 [4.0 has incompatibility issues, not enough time to debug.]
+- Bootstrap downgrade to 3.03 [4.0 has incompatibility issues, not enough time to debug]
 - Restructure SCSS from CSS
 - Created SCSS page layout styles.
 - Created Templates.
