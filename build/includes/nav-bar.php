@@ -77,11 +77,11 @@
 
              <li><a href="links.php">Links</a>
                    <ul>
-                     <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Magazines</a></li>
+                     <!-- <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Magazines</a></li>
                      <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2">DairyMGT</a></li>
                      <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Additional</a></li>
                      <li><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4">University</a></li>
-                     <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse5">Grants</a></li>
+                     <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse5">Grants</a></li> -->
                      <li><a href="../admin" target="_blank">Admin Portal</a></li>
 
                    </ul>

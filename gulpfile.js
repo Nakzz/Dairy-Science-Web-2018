@@ -5,7 +5,6 @@ var path = require('path');
 var glob = require('glob');
 var sass = require('gulp-sass')
 var cleanCSS = require('gulp-clean-css')
-//var _ = require('gulp-load-plugins')({lazy: false});
 var uglify=require('gulp-uglify'),concat=require('gulp-concat');
 var browserSync = require('browser-sync').create()
 var rename = require('gulp-rename');
