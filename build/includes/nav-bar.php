@@ -8,7 +8,7 @@
     <div  class="col-md-3 col-sm-10 col-xs-10">
       <a class="navbar-brand" data-scroll href="index.php"><img class="img-responsive" src="assets/img/logos/transparent_logo.png" alt="logo"/></a>
     </div>
-
+<?php // TODO: Make logo bigger in larger screen. do it how ever ?>
      <div class="navbar-header">
        <div class="col-xs-2 ">
 
@@ -69,15 +69,17 @@
 
              <li><a href="presentations.php">Presentations</a>
                    <ul>
-                     <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="presentations#wisconsin">Wisconsin Audience</a></li>
-                     <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="presentations#national">National Audience</a></li>
-                     <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="presentations#international">International Audience</a></li>
+                     <li><a href="presentations.php#presentations1">Wisconsin Audience</a></li>
+                     <li><a href="presentations.php#presentations#2">National Audience</a></li>
+                     <li><a href="presentations.php#presentations#3">International Audience</a></li>
+                     <li><a href="presentations.php#presentations#4">Dairy Science Webinar</a></li>
+
                    </ul>
              </li>
 
              <li><a href="links.php">Links</a>
-                   <ul>
-                     <!-- <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse1">Magazines</a></li>
+                   <ul> <?php // TODO: The links bellow should be conected to link pages ?>
+                     <!-- <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="link.php#collapse1">Magazines</a></li>
                      <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2">DairyMGT</a></li>
                      <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Additional</a></li>
                      <li><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4">University</a></li>

@@ -81,14 +81,14 @@ jQuery( document ).ready(function( $ ) {
 		} else {
 			 $(".header-hide").removeClass("scroll-header");
 			 $(".header-hide").addClass("dimmedNav");
-			 
+
 		}
 
 	});
 
 	/*** 3D Gallery *********/
-	new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
-	new CBPFWTabs( document.getElementById( 'tabs-ui' ) );
+//	new CBPGridGallery( document.getElementById( 'grid-gallery' ) );
+	//new CBPFWTabs( document.getElementById( 'tabs-ui' ) );
 
 	/********Vimeo Video*****************/
 	$('.venobox').venobox({

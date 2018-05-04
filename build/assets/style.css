@@ -10868,6 +10868,9 @@ footer {
   transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s; }
 
 /* Accordian Module*/
+.highlight {
+  background-color: honeydew; }
+
 #accordion .atab {
   position: relative;
   margin-bottom: 10px;
@@ -10903,7 +10906,7 @@ footer {
   margin: 1em; }
 
 #accordion input:checked ~ .atab-content {
-  max-height: 1000px; }
+  max-height: 100%; }
 
 #accordion label::after {
   position: absolute;
@@ -10949,6 +10952,25 @@ footer {
   transition: all 0.4s ease-in-out; }
 
 #searchBar input[type=text]:focus {
+  margin-left: 0%;
+  width: 100%; }
+
+#searchBar select {
+  width: 50%;
+  margin-left: 25%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-image: url("img/icons/searchicon.png");
+  background-color: white;
+  background-position: 10px 13px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out; }
+
+#searchBar select:focus {
   margin-left: 0%;
   width: 100%; }
 

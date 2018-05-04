@@ -1,3 +1,11 @@
+V:1.03 -
+- Links added to footer logos.
+- Database connected
+- MySQL Dupp imported to local machine
+- Publications page parse from DB
+- Projects page parse from DB
+- Presentation page parse from DB
+
 V:1.02 - 05/01/2018
 - Fix minor bugs.
 - Accordian module created
@@ -7,6 +15,7 @@ V:1.02 - 05/01/2018
 - Publications and Presentation static page created from template
 - Search bar added, animated
 - Removed empty links from navigation bar
+- MySQL Database are mirrored in local machine for development
 
 
 
@@ -24,6 +33,7 @@ V:1.01 - 04/29/2018
     - People
 - Added comments
 - Found bugs and reported.
+- MySQL Database connection establishment
 
 V:1.00
 - NPM integrated
@@ -32,3 +42,7 @@ V:1.00
 - Minify and prefexing scripts
 - Bootstrap upgrade to 4.0
 - First deployment
+- Backend structure created
+
+
+GitHub: https://github.com/Nakzz/Dairy-Science-Web-2018

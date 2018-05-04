@@ -18,7 +18,7 @@ head tags should be in each file. add the follow in each page head element.
 
 <!-- GOOGLE FONTS -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,700,600,500,300,200,100,800,900' rel='stylesheet' type='text/css'>
-
+<link href="https://cdn.jsdelivr.net/npm/select2@4.0.6-rc.1/dist/css/select2.min.css" rel="stylesheet" />
 <!-- STYLESHEETS -->
 
 <?php // TODO: REMOVE THESE PRIOR TO DEPLOY ?>

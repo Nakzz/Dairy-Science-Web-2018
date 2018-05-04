@@ -1,0 +1,114 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "bourbon",
+        "scope": null,
+        "escapedName": "bourbon",
+        "name": "bourbon",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\xampp\\htdocs\\Dairy\\New-Website"
+    ]
+  ],
+  "_from": "bourbon@latest",
+  "_id": "bourbon@5.0.0",
+  "_inCache": true,
+  "_location": "/bourbon",
+  "_nodeVersion": "7.10.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/bourbon-5.0.0.tgz_1515183090074_0.4992993294727057"
+  },
+  "_npmUser": {
+    "name": "tysongach",
+    "email": "tyson@thoughtbot.com"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "bourbon",
+    "scope": null,
+    "escapedName": "bourbon",
+    "name": "bourbon",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/bourbon/-/bourbon-5.0.0.tgz",
+  "_shasum": "030ba01893889cd77d964101e735d446fd50426a",
+  "_shrinkwrap": null,
+  "_spec": "bourbon",
+  "_where": "C:\\xampp\\htdocs\\Dairy\\New-Website",
+  "author": {
+    "name": "thoughtbot",
+    "url": "http://thoughtbot.com"
+  },
+  "bugs": {
+    "url": "https://github.com/thoughtbot/bourbon/issues"
+  },
+  "dependencies": {},
+  "description": "A lightweight Sass tool set.",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "integrity": "sha512-1BOgwfr0dvAqdL3mj0HZbuYJjt/Ilz6fLhSz55kIo9zYTYsQDg4AzrpwepWJoVLY3tKKYV5Z/0dKHEUz3ecXAg==",
+    "shasum": "030ba01893889cd77d964101e735d446fd50426a",
+    "tarball": "https://registry.npmjs.org/bourbon/-/bourbon-5.0.0.tgz"
+  },
+  "eyeglass": {
+    "needs": "*",
+    "exports": "eyeglass-exports.js"
+  },
+  "gitHead": "74d50980badd202b3df5eb171ffce9cb2703cae0",
+  "homepage": "http://bourbon.io",
+  "keywords": [
+    "css",
+    "eyeglass-module",
+    "mixins",
+    "sass",
+    "scss"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "name": "brendamarienyc",
+      "email": "brendastorer@gmail.com"
+    },
+    {
+      "name": "dgalarza",
+      "email": "damian@thoughtbot.com"
+    },
+    {
+      "name": "ralphbot",
+      "email": "ralph@thoughtbot.com"
+    },
+    {
+      "name": "tysongach",
+      "email": "tyson@thoughtbot.com"
+    },
+    {
+      "name": "wardpenney",
+      "email": "ward@thoughtbot.com"
+    }
+  ],
+  "name": "bourbon",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thoughtbot/bourbon.git"
+  },
+  "scripts": {
+    "test": "bundle exec rake"
+  },
+  "style": "core/_bourbon.scss",
+  "version": "5.0.0"
+}

@@ -1,8 +1,8 @@
 <?php
 
+  include('apps/publications/classes/class.publication.php');
 
 ?>
-
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,50 +10,29 @@
   <script type="text/javascript">
 
   var bugs = [
-    "1: Search bar is notworking yet. Backend connections hasnt been established",
-    "2: Links are missing",
-    "3: Anchor tag points to after text",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
+    "Search bar is notworking yet. Backend connections hasnt been established",
+    "Links are missing",
+    "Anchor tag points to after text",
 
     ""
   ];
 
   var review = [
-    "1: Working on improving each according design.",
-    "2: Database not connected yet. Used text from Project.php for design",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
+    "",
+    "",
+    "",
 
     ""
-
   ];
 
   console.log("Known Bugs:");
   for (var i = 0; i < bugs.length; i++) {
-    console.warn(bugs[i]);
+    console.warn(i+1 +":" + bugs[i]);
   }
 
   console.log("Feedback:");
   for (var i = 0; i < review.length; i++) {
-    console.info  (review[i]);
+    console.info  (i+1 +":" + review[i]);
   }
 
   </script>
@@ -120,18 +99,73 @@ include 'includes/nav-bar.php';
         </h3>
       </div>
 
-<div id="searchBar" class="col-sm-10 col-sm-offset-1">
-<input type="text" name="search" placeholder=" Search Publications">
-</div>
+      <div class="col-sm-10 col-sm-offset-1">
+
+        <select class="search" style="width:100%">
+        <option></option>
+      <?php
+    			$parent_cats  = DB::query("SELECT * FROM pub_categories where parent=0");
+    			foreach($parent_cats as $parent_k=>$parent_v)
+    			{
+
+    				$categories  = DB::query("SELECT * FROM pub_categories where parent=".$parent_v['id']);
+    				if($categories)
+    				{
+
+    					foreach($categories as $k=>$v)
+    					{?>
+
+                  <?php $sub_cats = DB::query("SELECT * FROM pub_categories where parent=".$v['id']);
+    			  	if($sub_cats )
+    				{
+    					foreach($sub_cats as $sub_k=>$sub_v)
+    					{
+    						$cat_data = DB::query("SELECT * FROM pub_category_contents WHERE category_id=%s ORDER BY  pub_category_contents.order asc ",$sub_v['id']);
+    						$cat_name  = DB::queryFirstField("SELECT name FROM pub_categories WHERE id=%s", $sub_v['id']);
+    				foreach($cat_data as $key => $val) {
+
+    			?>
+                    <option data-category="<?php echo $val['category_id'];?>" value="<?php echo $val['id']; ?>"> <?php echo $val['title']; ?></option>
+                    <?php  }
+    					}
+
+    				}else
+    				{
+    					$cat_data = DB::query("SELECT * FROM pub_category_contents WHERE category_id=%s ORDER BY  pub_category_contents.order asc ",$v['id']);
+
+
+    				$catDir = DB::queryFirstField("SELECT store_folder FROM pub_categories WHERE id=%s", $v['id']);
+    				foreach($cat_data as $key => $val) {
+
+    			?>
+                    <option data-category="<?php echo $val['category_id'];?>" value="<?php echo $val['id']; ?>"> <?php echo $val['title']; ?></option>
+                    <?php }
+    				}
+              }
+
+           }
+    }
+
+    ?>
+      </select>
+    </div>
 
 
 
       <div id="Research_Publications" class="col-sm-12 paddingtopsmall">
         <h2>Research Publications</h2>
         <div id="accordion">
+
+          <?php
+          $parent_cats  = DB::query("SELECT * FROM pub_categories where parent=0");
+          $count = 1 ;
+          $accordion = 1;
+          foreach($parent_cats as $parent_k=>$parent_v)
+          {?>
+
           <div class="atab well ">
-            <input id="tab-one" type="checkbox" name="tabs">
-            <label for="tab-one">A Virtual Dairy Farm Brain</label>
+            <input id="accordion<?php echo $accordion?>" type="checkbox" name="tabs">
+            <label for="accordion<?php echo $accordion?>"> <?php echo $parent_v['name']; ?> </label>
             <div class="atab-content">
               <table class="table table-bordered table-striped">
                 <tr>
@@ -755,6 +789,9 @@ include 'includes/nav-bar.php';
             </div>
           </div>
         </div>
+
+
+
       </div>
     </div>
   </div> <!--Row ends-->
@@ -780,4 +817,61 @@ include 'includes/footer.php';
 ?>
 <!-- /FOOTER scripts-->
 </body>
+<script type="text/javascript">
+
+var result_id="";
+
+
+jQuery(document).ready(function() {
+  var count= parseInt(<?php echo $count; ?>)-1;
+
+console.log("count"+ count);
+
+jQuery(".search").select2({placeholder: "Search Publications",
+width: 'resolve',
+minimumInputLength: 3,
+allowClear: true,
+matcher: function(params, data) {
+  if (jQuery.trim(params.term) === '') {
+return data;
+}
+  var data_text=data.text.toLowerCase();
+  params.term=params.term.toLowerCase();
+  var terms = jQuery.trim(params.term).split(" ");
+  for (var i = 0; i < terms.length; i++) {
+      if(data_text.indexOf(terms[i])<=-1)
+        return null;
+  };
+  return data;
+}
+});
+
+jQuery(".search").on("select2:select", function (e) {
+
+if(result_id!="")
+jQuery("#"+result_id).toggleClass("highlight");
+result_id=e.params.data.id;
+jQuery("#"+result_id).toggleClass("highlight");
+var cat_id=parseInt(e.params.data.element.dataset.category);
+
+console.log("cat_id:"+cat_id);
+
+for (var i = 1; i <=count; i++) {
+
+  if(i== cat_id){
+    jQuery('#presentations'+i).attr('checked', true);
+    jQuery('#presentations'+i).getNiceScroll().resize();
+  }else{
+    jQuery('#presentations'+i).attr('checked', false);
+    jQuery('#presentations'+i).niceScroll({cursorcolor:"#00F"});
+}};
+jQuery(".search").select2("val","");
+//jQuery.scrollTo( '#'+result_id, 1700, { easing:'swing',axis:'y'});
+setTimeout(function(){
+jQuery.scrollTo( document.getElementById(result_id), 800,{offset:-85});
+}, 10);
+});
+
+});
+</script>
 </html>

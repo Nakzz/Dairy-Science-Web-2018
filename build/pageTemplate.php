@@ -10,8 +10,8 @@
   <script type="text/javascript">
 
   var bugs = [
-    "1: ",
-    "2:",
+    "1: Make h1 text smaller, also padding smaller",
+    "2: add picture slider after texts to the pages that have sliders in old website",
     "3: ",
     "3: ",
     "3: ",
@@ -206,7 +206,7 @@ include 'includes/nav-bar.php';
         <h3 class="text-center pagesBodyHeading">Funded research, Extension, and integrated projects that were completed or are under development by the
           UW Dairy Management program.
         </h3>
-        
+
         <h1>H1: The Breakfast Drama </h1>
         <h2>H2: The Breakfast Drama </h2>
         <h3>H3: The Breakfast Drama </h3>

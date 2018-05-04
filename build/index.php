@@ -9,37 +9,12 @@
     "2: Navbar elements shows under navbar element in mobile or tablet",
     "3: Get direction is not centered",
      "4: Links text color is white on hover and too small, not legible",
-    // "5: Re",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-
+		 "5: Taking too long to load.",
+		 "6: Make h1 20px, and button smaller and whole block smaller"
+		 "7: add static image instead of 1920x1080 images",
      ""
   ];
 
-  var review = [
-    "1: ",
-    "2:",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-
-     ""
-
-  ];
 
   console.log("Known Bugs:");
   for (var i = 0; i < bugs.length; i++) {
@@ -104,7 +79,7 @@ include 'includes/nav-bar.php';
 
 	<div class="dimmed">
 		<div class="col-lg-12 landing-text-pos align-center">
-			<h1 class="wow animated fadeInDown " data-wow-duration="1s" data-wow-delay="1s"><?php echo texto(); ?></h1>
+			<h1 class="wow animated fadeInDown " data-wow-duration="1s" data-wow-delay="1s"><?php echo texto(); ?></h1> <?php // TODO: make font size smaller ?>
 			<hr id="title_hr"/>
 			<!--		<p class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Grand Space, Portland. 21-26 Sept 2014</p>		-->
 			<a class="learn-more-btn btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="tools.php" target="_blank">Learn More</a>

@@ -9,6 +9,7 @@
   "author": "Ajmain Naqib",
   "license": "ISC",
   "devDependencies": {
+    "bourbon": "^5.0.0",
     "gulp": "^3.9.1",
     "gulp-compass": "^2.1.0",
     "gulp-deploy-ssh": "^1.0.0",
