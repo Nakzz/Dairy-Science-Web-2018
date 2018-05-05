@@ -77,11 +77,11 @@
 
              <li><a href="links.php">Links</a>
                    <ul> <?php // TODO: The links bellow should be conected to link pages ?>
-                     <li><a href="link.php#magazines">Magazines</a></li>
-                     <li><a href="link.php#DairyMGT">DairyMGT</a></li>
-                     <li><a href="link.php#Additional">Additional</a></li>
-                     <li><a href="link.php#University">University</a></li>
-                     <li><a  href="link.php#Grants">Grants</a></li>
+                     <li><a href="links.php#DairyMagazines">Dairy Magazines</a></li>
+                     <li><a href="links.php#DairyManagementApplications">Dairy Management Applications</a></li>
+                     <li><a href="links.php#AdditionalSourcesofInformation">Additional Sources of Information</a></li>
+                     <li><a href="links.php#UniversityofWisconsin-Madison">University of Wisconsin-Madison</a></li>
+                     <li><a  href="links.php#GrantAgencies">Grant Agencies</a></li>
                      <li><a href="../admin" target="_blank">Admin Portal</a></li>
 
                    </ul>

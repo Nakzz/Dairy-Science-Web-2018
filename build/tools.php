@@ -10,50 +10,17 @@
   <script type="text/javascript">
 
   var bugs = [
-    "1: Make h1 text smaller, also padding smaller",
-    "2: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
+    "Not all tools are added","Links are missing", "Images are missing"
+
+
 
     ""
   ];
 
-  var review = [
-    "1: ",
-    "2:",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-
-    ""
-
-  ];
 
   console.log("Known Bugs:");
-  for (var i = 0; i < bugs.length; i++) {
-    console.warn(bugs[i]);
-  }
-
-  console.log("Feedback:");
-  for (var i = 0; i < review.length; i++) {
-    console.info  (review[i]);
+  for (var i = 0; i < (bugs.length -1); i++) {
+    console.warn(i+1 + ": "+ bugs[i]);
   }
 
   </script>
@@ -128,8 +95,8 @@ include 'includes/nav-bar.php';
         <h2>Feeding</h2>
         <div id="accordion">
           <div class="atab well ">
-            <input id="tab-one" type="checkbox" name="tabs">
-            <label for="tab-one">FeedVal v6.0</label>
+            <input id="tab1" type="checkbox" name="tabs">
+            <label for="tab1">FeedVal v6.0</label>
             <div class="atab-content">
               <div class="media">
                   <img class="media-object img-responsive pull-right hidden-xs img-thumbnail"
@@ -158,89 +125,72 @@ include 'includes/nav-bar.php';
                               frameborder="0"></iframe>
                   </div>
               </div>
-
-              
             </div>
           </div>
+
+
           <div class="atab well">
-            <input id="tab-two" type="checkbox" name="tabs">
-            <label for="tab-two"> Improving Dairy Farm Sustainability</label>
+            <input id="tab2" type="checkbox" name="tabs">
+            <label for="tab2">   Grouping Strategies for Feeding Lactating Dairy Cattle</label>
             <div class="atab-content">
-              <table class="table table-bordered table-striped">
-                <tr>
-                  <td>Title</td>
-                  <td colspan="3">Development of a Suite of Dairy Reproduction Decision Support Tools.</td>
-                  <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/uwlogo.png"></img></td>
-                </tr>
-                <tr>
-                  <td>Team</td>
-                  <td colspan="3">Cabrera, V.E.</td>
-                </tr>
-                <tr>
-                  <td>Term</td>
-                  <td colspan="3">48 months, October 2013- September 2017</td>
-                </tr>
-                <tr>
-                  <td>Amount</td>
-                  <td colspan="3">$165,000</td>
-                </tr>
-                <tr>
-                  <td>Sponsor</td>
-                  <td colspan="3">
+              <div class="media">
+                <img class="media-object img-responsive pull-right hidden-xs img-thumbnail"
+                src="../images/tools/cluster.png" alt="...">
 
-                    Hatch Multiple Investigator Interdisciplinary<br>
-                    College of Agricultural & Life Sciences<br>
-                    University of Wisconsin-Madison<br>
+                <div class="media-body">
+                  <strong><p>Evaluates grouping strategies for feeding lactating dairy
+                    cattle</p></strong>
 
-                  </td>
-                </tr>
-              </table>
+                    <p>HTML Online Tool <a href="../tools/grouping_strategy/index.php"
+                      target="_blank">(Open)</a></p>
 
-              <p>The Specific Aim of this proposal is to promote more sustainable Wisconsin dairy farm production systems
-                applying systematic whole-farm integrated evaluations.
-                (<a href="../dairyreprosuitedev.php" target="_blank">More</a>)</p>
+                      <p>Instructions and Documentation <a href="../tools/cluster/FeedGrouping.pdf"
+                        target="_blank">(Download)</a></p>
 
+                        <p>Presentation 1 <a
+                          href="../publications/2012_Cabrera_4-State_Presentation.pdf"
+                          target="_blank">(Download)</a></p>
+
+                          <p>Presentation 2 <a
+                            href="../tools/cluster/Lactating_Dairy_Cattle_Feeding_Grouping.pdf"
+                            target="_blank">(Download)</a></p>
+
+                            <p>Paper <a href="../publications/2012_Cabrera_4-State_Paper.pdf"
+                              target="_blank">(Download)</a></p>
+
+                              <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the
+                                Video)</a></p>
+                                <a class="video_link not_seen"
+                                href="http://www.youtube.com/embed/ycPExNW_RSE?rel=0">Link to the
+                                video.</a>
+                                <iframe class="video not_seen" width="560" height="315" src=""
+                                frameborder="0"></iframe>
+                              </div>
+                            </div>
               </div>
             </div>
+
             <div class="atab well">
-              <input id="tab-three" type="checkbox" name="tabs">
-              <label for="tab-three"> Genomic Selection and Herd Management Tools to Improve Feed Efficiency of the Dairy Industry</label>
+              <input id="tab3" type="checkbox" name="tabs">
+              <label for="tab3"> Nutritional Grouping in Wisconsin and Michigan Dairy Farms</label>
               <div class="atab-content">
-                <table class="table table-bordered table-striped">
-                  <tr>
-                    <td>Title</td>
-                    <td colspan="3">Genomic Selection and Herd Management Tools to Improve Feed Efficiency of the Dairy Industry</td>
-                    <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/usdalogo.png"></img></td>
-                  </tr>
-                  <tr>
-                    <td>Team</td>
-                    <td colspan="3">VandeHaar, M., Weigel, K., Armentano, L., Moody Spurlock, D., Tempelman, R., Veerkamp, R., Cabrera, V.E., Worku, M., Hanigan, M., Staples, C., Beede, D., Shaver, R., Wattiaux, M., Dijkstra, J., Pursley, R., Weber Nielsen, M.</td>
-                  </tr>
-                  <tr>
-                    <td>Term</td>
-                    <td colspan="3">60 months, 2011-2016</td>
-                  </tr>
-                  <tr>
-                    <td>Amount</td>
-                    <td colspan="3">$5,000,000</td>
-                  </tr>
-                  <tr>
-                    <td>Sponsor</td>
-                    <td colspan="3">
+                <div class="media">
+                  <img class="media-object img-responsive pull-right hidden-xs img-thumbnail"
+                  src="../images/tools/wiscmichigan.png" alt="...">
 
-                      Integrated Solutions for Animal Agriculture<br/>
-                      Agriculture Food and Research Initiative<br/>
-                      National Institute of Food and Agriculture<br/>
+                  <div class="media-body">
+                    <p><strong>This tool is a “live” summary of data collected from a survey sent to 1,771 farms from Wisconsin and Michigan (WI=971, MI=800) in 2012.</strong></p>
 
-                    </td>
-                  </tr>
-                </table>
-
-                <p>This project will train 60 small beginning dairy farmers and help them to apply strategic decision-making regarding financial risks via three workshops across Wisconsin. Follow-ups will be established during workshops to later verify and measure positive application of the learning. To facilitate the adoption of new financial risk management strategies, part of the project will involve the creation of a user-friendly computer decision-making suite (i.e., the Wisconsin Benchmark Dairy Ratio tool) which will be used as an instrument of discussion and learning. The Agriculture Financial Advisor (AgFA©) dataset will be the foundation of these computer tools. Related curricula have been delivered across the state using the FAST tools suite from the University of Illinois. Evaluations have indicated that producers have greatly appreciated these trainings, however, they are requesting similar tools be created for Wisconsin's specific conditions.
-                  (<a href="genomic_tmp.php" target="_blank">More</a>)
-                </p>
+                    <p>Online Tool (<a href="/tools/ds/index.php" target="_blank">Open</a>)
+                    </p>
+                    <p>Paper (<a href="../publications/papers/WisMi.pdf" target="_blank">Download</a>)
+                    </p>
+                  </div>
+                </div>
               </div>
             </div>
+
+
             <div class="atab well">
               <input id="tab-four" type="checkbox" name="tabs">
               <label for="tab-four"> An Integrated Approach to Improving Dairy Cow Fertility</label>
@@ -279,6 +229,8 @@ include 'includes/nav-bar.php';
                 <p>This is an Extension-Research Integrated project addressing FY 2009 NIFA-AFRI Integrated Solutions for Animal Agriculture priorities of: (1) Improving Fertility in Agricultural Animals and (2) Preventing and Controlling On-Farm Disease. Our overall objective is to improve the reproductive efficiency of dairy cattle using an interdisciplinary team approach that will identify and remove barriers to reproductive success by linking outcomes of basic and applied research with an innovative producer responsive extension program. (<a href="repro_tmp.php" target="_blank">More</a>)</p>
               </div>
             </div>
+
+
             <div class="atab well">
               <input id="tab-five" type="checkbox" name="tabs">
               <label for="tab-five">Strategies of Pasture Supplementation on Organic & Conventional Grazing Dairies: Assessment of
