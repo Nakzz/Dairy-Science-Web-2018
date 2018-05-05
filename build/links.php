@@ -111,7 +111,7 @@ include 'includes/nav-bar.php';
                   foreach($link_data as $k=>$v){
                     ?>
                     <li><a target="_blank" href="<?php echo $v['filename'];?>"><?php echo $v['link_title'];?></a></li>
-                    <p style="margin: 0.5em !important; padding-bottom:1em;"><?php echo $v['description'];?></p>
+                    <p style="margin: 0.5em !important; padding-bottom:1em; padding-left: 3em;"><?php echo $v['description'];?></p>
                   <?php } ?>
                   </ul>
                 </div>
