@@ -1,6 +1,32 @@
 /*Small devices (landscape phones, 576px and up)*/
 
+
 @media screen and (max-width: 540px) {
+
+  .navbar-brand img {
+      width: 100%;
+  }
+
+
+  .landing-text-pos h2 {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: 0.0em;
+      text-transform: uppercase;
+      padding: 0 1%;
+  }
+
+  .learn-more-btn {
+    background: none repeat scroll 0 0 #1bce7c;
+    display: block;
+    font-size: 1em;
+    font-weight: 600;
+    letter-spacing: 0px;
+    margin: .6em auto 0;
+    padding: 5px;
+    text-transform: uppercase;
+    width: 100px;
+}
 
   .dimmed div {
     background-color: rgba(0, 0, 0, 0.5);
@@ -13,36 +39,13 @@
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
   }
+
   .navBarVertical {
     padding-top: 20px !important;
   }
-  .paddingtop {
-    padding-top: 120px !important;
-  }
-  .paddingtopsmall {
-    padding-top: 25px !important;
-  }
-  .padding_bottom {
-    padding-bottom: 100px !important;
-  }
-  .paddingSmall_bottom {
-    padding-bottom: 60px !important;
-  }
-  .margin_top {
-    margin-top: 20px !important;
-  }
-  .marginBig_top {
-    margin-top: 40px !important;
-  }
-  .margin_bottom {
-    margin-bottom: 10px !important;
-  }
-  .padding_left {
-    padding-left: 50px !important;
-  }
-  .padding_right {
-    padding-right: 50px !important;
-  }
+
+  @include customPadding(landscapePhones);
+
   .go_up {
     margin-top: -150px !important;
   }
@@ -62,7 +65,7 @@
       }
     }
   }
-}
+
 
 .right {
   position: absolute;
@@ -91,7 +94,7 @@
 }
 
 .team-member-image {
-  
+
   overflow: hidden;
   height: 0;
   /*width: 100%;*/
@@ -114,3 +117,4 @@
     transform: rotate(10deg) scale(1.2);
   }
  }
+}

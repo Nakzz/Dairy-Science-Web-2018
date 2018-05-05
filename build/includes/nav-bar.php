@@ -5,12 +5,12 @@
 
 
   <nav class="navbar navbar-default " role="navigation">
-    <div  class="col-md-3 col-sm-10 col-xs-10">
+    <div id="navLogoDiv" class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
       <a class="navbar-brand" data-scroll href="index.php"><img class="img-responsive" src="assets/img/logos/transparent_logo.png" alt="logo"/></a>
     </div>
 <?php // TODO: Make logo bigger in larger screen. do it how ever ?>
      <div class="navbar-header">
-       <div class="col-xs-2 ">
+       <div  class="col-sm-6 col-xs-6  col-sm-offset-1 col-xs-offset-1">
 
 
       <button name="buttonNav" id="navbarbutton" type="button" class="navbar-toggle">
@@ -22,14 +22,14 @@
 </div>
      </div>
 
-     <div class="col-md-9 col-sm-6">
+     <div id="navMenuDiv" class="col-lg-9 col-md-9 col-sm-6">
 
 <?php // TODO: Fix style causing li to break when size is small ?>
 
      <div class="navBarVertical collapse navbar-collapse customNavbar right">
        <ul>
              <li><a href="index.php">Home</a>
-               <ul>
+               <ul id="navDropdownContent">
                  <li><a href="about.php">About</a></li>
                  <li><a href="awards.php">Awards</a></li>
                  <li><a href="contact.php">Contact</a></li>
@@ -62,17 +62,17 @@
 
              <li><a href="publications.php">Publications</a>
                    <ul>
-                     <li><a href="publications.php#research">Research Publications</a></li>
-                     <li><a href="publications.php#extension">Extension Publications</a></li>
+                     <li><a href="publications.php#ResearchPublications">Research Publications</a></li>
+                     <li><a href="publications.php#ExtensionPublications">Extension Publications</a></li>
                    </ul>
              </li>
 
              <li><a href="presentations.php">Presentations</a>
                    <ul>
-                     <li><a href="presentations.php#presentations1">Wisconsin Audience</a></li>
-                     <li><a href="presentations.php#presentations#2">National Audience</a></li>
-                     <li><a href="presentations.php#presentations#3">International Audience</a></li>
-                     <li><a href="presentations.php#presentations#4">Dairy Science Webinar</a></li>
+                     <li><a href="presentations.php#WisconsinAudience">Wisconsin Audience</a></li>
+                     <li><a href="presentations.php#NationalAudience">National Audience</a></li>
+                     <li><a href="presentations.php#InternationalAudience">International Audience</a></li>
+                     <li><a href="presentations.php#DairyScienceWebinar">Dairy Science Webinar</a></li>
 
                    </ul>
              </li>

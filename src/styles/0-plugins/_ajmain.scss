@@ -70,16 +70,16 @@ p {
   width: auto !important;
 }
 
-.SlideOnClick {
-  display: none;
-  opacity: 0;
-  transition: opacity 0.5s linear;
-}
-
-.buttonForSlide:hover .SlideOnClick, .SlideOnClick:hover {
-  display: block;
-  opacity: 1;
-}
+// .SlideOnClick {
+//   display: none;
+//   opacity: 0;
+//   transition: opacity 0.5s linear;
+// }
+//
+// .buttonForSlide:hover .SlideOnClick, .SlideOnClick:hover {
+//   display: block;
+//   opacity: 1;
+// }
 
 .blackIcon {
   color: black;

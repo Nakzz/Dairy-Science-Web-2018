@@ -96,7 +96,7 @@ gulp.task('minify-css', function() {
 
 
 gulp.task('build-js', function() {
-  gulp.src('./src/scripts/app.js')
+  gulp.src(['./src/scripts/**/*.js ', './src/scripts/*.js'])
   .pipe(sourcemaps.init())
     .pipe(uglify())
     .pipe(concat('script.js'))

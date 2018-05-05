@@ -5,26 +5,17 @@
 	<script type="text/javascript">
 
   var bugs = [
-    "1: Navbar doesnt work in mobile or tablet",
-    "2: Navbar elements shows under navbar element in mobile or tablet",
-    "3: Get direction is not centered",
-     "4: Links text color is white on hover and too small, not legible",
-		 "5: Taking too long to load.",
-		 "6: Make h1 20px, and button smaller and whole block smaller"
-		 "7: add static image instead of 1920x1080 images",
+    "Navbar doesnt work in mobile or tablet",
+		 "Taking too long to load.",
      ""
   ];
 
 
   console.log("Known Bugs:");
-  for (var i = 0; i < bugs.length; i++) {
-    console.warn(bugs[i]);
+  for (var i = 0; i < (bugs.length -1); i++) {
+    console.warn(i+1 + ": "+ bugs[i]);
   }
 
-  console.log("Feedback:");
-  for (var i = 0; i < review.length; i++) {
-    console.info  (review[i]);
-  }
 
   </script>
 
@@ -66,27 +57,13 @@ include 'includes/nav-bar.php';
 <!--/HEADER-->
 
 <!--HOME-->
-<section id="sec_1" class="autoheight">
 
-	<!--LANDING VIDEO-->
 	<?php
 	// TODO: video doesn't play automatically in IOS
 	include 'includes/full_screen_video.php';
 	?>
-	<!--/LANDING VIDEO-->
 
-	<div class="home-bg" onclick="vidplay()"></div>
 
-	<div class="dimmed">
-		<div class="col-lg-12 landing-text-pos align-center">
-			<h1 class="wow animated fadeInDown " data-wow-duration="1s" data-wow-delay="1s"><?php echo texto(); ?></h1> <?php // TODO: make font size smaller ?>
-			<hr id="title_hr"/>
-			<!--		<p class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="1s">Grand Space, Portland. 21-26 Sept 2014</p>		-->
-			<a class="learn-more-btn btn-effect wow animated fadeIn" data-wow-duration="0.5s" data-wow-delay="1.5s" data-scroll href="tools.php" target="_blank">Learn More</a>
-		</div>
-	</div>
-
-</section>
 <!--/HOME-->
 
 <!--ABOUT
@@ -119,7 +96,7 @@ include 'includes/nav-bar.php';
 				<div class="row">
 					<div class="paddingtopsmall">
 						<div class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-							<div class="col-lg-3 col-lg-md-3 contact-details">
+							<div class="col-lg-3 col-md-3 contact-details">
 								<div class="col-lg-12 col-md-12 col-sm-12 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="light-box box-hover">
 
@@ -134,7 +111,7 @@ include 'includes/nav-bar.php';
 										</p>
 									</div>
 								</div>
-								<div class="col-sm-4 col-md-4">
+								<div class="col-sm-12 col-md-12">
 											<a id="get_directions" class="learn-more-btn btn-effect" href="https://www.google.com/maps/dir/''/Animal+Science,+Elm+Dr,+Madison,+WI+53706/data=!4m5!4m4!1m0!1m2!1m1!1s0x8807acc078fbc397:0xb7e3ed786867978f?sa=X&ved=0ahUKEwj_lY_i0qXaAhXE5YMKHUmAAHEQiBMINTAA" target="_blank"><i class="fas fa-map-marker-alt"></i><span>Get Directions</span></a>
 								</div>
 							</div>
@@ -302,39 +279,31 @@ include 'includes/nav-bar.php';
 
 
 							<div class="buttonForSlide">
-									<a class="learn-more-btn btn-effect">
+									<a onclick="toggleShow()" class="learn-more-btn btn-effect">
 										<i class="fas fa-chevron-down"></i>
 										<span>Links</span></a>
 
-
-
-							<div class="SlideOnClick col-lg-12 col-md-12 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
+							<div id="SlideOnClick" class="col-lg-12 col-md-12  fadeInDown">
 								<!-- Service row 1 -->
-								<div class="row">
+								<div class="row paddingtopsmall">
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
-										<div class="service-box" style="margin-bottom: 0px;">
+										<div class="service-box">
 											<div class="service-box-content">
-												<h5 style="margin-top: 25px;">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://www.wisc.edu/" target="_blank">University of Wisconsin - Madison</a>
-												</h5>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
-										<div class="service-box" style="margin-bottom: 0px;">
+										<div class="service-box">
 											<div class="service-box-content">
-												<h5 style="margin-top: 25px;">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://www.uwex.edu/" target="_blank">UW - Cooperative Extension</a>
-												</h5>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
-										<div class="service-box" style="margin-bottom: 0px;">
+										<div class="service-box">
 											<div class="service-box-content">
-												<h5 style="margin-top: 25px;">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://dysci.wisc.edu/" target="_blank">UW - Dairy Science</a>
-												</h5>
 											</div>
 										</div>
 									</div>
@@ -344,29 +313,23 @@ include 'includes/nav-bar.php';
 								<!-- Service row 2 -->
 								<div class="row">
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
-										<div class="service-box" style="margin-bottom: 0px;">
+										<div class="service-box">
 											<div class="service-box-content">
-												<h5 style="margin-top: 25px;">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://fyi.uwex.edu/dairy/" target="_blank">UW – Extension Dairy Team</a>
-												</h5>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
-										<div class="service-box" style="margin-bottom: 0px;">
+										<div class="service-box">
 											<div class="service-box-content">
-												<h5 style="margin-top: 25px;">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://paulfricke.dysci.wisc.edu/" target="_blank">Dairy Cattle Reproduction</a>
-												</h5>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
-										<div class="service-box" style="margin-bottom: 0px;">
+										<div class="service-box">
 											<div class="service-box-content">
-												<h5 style="margin-top: 25px;">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://www.uwex.edu/ces/dairynutrition/" target="_blank">Dairy Cattle Nutrition</a>
-												</h5>
 											</div>
 										</div>
 									</div>
@@ -379,41 +342,31 @@ include 'includes/nav-bar.php';
 
 
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
-										<div class="service-box" style="margin-bottom: 0px;">
+										<div class="service-box">
 											<div class="service-box-content">
-												<h5 style="margin-top: 25px;">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://cdp.wisc.edu/" target="_blank">UW Center for Dairy Profitability</a>
-												</h5>
 											</div>
 										</div>
 									</div>
 
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
-										<div class="service-box" style="margin-bottom: 0px;">
+										<div class="service-box">
 											<div class="service-box-content">
-												<h5 style="margin-top: 25px;">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://dairynutrient.wisc.edu/" target="_blank">UW Dairy Nutrient</a>
-												</h5>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
-										<div class="service-box" style="margin-bottom: 0px;">
+										<div class="service-box">
 											<div class="service-box-content">
-												<h5 style="margin-top: 25px;">
-
-
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://future.aae.wisc.edu/" target="_blank">Understanding Dairy Markets</a>
-												</h5>
 											</div>
 										</div>
 									</div>
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-lg-offset-4 col-md-offset-4 wow fadeIn">
-										<div class="service-box" style="margin-bottom: 0px;">
+										<div class="service-box">
 											<div class="service-box-content">
-												<h5 style="margin-top: 25px;">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://milkquality.wisc.edu/" target="_blank">Milk Quality</a>
-												</h5>
 											</div>
 										</div>
 									</div>

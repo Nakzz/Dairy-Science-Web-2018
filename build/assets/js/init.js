@@ -36,6 +36,11 @@ jQuery(window).load(function() {
         // will fade out the whole DIV that covers the website.
 	jQuery(".preloader").delay(100).fadeOut("slow");
 	jQuery("body").css('overflow-y','visible');
+
+//Hidine all hiden div
+	var tagetDiv = document.getElementById("SlideOnClick");
+		tagetDiv.classList.toggle("hideDiv");
+
 });
 
 /*************************************/
@@ -45,16 +50,7 @@ jQuery(window).load(function() {
 jQuery( document ).ready(function( $ ) {
 	$.noConflict();
 
-	/*** Auto height function ***/
-	var setElementHeight = function () {
-		var height = $(window).height();
-		$('.autoheight').css('min-height', (height));
 
-	};
-
-	$(window).on("resize", function () {
-		setElementHeight();
-	}).resize();
 
 	/*******Smooth scroll***********/
 	var height=$(".navbar.navbar-default").height();

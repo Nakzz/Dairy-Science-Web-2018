@@ -2,6 +2,69 @@
 
 @media (min-width: 1200px) {
 
+  .dimmed div {
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-left: $centerLeft;
+    width: $width;
+    color: #fff;
+    display: block;
+    padding: 0.5rem;
+    /* Needs prefixing */
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+  }
 
+
+  /* index page*/
+
+  #get_directions.btn-effect {
+  	background: none repeat scroll 0 0 #1bd982;
+      border: medium none;
+      color: #fff;
+      cursor: pointer;
+      height: 50px;
+      letter-spacing: 0.2em;
+      margin-bottom: 45px;
+      margin-top: 0;
+
+      position: relative;
+      transition: all 0.3s ease 0s;
+      //width: 230px;
+      z-index: 1;
+
+  }
+
+  #get_directions.btn-effect:after {
+  	background: none repeat scroll 0 0 #000;
+  	height: 0;
+  	left: 0;
+  	top: 0;
+  	width: 100%;
+  	z-index:-1;
+  	content: "";
+  	position: absolute;
+  	-webkit-transition: all 0.3s ease 0s;
+  	-moz-transition: all 0.3s ease 0s;
+  	-ms-transition: all 0.3s ease 0s;
+  	-o-transition: all 0.3s ease 0s;
+  	transition: all 0.3s ease 0s;
+  }
+  #get_directions.btn-effect:hover:after,
+  #get_directions.btn-effect:active:after {
+  	height: 100%;
+  }
+
+  #get_directions.btn-effect i{
+  	display:none;
+  	font-size:1.75em;
+  }
+
+  #get_directions.btn-effect:hover span{
+  	display:none;
+  }
+
+  #get_directions.btn-effect:hover i{
+  	display:block;
+  }
 
  }

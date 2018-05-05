@@ -201,7 +201,6 @@ hr {
 
 #sec_1 {
 
-	background: url('../assets/img/backgrounds/bg1.jpg') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -286,7 +285,7 @@ video {
 
 #title_hr {
 	border: 1px solid #1bd982;
-	margin: 1.8em auto 2.9em;
+	margin: 5px auto 5px;
 	width: 50px;
 }
 
@@ -300,6 +299,15 @@ video {
 .landing-text-pos h1{
 
     font-size: 2.5em;
+    font-weight: 700;
+    letter-spacing: 0.0em;
+    text-transform: uppercase;
+	padding: 0 2%;
+}
+
+.landing-text-pos h2{
+
+    font-size: 25px;
     font-weight: 700;
     letter-spacing: 0.0em;
     text-transform: uppercase;
@@ -322,7 +330,7 @@ video {
     font-size: 1em;
     font-weight: 600;
     letter-spacing: 0.2em;
-    margin: 2.9em auto 0;
+    margin: 1.2em auto 0;
     padding: 15px;
     text-transform: uppercase;
     width: 200px;
@@ -830,55 +838,6 @@ div.avatar {
 	height: 100%;
 }
 
-#get_directions.btn-effect {
-	background: none repeat scroll 0 0 #1bd982;
-    border: medium none;
-    color: #fff;
-    cursor: pointer;
-    height: 50px;
-    letter-spacing: 0.2em;
-    margin-bottom: 45px;
-    margin-top: 0;
-
-    position: relative;
-    transition: all 0.3s ease 0s;
-    //width: 230px;
-    z-index: 1;
-
-}
-
-#get_directions.btn-effect:after {
-	background: none repeat scroll 0 0 #000;
-	height: 0;
-	left: 0;
-	top: 0;
-	width: 100%;
-	z-index:-1;
-	content: "";
-	position: absolute;
-	-webkit-transition: all 0.3s ease 0s;
-	-moz-transition: all 0.3s ease 0s;
-	-ms-transition: all 0.3s ease 0s;
-	-o-transition: all 0.3s ease 0s;
-	transition: all 0.3s ease 0s;
-}
-#get_directions.btn-effect:hover:after,
-#get_directions.btn-effect:active:after {
-	height: 100%;
-}
-
-#get_directions.btn-effect i{
-	display:none;
-	font-size:1.75em;
-}
-
-#get_directions.btn-effect:hover span{
-	display:none;
-}
-
-#get_directions.btn-effect:hover i{
-	display:block;
-}
 
 
 #responsive {

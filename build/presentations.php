@@ -165,9 +165,11 @@ include 'includes/nav-bar.php';
           if($categories)
           {
             $count =1 ;
-            foreach($categories as $k=>$v) { ?>
+            foreach($categories as $k=>$v) {
+$href = str_replace(' ','', $v['name']);
+              ?>
 
-          <div href="presentations<?php echo $v['id'];?>" class="atab well ">
+          <div href="<?php echo $href;?>" class="atab well ">
             <input id="presentations<?php echo $v['id'];?>" type="checkbox" name="tabs">
             <label for="presentations<?php echo $v['id'];?>"><?php echo $v['name'];?></label>
             <div class="atab-content">

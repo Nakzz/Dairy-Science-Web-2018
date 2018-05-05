@@ -1,6 +1,58 @@
 /*Medium devices (tablets, 768px and up)*/
 
+@media screen and (max-width: 992px) {
+  .customNavbar ul {
+      display: none;}
+
+}
+
 @media screen and (max-width: 840px) {
+
+  @include customPadding(tablet);
+
+  .buttonNavbar {
+position: relative;
+
+    ul {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+      position: relative;
+      li {
+        display: inline-block;
+        a {
+          text-decoration: none;
+          padding: 6px;
+          display: block;
+          color: #fff;
+          font-family: raleway;
+          font-size: 1em;
+          font-weight: 500;
+          letter-spacing: 0.2em;
+          text-transform: uppercase;
+        }
+ul{
+  display: none;
+}
+      }
+      ul {
+        position: absolute;
+        min-width: 200px;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: none;
+        li {
+          display: block;
+        }
+      }
+
+    }
+    nav div {
+      padding: 0.6em;
+      cursor: pointer;
+      display: none;
+    }
+  }
+
   .dimmed div {
     background-color: rgba(0, 0, 0, 0.5);
     margin-left: 15%;
@@ -14,44 +66,6 @@
   .navBarVertical {
     padding-top: 20px !important; }
 
-  .paddingtop{
-  padding-top: 120px !important;
-  }
-  .paddingbottomsmall{
-  padding-bottom: 25px !important;
-  }
-
-  .paddingtopsmall{
-  padding-top: 25px !important;
-  }
-
-  .padding_bottom{
-  padding-bottom: 100px !important;
-  }
-
-  .paddingSmall_bottom{
-  padding-bottom: 60px !important;
-  }
-
-  .margin_top{
-  margin-top: 20px !important;
-  }
-
-  .marginBig_top{
-  margin-top: 40px !important;
-  }
-
-  .margin_bottom{
-  margin-bottom: 10px !important;
-  }
-
-  .padding_left{
-    padding-left: 50px !important;
-  }
-
-  .padding_right{
-    padding-right: 50px !important;
-  }
 
   .go_up{
     margin-top: -150px !important;

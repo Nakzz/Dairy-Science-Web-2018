@@ -1,7 +1,7 @@
 V:1.03 -
 - Links added to footer logos.
 - Database connected
-- MySQL Dupp imported to local machine
+- MySQL Dump imported to local machine
 - Publications page parse from DB
 - Projects page parse from DB
 - Presentation page parse from DB

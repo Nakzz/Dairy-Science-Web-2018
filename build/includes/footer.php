@@ -14,45 +14,6 @@
 
 
       <script type="text/javascript">
-
-
-
-      function vidplay() {
-         var video = document.getElementById("Video1");
-
-         if (video.paused) {
-            video.play();
-  //          button.textContent = "||";
-         } else {
-            video.pause();
-  //          button.textContent = ">";
-         }
-      }
-
-
-      // var o = document.getElementsByName("buttonNav");
-      // $("#navbarbutton").click(function() {
-      //   console.log("Clicked Button");
-      //       $("#example-navbar-collapse ul").slideToggle();
-      //       $("#example-navbar-collapse ul ul").css("display", "none");
-      // });
-      //
-      // $("#example-navbar-collapse ul li").click(function() {
-      //       $("#example-navbar-collapse ul ul").slideUp();
-      //       $(this).find('#example-navbar-collapse ul').slideToggle();
-      // });
-      //
-      // $(window).resize(function() {
-      //       if($(window).width() > 768) {
-      //             $("#example-navbar-collapse ul").removeAttr('style');
-      //       }
-      // });
-
-      </script>
-
-
-
-      <script type="text/javascript">
       function googleTranslateElementInit() {
         new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
       }
@@ -152,30 +113,7 @@
   <!-- INITIALIZATION  -->
   <script type="text/javascript" src="assets/js/init.js"></script>
 
+  <!-- GULP GENERATED  -->
+  <script type="text/javascript" src="assets/script.js"></script>
+
   <script src="https://cdn.jsdelivr.net/npm/select2@4.0.6-rc.1/dist/js/select2.min.js"></script>
-
-
-
-  <script type="text/javascript">
-  jQuery(document).ready(function(){
-      jQuery('.search-box input[type="text"]').on("keyup input", function(){
-          /* Get input value on change */
-          var inputVal = jQuery(this).val();
-          var resultDropdown = jQuery(this).siblings(".result");
-          if(inputVal.length){
-              jQuery.get("./includes/backend-search.php", {term: inputVal}).done(function(data){
-                  // Display the returned data in browser
-                  resultDropdown.html(data);
-              });
-          } else{
-              resultDropdown.empty();
-          }
-      });
-
-      // Set search input value on click of result item
-      jQuery(document).on("click", ".result p", function(){
-          jQuery(this).parents(".search-box").find('input[type="text"]').val($(this).text());
-          jQuery(this).parent(".result").empty();
-      });
-  });
-  </script>
