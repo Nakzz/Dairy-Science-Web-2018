@@ -15,6 +15,7 @@
 // //     Header("Location: ./contact.php");
 // // }
 
+// TODO: LINK CONTANT MAIL TO SERVER
 
 ?>
 
@@ -26,49 +27,12 @@
 
   var bugs = [
     "1: Social media link inside picture is not centered",
-    "2: Picture shows over Navigation bar if scrolled",
-    "3: webnote is too spaced",
-    "4: webnote text color is white, not legible",
-    "5: Re",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-
      ""
-  ];
-
-  var review = [
-    "1: ",
-    "2:",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-
-     ""
-
   ];
 
   console.log("Known Bugs:");
-  for (var i = 0; i < bugs.length; i++) {
-    console.warn(bugs[i]);
-  }
-
-  console.log("Feedback:");
-  for (var i = 0; i < review.length; i++) {
-    console.info  (review[i]);
+  for (var i = 0; i < (bugs.length -1); i++) {
+    console.warn(i+1 + ": "+ bugs[i]);
   }
 
   </script>
@@ -154,11 +118,13 @@ include 'includes/nav-bar.php';
                     </div>
                 </div>
             </div>
-            <h3><span>Victor E.Cabrera, Ph.D.</span></h3>
-            <h4>Associate Professor Extension Specialist in Dairy Management</h4>
+            <div class="text-center">
+              <h3><span>Victor E.Cabrera, Ph.D.</span></h3>
+              <h4>Associate Professor Extension Specialist in Dairy Management</h4>
+            </div>
           </div>
 
-          <div style="margin-top:-50px; "class="col-lg-3 col-md-3 col-sm-6 text-center">
+          <div class="col-lg-3 col-md-3 col-sm-6 text-center">
             <div class="contact-details">
               <div class="col-lg-12 col-md-12 col-sm-12 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
                 <div class="light-box box-hover">
@@ -176,7 +142,7 @@ include 'includes/nav-bar.php';
           </div>
         </div>
 
-        <div class="col-sm-5">
+        <div id="contactWebnote" class="col-sm-5">
             <h2>Send a Webnote</h2>
             <form id="contact-form" role="form" action="/contact.php" method="post" onSubmit=" return validate()">
                 <div class="form-group">
@@ -211,122 +177,6 @@ include 'includes/nav-bar.php';
   </div>  <!--Container ends-->
 </section>
 <!--END Section Body-->
-
-<!-- SPEAKERS
-<section class="team text-center section-padding" id="team">
-	<div class="container paddingtop">
-
-		<div class="row">
-      <p>You can contact the Dairy Management Team by email, phone, fax, snail mail, or by sending a webnote. Feel free to inquire for further information, suggest improvements, or to provide feedback about the University of Wisconsin Dairy Management work.</p>
-
-      <section class="features text-center" id="features">
-      	<div class="row">
-      		<div id="grid-gallery" class="grid-gallery">
-
-
-      			<div class="containerfeatures-md">
-      				<div class="row">
-      					<div class="paddingtopsmall">
-      						<div class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-
-                    <div class="col-lg-3 col-lg-md-3 contact-details">
-                      <div class="col-lg-12 col-md-12 col-sm-12 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
-                        <div class="light-box box-hover">
-
-                          <p>282 Animal Sciences, <br> 1675 Observatory Dr. <br>Madison, WI 53706</p>
-                        </div>
-                      </div>
-                      <div class="col-lg-12 col-md-12 col-sm-12 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.7s">
-                        <div class="light-box box-hover">
-                          <p style="color:white">Phone: (608) 265-8506<br>
-                            E-mail: <a style="color: white;" href="mailto:name@email.com">vcabrera@wisc.edu</a><br>
-                            <a style="color: white;" href="/apps/filemanager/uploads/CV_Cabrera.pdf" target="_blank">Curriculum Vitae</a>
-                          </p>
-                        </div>
-                      </div>
-
-                    </div>
-
-                    <div class="col-lg-4 col-md-4 col-sm-6">
-      								<div class="overlay-effect effects clearfix ">
-
-      <?php // TODO: make column of 3 instead of 2. Either add texts from next row, or create a logo for tools and have similiar to old website ?>
-
-      									<div class="team-member">
-      											<div style="padding-left:40px;" class="team-member-holder">
-      													<div class="team-member-image center-block">
-      															<img class="center-block" alt="" src="assets/img/team/crop_victor.jpg">
-      															<div class="LINKoverlay">
-      																<div style="padding-top:100%" class="light-box box-hover linksOnly">
-
-      																	<a href="https://www.facebook.com/pages/University-of-Wisconsin-Dairy-Management/172972072340" target="_blank" class="blackIcon facebook team-member-links-item"><i class="fab fa-facebook fa-2x"></i></a>
-      																	<a href="https://twitter.com/vecabrera" target="_blank" class="twitter team-member-links-item"><i class="blackIcon fab fa-twitter fa-2x"></i></a>
-      																	<a href="https://plus.google.com/u/0/112288846247174607175/about" target="_blank" class="blackIcon google-plus team-member-links-item"><i class="fab fa-google-plus fa-2x"></i></a>
-      																	<a href="http://www.linkedin.com/pub/victor-cabrera/12/3a1/924" target="_blank" class="blackIcon twitter team-member-links-item"><i class="fab fa-linkedin fa-2x"></i></a>
-      																	<a href="http://www.youtube.com/user/dairybynature/videos" target="_blank" class=" blackIcon youtube team-member-links-item"><i class="fab fa-youtube fa-2x"></i></a>
-
-      																</div>
-
-      															</div>
-      													</div>
-      											</div>
-      									</div>
-
-      											<h2><span>Victor E.Cabrera, Ph.D.</span></h2>
-      											<h3>Associate Professor Extension Specialist in Dairy Management</h3>
-      										</div>
-      									</div>
-
-                        <div class="col-sm-5">
-                            <h2>Send a Webnote</h2>
-                            <form id="contact-form" role="form" action="/contact.php" method="post" onSubmit=" return validate()">
-                                <div class="form-group">
-                                    <label class="sr-only" for="cname">Name</label>
-                                    <input required type="text" name="name" id="name" value="" size="30" class="form-control" placeholder="Name" data-validation-required-message="Please enter your name.">
-                                    <p class="help-block text-danger">
-                                </div>
-                                <div class="form-group">
-                                    <label class="sr-only" for="cname">Subject</label>
-                                    <input required type="text" name="subject" id="subject" value="" size="30" class="form-control" placeholder="Subject" data-validation-required-message="Please enter the subject.">
-                                    <p class="help-block text-danger">
-                                </div>
-                                <div class="form-group">
-                                    <label class="sr-only" for="cemail">Email</label>
-                                    <input required type="email" name="email" id="email" value="" size="30" class="form-control" placeholder="Your E-mail" data-validation-required-message="Please enter your email address.">
-                                    <p class="help-block text-danger">
-                                </div>
-                                <div class="form-group">
-                                    <textarea class="form-control" name="message" cols="60" rows="4" id="message" placeholder="Message" data-validation-required-message="Please enter your message."></textarea>
-                                    <p class="help-block text-danger">
-                                </div>
-                                <div class="text-center">
-                                    <button type="submit" name="submit" class="learn-more-btn btn-effect" style="background-color: #1bd982;">Send Webnote</button>
-                                </div>
-                            </form>
-                        </div>
-
-
-
-      								</div>
-      							</div>
-      							<div class="col-sm-12 col-md-9 col-md-offset-1">
-
-      							</div>
-      						</div>
-      					</div>
-
-
-
-      				</div>
-      			</section>
-
-
-		</div>
-	</div>
-
-
-</section>
-<Row Ends Here-->
 
 <!-- /Logo row -->
 <?php

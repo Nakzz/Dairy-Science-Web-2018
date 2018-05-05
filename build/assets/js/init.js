@@ -38,8 +38,13 @@ jQuery(window).load(function() {
 	jQuery("body").css('overflow-y','visible');
 
 //Hidine all hiden div
+try {
 	var tagetDiv = document.getElementById("SlideOnClick");
 		tagetDiv.classList.toggle("hideDiv");
+} catch (e) {
+	console.log("Debug: No Toggle Button Found.");
+}
+
 
 });
 

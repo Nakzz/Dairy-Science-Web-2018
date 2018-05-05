@@ -11,7 +11,7 @@
 
 var bugs = [
   "1: Social media link inside picture is not centered",
-  "2: Picture shows over Navigation bar if scrolled",
+
   "3: None of the files are linked yet",
    ""
 
@@ -81,7 +81,7 @@ include 'includes/nav-bar.php';
 <!-- Section Body-->
 <section class="bodySection">
   <div class="container">  <!--Container-->
-    <div class="row"> <!--Row-->
+    <div class="row styledLists"> <!--Row-->
       <div class="col-sm-12">
 
         <p>The Dairy Science Department's Extension Specialists in Management, Genetics, Physiology,
@@ -115,11 +115,14 @@ include 'includes/nav-bar.php';
                   </div>
               </div>
           </div>
-          <h3><span>Victor E.Cabrera, Ph.D.</span></h3>
-          <h4>Associate Professor Extension Specialist in Dairy Management</h4>
+          <div class="text-center">
+            <h3><span>Victor E.Cabrera, Ph.D.</span></h3>
+            <h4>Associate Professor Extension Specialist in Dairy Management</h4>
+          </div>
+
         </div>
 
-        <div style="margin-top:-50px; "class="col-lg-4 col-md-4 col-sm-12 text-center">
+        <div class="col-lg-4 col-md-4 col-sm-12 text-center">
           <div class="contact-details">
             <div class="col-lg-12 col-md-12 col-sm-12 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
               <div class="light-box box-hover">
@@ -139,7 +142,7 @@ include 'includes/nav-bar.php';
       </div>
 
 
-<div class="col-sm-12 paddingtopsmall">
+<div class="col-sm-12 paddingtopsmall ">
     <h1>Professional Experience</h1>
 
       <ul>
@@ -151,11 +154,10 @@ include 'includes/nav-bar.php';
         <li>        Teaching and Research Assistant University of Florida 1999, 2001-2004</li>
         <li>        Consultant Inter-American Development Bank 1999-2001</li>
         <li>        Extension Agent Valle Grande Rural Institute (ONG) 1994-1997</li>
-
       </ul>
 </div>
 
-<div class="col-sm-6">
+<div class="col-sm-12">
   <h1>Education</h1>
 <ul>
   <li>  Ph.D., University of Florida 2001-2004</li>
@@ -165,23 +167,7 @@ include 'includes/nav-bar.php';
 </ul>
 
 </div>
-<div class="col-sm-6">
-  <h1>Previous Awards</h1>
-  <ul>
-    <li>
-      1998, 1999, 2001-2004. University of Florida.
-      Outstanding International Student (<a href="./images/uf1.jpg" target="_blank">Certificate</a>)
-    </li>
-    <li>
-      2002. Agricultural Development Foundation, Managua, Nicaragua.
-      Outstanding Contributions to Farming Systems in Nicaragua (<a href="./images/funica.jpg" target="_blank">Certificate</a>)
-    </li>
-    <li>
-      1993. La Molina Agrarian University, Lima, Peru.
-      Honor Diploma: Ranking 2/177 (<a href="./images/unalm1.jpg" target="_blank">Diploma</a>)
-    </li>
-  </ul>
-</div>
+
 
 
 

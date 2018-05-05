@@ -12,27 +12,13 @@
   var bugs = [
     "Search bar is notworking yet. Backend connections hasnt been established",
     "Links are missing",
-    "Anchor tag points to after text",
-
-    ""
-  ];
-
-  var review = [
-    "",
-    "",
-    "",
 
     ""
   ];
 
   console.log("Known Bugs:");
-  for (var i = 0; i < bugs.length; i++) {
-    console.warn(i+1 +":" + bugs[i]);
-  }
-
-  console.log("Feedback:");
-  for (var i = 0; i < review.length; i++) {
-    console.info  (i+1 +":" + review[i]);
+  for (var i = 0; i < (bugs.length -1); i++) {
+    console.warn(i+1 + ": "+ bugs[i]);
   }
 
   </script>

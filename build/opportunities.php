@@ -7,56 +7,6 @@
 <html>
 <head>
 
-  <script type="text/javascript">
-
-  var bugs = [
-    "1: Links are not available",
-    "2:",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-
-     ""
-  ];
-
-  var review = [
-    "1: ",
-    "2:",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-
-     ""
-
-  ];
-
-  console.log("Known Bugs:");
-  for (var i = 0; i < bugs.length; i++) {
-    console.warn(bugs[i]);
-  }
-
-  console.log("Feedback:");
-  for (var i = 0; i < review.length; i++) {
-    console.info  (review[i]);
-  }
-
-  </script>
 
 	<!-- TITLE -->
   <?php // TODO: Change tittle ?>

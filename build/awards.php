@@ -10,54 +10,18 @@
   <script type="text/javascript">
 
   var bugs = [
-    "1: ",
-    "2:",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
+    "None",
 
      ""
   ];
-
-  var review = [
-    "1: Notice each awards and their institution are in the same line. The page looks less empty",
-    "2:",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-    "3: ",
-
-     ""
-
-  ];
-
 
   console.log("Known Bugs:");
-  for (var i = 0; i < bugs.length; i++) {
-    console.warn(bugs[i]);
-  }
-
-  console.log("Feedback:");
-  for (var i = 0; i < review.length; i++) {
-    console.info  (review[i]);
+  for (var i = 0; i < (bugs.length -1); i++) {
+    console.warn(i+1 + ": "+ bugs[i]);
   }
 
   </script>
+
 	<!-- TITLE -->
   <?php // TODO: Change tittle ?>
 	<title>Dairy Management</title>
@@ -114,10 +78,9 @@ include 'includes/nav-bar.php';
 <!-- Section Body-->
 <section class="bodySection">
   <div class="container">  <!--Container-->
-    <div class="row"> <!--Row-->
+    <div class="row styledLists"> <!--Row-->
       <div class="col-sm-12">
-        <h1>Latest Awards </h1>
-
+        <h2>Latest Awards </h2>
         <ul>
             <li>
                   2016. University of Wisconsin-Madison.

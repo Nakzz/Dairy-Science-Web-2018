@@ -11,7 +11,6 @@
     line-height: 0;
     position: relative;
     overflow: hidden;
-    z-index: 9;
 }
 
 
@@ -82,7 +81,6 @@ display: block;
     .team-member-image,.team-member.type_half .team-member-image {
         float: none;
         width: 100%;
-        z-index: 11;
     }
 
     .team-member-meta,.team-member.type_half .team-member-meta {

@@ -11,50 +11,15 @@
   <script type="text/javascript">
 
   var bugs = [
-    "1: Search bar is notworking yet. Backend connections hasnt been established",
-    "2: Links are missing",
-    "3: Anchor tag points to after text",
-     "3: Not correct text.",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
+    "Search bar is notworking yet. Backend connections hasnt been established",
+    "Links are missing",
 
     ""
-  ];
-
-  var review = [
-    "1: Working on improving each according design.",
-    "2: Database not connected yet. Used text from Project.php for design",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-
-    ""
-
   ];
 
   console.log("Known Bugs:");
-  for (var i = 0; i < bugs.length; i++) {
-    console.warn(bugs[i]);
-  }
-
-  console.log("Feedback:");
-  for (var i = 0; i < review.length; i++) {
-    console.info  (review[i]);
+  for (var i = 0; i < (bugs.length -1); i++) {
+    console.warn(i+1 + ": "+ bugs[i]);
   }
 </script>
 

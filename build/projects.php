@@ -10,51 +10,15 @@
   <script type="text/javascript">
 
   var bugs = [
-    "1: Images missing",
-    "2: Links are missing",
-     "3: Anchor tag points to after 'active project' text",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-
+    "1: Links are missing",
     ""
-  ];
-
-  var review = [
-    "1: Working on improving each according design.",
-    "2: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-
-    ""
-
   ];
 
   console.log("Known Bugs:");
-  for (var i = 0; i < bugs.length; i++) {
-    console.warn(bugs[i]);
+  for (var i = 0; i < (bugs.length -1); i++) {
+    console.warn(i+1 + ": "+ bugs[i]);
   }
 
-  console.log("Feedback:");
-  for (var i = 0; i < review.length; i++) {
-    console.info  (review[i]);
-  }
 
   </script>
 
@@ -121,8 +85,8 @@ include 'includes/nav-bar.php';
         </h3>
       </div>
 
-      <div id="active" class="col-sm-12 paddingtopsmall">
-        <h2>Active Projects</h2>
+      <div class="col-sm-12 paddingtopsmall">
+        <h2 id="active">Active Projects</h2>
         <div id="accordion">
           <div class="atab well ">
             <input id="tab-one" type="checkbox" name="tabs">
@@ -131,8 +95,8 @@ include 'includes/nav-bar.php';
               <table class="table table-bordered table-striped">
                 <tr>
                   <td>Title</td>
-                  <td colspan="3"></td>A Virtual Diary Farm Brain: The Next Big Lean in Dairy Farm Management Applying Artificial Intelligence.
-                  <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/uwlogo.png"></img></td>
+                  <td colspan="3">A Virtual Diary Farm Brain: The Next Big Lean in Dairy Farm Management Applying Artificial Intelligence.</td>
+                  <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="assets/img/projects/uwlogo.png"></img></td>
                 </tr>
                 <tr>
                   <td>Team</td>
@@ -185,7 +149,7 @@ include 'includes/nav-bar.php';
                 <tr>
                   <td>Title</td>
                   <td colspan="3">Development of a Suite of Dairy Reproduction Decision Support Tools.</td>
-                  <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/uwlogo.png"></img></td>
+                  <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="assets/img/projects/uwlogo.png"></img></td>
                 </tr>
                 <tr>
                   <td>Team</td>
@@ -225,7 +189,7 @@ include 'includes/nav-bar.php';
                   <tr>
                     <td>Title</td>
                     <td colspan="3">Genomic Selection and Herd Management Tools to Improve Feed Efficiency of the Dairy Industry</td>
-                    <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/usdalogo.png"></img></td>
+                    <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="assets/img/projects/usdalogo.png"></img></td>
                   </tr>
                   <tr>
                     <td>Team</td>
@@ -264,7 +228,7 @@ include 'includes/nav-bar.php';
                   <tr>
                     <td>Title</td>
                     <td colspan="3">An Integrated Approach to Improving Dairy Cow Fertility</td>
-                    <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/usdalogo.png"></img></td>
+                    <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="assets/img/projects/usdalogo.png"></img></td>
                   </tr>
                   <tr>
                     <td>Team</td>
@@ -303,7 +267,7 @@ include 'includes/nav-bar.php';
                     <tr>
                       <td>Title</td>
                       <td colspan="3">Strategies of Pasture Supplementation on Organic & Conventional Grazing Dairies: Assessment of Economic, Production & Environmental Outcomes</td>
-                      <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/usdalogo.png"></img></td>
+                      <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="assets/img/projects/usdalogo.png"></img></td>
                     </tr>
                     <tr>
                       <td>Team</td>
@@ -351,8 +315,8 @@ include 'includes/nav-bar.php';
 
             </div>
 
-            <div id="completed" class="col-sm-12 paddingtopsmall">
-              <h2>Completed Projects</h2>
+            <div class="col-sm-12 paddingtopsmall">
+              <h2 id="completed">Completed Projects</h2>
               <div id="accordion">
                 <div class="atab well ">
                   <input id="tab-seven" type="checkbox" name="tabs">
@@ -363,7 +327,7 @@ include 'includes/nav-bar.php';
                         <td>Title</td>
                         <td colspan="3">Development of a genomic testing decision support tool for Jersey dairy
                           calves.</td>
-                          <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/us_jersey.jpg"></img></td>
+                          <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="assets/img/projects/us_jersey.jpg"></img></td>
                         </tr>
                         <tr>
                           <td>Team</td>
@@ -397,7 +361,7 @@ include 'includes/nav-bar.php';
                       <tr>
                         <td>Title</td>
                         <td colspan="3">Development of a Suite of Dairy Reproduction Decision Support Tools.</td>
-                        <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/uwlogo.png"></img></td>
+                        <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="assets/img/projects/uwlogo.png"></img></td>
                       </tr>
                       <tr>
                         <td>Team</td>
@@ -434,7 +398,7 @@ include 'includes/nav-bar.php';
                         <tr>
                           <td>Title</td>
                           <td colspan="3">A Sustainable Wisconsin Dairy Farm Financial Management Model</td>
-                          <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/usdalogo.png"></img></td>
+                          <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="assets/img/projects/usdalogo.png"></img></td>
                         </tr>
                         <tr>
                           <td>Team</td>
@@ -469,7 +433,7 @@ include 'includes/nav-bar.php';
                       <tr>
                         <td>Title</td>
                         <td colspan="3">Energy Intensity, Carbon Footprint, and Environmental Impact of Pasture Based</td>
-                        <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/usdalogo.png"></img></td>
+                        <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="assets/img/projects/usdalogo.png"></img></td>
                       </tr>
                       <tr>
                         <td>Team</td>
@@ -504,7 +468,7 @@ include 'includes/nav-bar.php';
                     <tr>
                       <td>Title</td>
                       <td colspan="3">An Integrated Web-Based Information System to Improve Wisconsin Dairy Farms' Price Risk Management and Sustainability</td>
-                      <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/uwlogo.png"></img></td>
+                      <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="assets/img/projects/uwlogo.png"></img></td>
                     </tr>
                     <tr>
                       <td>Team</td>
@@ -538,7 +502,7 @@ include 'includes/nav-bar.php';
                     <tr>
                       <td>Title</td>
                       <td colspan="3">Planning Grant: A Regional Approach to Climate Change Planning for Dairy and Beef</td>
-                      <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/usdalogo.png"></img></td>
+                      <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="assets/img/projects/usdalogo.png"></img></td>
                     </tr>
                     <tr>
                       <td>Team</td>
@@ -574,7 +538,7 @@ include 'includes/nav-bar.php';
                     <tr>
                       <td>Title</td>
                       <td colspan="3">Translation of Dairy Management Tools	</td>
-                      <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/babcock_logo.jpg"></img></td>
+                      <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="assets/img/projects/babcock_logo.jpg"></img></td>
                     </tr>
                     <tr>
                       <td>Team</td>
@@ -608,7 +572,7 @@ include 'includes/nav-bar.php';
                     <tr>
                       <td>Title</td>
                       <td colspan="3">Success for Small Beginning Dairy Farmers</td>
-                      <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/NCRMEred.png" height="140" width="140"></img></td>
+                      <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="assets/img/projects/NCRMEred.png" height="140" width="140"></img></td>
                     </tr>
                     <tr>
                       <td>Team</td>
@@ -655,7 +619,7 @@ include 'includes/nav-bar.php';
                     <tr>
                       <td>Title</td>
                       <td colspan="3">Assessment of Gross Margin Insurance under Alternative Biofuels and Predicted Climatic Conditions: Implications for Wisconsin Dairy Farms</td>
-                      <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/uwlogo.png"></img></td>
+                      <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="assets/img/projects/uwlogo.png"></img></td>
                     </tr>
                     <tr>
                       <td>Team</td>
@@ -707,7 +671,7 @@ include 'includes/nav-bar.php';
                     <tr>
                       <td>Title</td>
                       <td colspan="3">Development of a Dairy Economic Decision Support System for Wisconsin</td>
-                      <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="../images/projects/uwlogo.png"></img></td>
+                      <td rowspan="5" colspan="2" class="sponsor_cell" style="vertical-align: middle;"><img height="140" src="assets/img/projects/uwlogo.png"></img></td>
                     </tr>
                     <tr>
                       <td>Team</td>

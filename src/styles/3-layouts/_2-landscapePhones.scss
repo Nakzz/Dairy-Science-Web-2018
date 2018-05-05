@@ -8,6 +8,10 @@
   }
 
 
+  .centerSmallScreen{
+    right: 38%;
+  }
+
   .landing-text-pos h2 {
       font-size: 20px;
       font-weight: 700;
@@ -79,6 +83,8 @@
 .team-member-holder {
   position: relative;
   overflow: hidden;
+  padding-top: 5%;
+padding-left: 0% !important;
 }
 
 .team-wrap .container {

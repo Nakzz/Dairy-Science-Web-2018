@@ -41,13 +41,29 @@ jQuery( document ).ready(function( $ ) {
     /* Navbar */
     		if(width < tabletWidth){
     			  $("#navLogoDiv").addClass("col-sm-offset-3");
-            $("#navMenuDiv").addClass("col-sm-offset-3");
+						//$("#navLogoDiv").addClass("col-xs-offset-2");
+            //$("#navMenuDiv").addClass("col-sm-offset-3");
 
     		} else {
           $("#navLogoDiv").removeClass("col-sm-offset-3");
+					//$("#navLogoDiv").removeClass("col-xs-offset-2");
     			  //$(".navbar-collapse").toggleClass("customNavbar");
     		}
 
+				/* Webnote */
+		    		if(width < tabletWidth){
+							$("#contactWebnote").removeClass("col-sm-5");
+		    			  $("#contactWebnote").addClass(" col-sm-12");
+								//$("#navLogoDiv").addClass("col-xs-offset-2");
+		            //$("#navMenuDiv").addClass("col-sm-offset-3");
+
+		    		} else {
+								$("#contactWebnote").removeClass(" col-sm-12");
+							$("#contactWebnote").addClass("col-sm-5");
+
+							//$("#navLogoDiv").removeClass("col-xs-offset-2");
+		    			  //$(".navbar-collapse").toggleClass("customNavbar");
+		    		}
 
 	};
 

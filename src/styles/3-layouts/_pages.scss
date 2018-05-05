@@ -9,8 +9,18 @@ background-color: $darkThemeSecondaryColor;
     text-transform: uppercase;
     font-family: $fontStackTittle;
 }
-#contact-form .sr-only{
-  color: $black;
+#contact-form {
+  .sr-only{
+    color: $black;
+  }
+
+  input::placeholder {
+  color: $bodyText;
+  }
+
+textarea::placeholder{
+    color: $bodyText;
+}
 }
 
 

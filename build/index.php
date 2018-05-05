@@ -119,11 +119,9 @@ include 'includes/nav-bar.php';
 							<div class="col-lg-5 col-md-5 col-sm-12">
 								<div class="overlay-effect effects clearfix ">
 
-<?php // TODO: make column of 3 instead of 2. Either add texts from next row, or create a logo for tools and have similiar to old website ?>
-
 									<div class="team-member">
 											<div class="team-member-holder">
-												<div style="margin-left:54px" class="">
+												<div class="">
 													<div class="team-member-image center-block">
 															<img class="center-block" alt="" src="assets/img/team/crop_victor.jpg">
 															<div class="LINKoverlay">
@@ -268,7 +266,6 @@ include 'includes/nav-bar.php';
 				<!--Links-->
 
 				<?php // TODO: add animation ?>
-				<?php //// HACK: add toggle with button? ?>
 				<div id="sponsers" class="ignite-cta text-center section-padding">
 					<div class="container">
 						<div class="row">

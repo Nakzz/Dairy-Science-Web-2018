@@ -13,51 +13,17 @@
 	<script type="text/javascript">
 
   var bugs = [
-    "1: Dash marks are showing after/before every list object",
-    "2: ",
-    "3: Jay or Mayuri picture is not square",
-    "4: page is not scrollable until 1.683 second, JS parse error? Image compression error?",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-
+    "page is not scrollable until 1.683 second, JS parse error? Image compression error?",
     ""
   ];
 
-  var review = [
-    "1: Try to get better pictures for everyone to improve overall look. If not everone, just currrent members",
-    // "2:",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
-    // "3: ",
 
-    ""
+	console.log("Known Bugs:");
+	for (var i = 0; i < (bugs.length -1); i++) {
+		console.warn(i+1 + ": "+ bugs[i]);
+	}
 
-  ];
 
-  console.log("Known Bugs:");
-  for (var i = 0; i < bugs.length; i++) {
-    console.warn(bugs[i]);
-  }
-
-  console.log("Feedback:");
-  for (var i = 0; i < review.length; i++) {
-    console.info  (review[i]);
-  }
 
   </script>
 
@@ -122,7 +88,7 @@ include 'includes/nav-bar.php';
 					<div id="portfolioSlider">
 						<ul class="slides">
 							<li>
-								<div class="col-md-4 col-sm-4 col-md-offset-2 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+								<div class="col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2  wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
 											<img src="assets/img/team/Di.jpg" alt="Portfolio Item">
@@ -432,7 +398,7 @@ include 'includes/nav-bar.php';
 									<h4 class="text-center">Claudia Hardie</h4>
 								</div>
 
-								<div class="col-md-4 col-sm-4 col-md-offset-2 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+								<div class="col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2  wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
 											<img src="assets/img/team/mayuri_valvekar.jpg" alt="Portfolio Item">
@@ -632,7 +598,7 @@ include 'includes/nav-bar.php';
 						<ul class="slides">
 							<li>
 
-								<div class="col-md-4 col-sm-4 col-md-offset-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+								<div class="col-md-4 col-sm-4 col-md-offset-4 col-sm-offset-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
 											<img src="assets/img/team/huichao.jpg" alt="Portfolio Item">
@@ -738,7 +704,7 @@ include 'includes/nav-bar.php';
 									<h4 class="text-center">Lenka Krpálková</h4>
 								</div>
 
-								<div class="col-md-4 col-sm-4  col-md-offset-2 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+								<div class="col-md-4 col-sm-4  col-md-offset-2 col-sm-offset-2  wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
 											<img src="assets/img/team/Monica_Piccardi_small.png" alt="Portfolio Item">
@@ -937,7 +903,7 @@ include 'includes/nav-bar.php';
 						<ul class="slides">
 							<li>
 
-								<div class="col-md-4 col-sm-4 col-md-offset-2 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+								<div class="col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2  wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
 											<img src="assets/img/team/francisco.png" alt="Portfolio Item">

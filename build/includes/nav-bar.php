@@ -5,14 +5,12 @@
 
 
   <nav class="navbar navbar-default " role="navigation">
-    <div id="navLogoDiv" class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+    <div id="navLogoDiv" class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
       <a class="navbar-brand" data-scroll href="index.php"><img class="img-responsive" src="assets/img/logos/transparent_logo.png" alt="logo"/></a>
     </div>
 <?php // TODO: Make logo bigger in larger screen. do it how ever ?>
      <div class="navbar-header">
-       <div  class="col-sm-6 col-xs-6  col-sm-offset-1 col-xs-offset-1">
-
-
+       <div  class="col-sm-6 col-xs-12 centerSmallScreen col-sm-offset-1">
       <button name="buttonNav" id="navbarbutton" type="button" class="navbar-toggle">
        <span class="sr-only">Toggle navigation</span>
        <span class="icon-bar"></span>
