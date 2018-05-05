@@ -1,3 +1,9 @@
+V:1.04 -
+- Added new images
+- Added cache control for faster page
+- Google Optimized images added
+- Added preloader
+
 V:1.03 -
 - Links added to footer logos.
 - Database connected
@@ -5,6 +11,8 @@ V:1.03 -
 - Publications page parse from DB
 - Projects page parse from DB
 - Presentation page parse from DB
+- Smaller Device incompatibility
+- Bug Fixes
 
 V:1.02 - 05/01/2018
 - Fix minor bugs.

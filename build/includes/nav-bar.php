@@ -77,11 +77,11 @@
 
              <li><a href="links.php">Links</a>
                    <ul> <?php // TODO: The links bellow should be conected to link pages ?>
-                     <!-- <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="link.php#collapse1">Magazines</a></li>
-                     <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse2">DairyMGT</a></li>
-                     <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse3">Additional</a></li>
-                     <li><a class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapse4">University</a></li>
-                     <li><a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion" href="#collapse5">Grants</a></li> -->
+                     <li><a href="link.php#magazines">Magazines</a></li>
+                     <li><a href="link.php#DairyMGT">DairyMGT</a></li>
+                     <li><a href="link.php#Additional">Additional</a></li>
+                     <li><a href="link.php#University">University</a></li>
+                     <li><a  href="link.php#Grants">Grants</a></li>
                      <li><a href="../admin" target="_blank">Admin Portal</a></li>
 
                    </ul>
@@ -94,3 +94,9 @@
     </div>
 </div>
 </div>
+
+<!--PRELOADER-->
+<div class="preloader">
+<div class="status"></div>
+</div>
+<!--/PRELOADER-->

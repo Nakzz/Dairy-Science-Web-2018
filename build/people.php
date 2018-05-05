@@ -126,9 +126,9 @@ include 'includes/nav-bar.php';
 								Then she obtained a MS degree in Animal Science from the University of Kentucky,
 								focused on dairy health economics. Di completed her PhD in August 2017 and now she
 								is working as a postdoc in the UW2020 virtual dairy farm brain project.
-								<blockquote>
+								<!-- <blockquote>
 									<p>Idea: Maybe timeline or something?</p>
-								</blockquote>
+								</blockquote> -->
 							</div>
 							<div class="sp-social">
 								<ul>
@@ -254,9 +254,9 @@ include 'includes/nav-bar.php';
 						After that she attended Nestle DFI L4 advanced dairy management course. Her PhD program started at
 						 Spring 2017 under the guidance of Dr. Cabrera. She is currently working on generating a holistic
 						 dairy farm management tool and closely working with the Integrated Farm System Model.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -434,9 +434,9 @@ include 'includes/nav-bar.php';
 					<div class="sp-name"><strong>Jorge Barrientos</strong><br/>M.S. Student</div>
 					<div class="sp-dsc">
 						Jorge is from Costa Rica. He had his Agronomy B.S. from the Tecnológico de Costa Rica, San Carlos. Later, he obtained a MS degree in Agricultural Economics from Purdue University, focused on dairy reproduction economics. Since June 2017 he started a Master degree in Dairy Science at the University of Wisconsin-Madison under the guidance of Dr. Cabrera. He is currently working on Nutritional grouping strategies and dairy diet precision analysis in Wisconsin dairy farms.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -518,9 +518,9 @@ include 'includes/nav-bar.php';
 						are in the area of Dairy Economics, Farm management and decision systems modeling.
 						<br>
 						Mayuri is working under the guidance of Dr. Cabrera starting her Master studies in Dairy Science at the UW-Madison.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -551,9 +551,9 @@ include 'includes/nav-bar.php';
 						<br>
 						Jay is currently starting his M.S. studies in the Dairy Science Department, UW-Madison, working on evaluating
 						the economics of dairy expansion under the guidance of Dr. Cabrera.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -623,9 +623,9 @@ include 'includes/nav-bar.php';
 					<div class="sp-name"><strong>Huichao Zheng</strong><br/>Sabbatical Researcher</div>
 					<div class="sp-dsc">
 						Dr. Huichao Zheng is an associate professor and extension specialist at the Institute of Animal Husbandry and Veterinary Sciences, Zhejiang Academy of Agricultural Sciences. Dr. Huichao Zheng research area is herbivore feed resource development and nutrition regulation. Dr. Huichao Zheng paid more attention on herbivore farm management and big data analysis in the recent years. During her short career, Dr. Huichao Zheng has published more than 20 refereed articles with 3 in English, applied for 2 patents with 1 patent granted, and given talks or presentation in more than 10 symposium and extension meetings in Zhejiang, Jiangsu, Hunan, Hubei province and abroad like USA. Dr. Huichao Zheng has attracted about ￥1.0 million to support her research and extension initiatives. Dr. Huichao Zheng achieved 1 Zhejiang First Prize in Science & Technology in 2013 and 1 Zhejiang Third Prize in Science & Technology in 2008, as the third accomplisher at ZAAS. Dr. Huichao Zheng gained Zhejiang Second Prize in Science & Technology in 2006 as the fifth accomplisher at Zhejiang University.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -670,7 +670,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/ramon.png" alt="Portfolio Item">
+											<img src="assets/img/team/ramon.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-12"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -742,9 +742,9 @@ include 'includes/nav-bar.php';
 					<div class="sp-name"><strong>Ramón Mur</strong><br/>Intern</div>
 					<div class="sp-dsc">
 						Ramón grew up between cows in a small farm in the deep of Spanish mountains. While working every weekend and holiday in his family farm he became Agricultural Engineer specialized in Animal Production in the University of Lleida. Since 2014 he is carrying out a PhD in Dairy Cattle Reproduction and working as consultant and reproductive technician in commercial farms under the supervision of Dr. Fernando López-Gatius. His target as researcher is to find ways to improve farms profitability and farmers quality of life. During his internship in Dr. Victor Cabrera lab he is developing tools that combine farm data with scientific knowledge to assist decisions in dairy farms.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -796,9 +796,9 @@ include 'includes/nav-bar.php';
 						dairy herd management topics. As part of her PhD studies she worked for 5 months under the guidance of Dr. Cabrera at
 						the Dairy Science Department at the University of Wisconsin-Madison (USA) as an intern. She dealt mainly with optimum
 						replacement decisions in dairy herds and dairy herd economics.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -826,9 +826,9 @@ include 'includes/nav-bar.php';
 						Wiltbank at the Dairy Science Department at the University of Wisconsin-Madison (USA) as an intern. She studied
 						the trends and patterns of culling in Wisconsin dairy herds and also in Argentinean dairy herds. Her research
 						interests are in the area of Dairy Economics, Farm management and decision systems modeling.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -857,9 +857,9 @@ include 'includes/nav-bar.php';
 						administration of organizations of the Department of Agricultural Sciences at the National University of "Litoral"
 						(http://www.fca.unl.edu.ar). As a part of a grant from the University of Wisconsin-Madison Babcock Institute, Emiliano is
 						working to translate and adjust some decision support tools to the Argentinian conditions.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -906,7 +906,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2  wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/francisco.png" alt="Portfolio Item">
+											<img src="assets/img/team/francisco.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-17"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -945,9 +945,9 @@ include 'includes/nav-bar.php';
 						of Dairy Science, UW-Madison in the genomic selection and herd management tools to improve feed efficiency of the dairy
 						industry project under the supervision of Dr. Lou Armentano and in collaboration with Dr. Victor Cabrera. In addition, Dr.
 						Contreras-Govea is conducting field and laboratory research in topics related to silage fermentation of ensiled crops.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -1143,9 +1143,9 @@ include 'includes/nav-bar.php';
 						of Dairy Science, UW-Madison in the genomic selection and herd management tools to improve feed efficiency of the dairy
 						industry project under the supervision of Dr. Lou Armentano and in collaboration with Dr. Victor Cabrera. In addition, Dr.
 						Contreras-Govea is conducting field and laboratory research in topics related to silage fermentation of ensiled crops.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -1216,9 +1216,9 @@ include 'includes/nav-bar.php';
 					<div class="sp-name"><strong>Zachary Harrison</strong><br/>Project Assistant (Past)</div>
 					<div class="sp-dsc">
 						Zachary is currently responsible for Web Based Application Development, WebSite Development and IT support for Dr Cabrera and the Dairy Management group. He joined the team in January 2018. Zachary is pursuing his undergraduate degree in Computer Engineering and Computer Science at UW-Madison.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -1239,9 +1239,9 @@ include 'includes/nav-bar.php';
 					<div class="sp-dsc">
 						Pedro is responsible for Web Based Application Development, WebSite Developement and IT support for Dairy Management group.
 						He joined the team in July 2013. Pedro is pursuing his Ph.D in Computer Engineering at UW-Madison.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -1262,9 +1262,9 @@ include 'includes/nav-bar.php';
 					<div class="sp-dsc">
 						Prasanth is also responsible for Web Based Application Development, WebSite Developement and IT support for Dairy Management
 						group. He joined the team in January 2015. Prasanth is pursuing his Masters in Computer Sciences at UW-Madison.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -1286,9 +1286,9 @@ include 'includes/nav-bar.php';
 						Sathiya is also responsible for Web Based Application Development, WebSite Developement and IT support for
 						Dairy Management group. He joined the team in September 2013. Sathiya is pursuing his Masters in Computer Sciences
 						at UW-Madison.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -1315,9 +1315,9 @@ include 'includes/nav-bar.php';
 						He is passionate about technology and its innovative use. In his spare time he enjoys thermocole carving,
 						hiking, and playing volley ball.
 
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -1339,9 +1339,9 @@ include 'includes/nav-bar.php';
 						Anjali is currently responsible for WebSite Developement, Web Based Application Development,
 						IT support for Dr Cabrera & Dairy Management Team. She joined the team in Feb 2012. She is
 						currently pursuing her Masters in electrical engineering at UW Madison.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -1364,9 +1364,9 @@ include 'includes/nav-bar.php';
 						Krishnendra is currently responsible for Web Based Application Development, WebSite Developement and IT
 						support for Dr Cabrera & Dairy Management. He joined the team in December 2010. Krishnendra is pursuing
 						his Masters in Computer Engineering at UW-Madison.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>
@@ -1388,9 +1388,9 @@ include 'includes/nav-bar.php';
 						Nikhil was responsible for Web Based Application Development, WebSite Developement and IT support for Dr Cabrera
 						& Dairy Management. He joined the team in August 2008 and continued till December 2010. Nikhil is pursuing his
 						Masters in Electrical & Computer Engineering at UW-Madison.
-						<blockquote>
+						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
-						</blockquote>
+						</blockquote> -->
 					</div>
 					<div class="sp-social">
 						<ul>

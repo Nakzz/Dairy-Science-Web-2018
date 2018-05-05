@@ -9,6 +9,13 @@ head tags should be in each file. add the follow in each page head element.
 
 
 -->
+<?php
+
+  //or, if you DO want a file to cache, use:
+  //header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30days)
+
+?>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
 

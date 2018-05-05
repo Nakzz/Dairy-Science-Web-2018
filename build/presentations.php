@@ -118,6 +118,7 @@ include 'includes/nav-bar.php';
         }
       } ?>
     </select>
+
   </div>
 
       <div class="col-sm-12 paddingtopsmall">
@@ -125,7 +126,6 @@ include 'includes/nav-bar.php';
         <div id="accordion">
 
           <?php
-
           $categories = DB::query("SELECT * FROM categories");
           if($categories)
           {

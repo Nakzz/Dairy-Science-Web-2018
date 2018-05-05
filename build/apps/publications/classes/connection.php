@@ -1,7 +1,7 @@
 <?php
 include('mysql.class.php');
 DB::$user = 'root';
-DB::$password = 'a';
+DB::$password = 'Mysql@Dairymgt#@!1';
 DB::$dbName = 'presentations';
 DB::$host = 'localhost';
 

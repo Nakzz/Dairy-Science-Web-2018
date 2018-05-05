@@ -21,7 +21,7 @@ var paths = {
 
 gulp.task('thumbnailGen', function() {
 
-    gulp.src(['./src/team/**/*.png', './src/team/*.jpg'])
+    gulp.src(['./src/team/*.png', './src/team/*.jpg'])
         .pipe(imageResize({
             width: 103,
             height: 103

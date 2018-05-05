@@ -42,11 +42,7 @@
 
 <body id="top" data-spy="scroll" data-target=".header" data-offset="80">
 
-	<!--PRELOADER
-	<div class="preloader">
-	<div class="status"></div>
-</div>
-<!--/PRELOADER-->
+
 
 <!--HEADER-->
 
@@ -280,24 +276,24 @@ include 'includes/nav-bar.php';
 										<i class="fas fa-chevron-down"></i>
 										<span>Links</span></a>
 
-							<div id="SlideOnClick" class="col-lg-12 col-md-12  fadeInDown">
+							<div id="SlideOnClick" class="col-lg-12 col-md-12 ">
 								<!-- Service row 1 -->
 								<div class="row paddingtopsmall">
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="service-box">
 											<div class="service-box-content">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://www.wisc.edu/" target="_blank">University of Wisconsin - Madison</a>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="service-box">
 											<div class="service-box-content">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://www.uwex.edu/" target="_blank">UW - Cooperative Extension</a>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="service-box">
 											<div class="service-box-content">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://dysci.wisc.edu/" target="_blank">UW - Dairy Science</a>
@@ -309,21 +305,21 @@ include 'includes/nav-bar.php';
 
 								<!-- Service row 2 -->
 								<div class="row">
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="service-box">
 											<div class="service-box-content">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://fyi.uwex.edu/dairy/" target="_blank">UW – Extension Dairy Team</a>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="service-box">
 											<div class="service-box-content">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://paulfricke.dysci.wisc.edu/" target="_blank">Dairy Cattle Reproduction</a>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="service-box">
 											<div class="service-box-content">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://www.uwex.edu/ces/dairynutrition/" target="_blank">Dairy Cattle Nutrition</a>
@@ -338,7 +334,7 @@ include 'includes/nav-bar.php';
 
 
 
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="service-box">
 											<div class="service-box-content">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://cdp.wisc.edu/" target="_blank">UW Center for Dairy Profitability</a>
@@ -346,21 +342,21 @@ include 'includes/nav-bar.php';
 										</div>
 									</div>
 
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="service-box">
 											<div class="service-box-content">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://dairynutrient.wisc.edu/" target="_blank">UW Dairy Nutrient</a>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 wow fadeIn">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="service-box">
 											<div class="service-box-content">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://future.aae.wisc.edu/" target="_blank">Understanding Dairy Markets</a>
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-lg-offset-4 col-md-offset-4 wow fadeIn">
+									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 col-lg-offset-4 col-md-offset-4">
 										<div class="service-box">
 											<div class="service-box-content">
 													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://milkquality.wisc.edu/" target="_blank">Milk Quality</a>

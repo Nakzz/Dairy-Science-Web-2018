@@ -9686,7 +9686,7 @@ ul.legals li:last-child::after {
   margin: 0 auto; }
 
 .avatar12 {
-  background-image: url("../assets/img/team/thumbnail/ramon.png");
+  background-image: url("../assets/img/team/thumbnail/ramon.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #ffffff;
@@ -9746,7 +9746,7 @@ ul.legals li:last-child::after {
   margin: 0 auto; }
 
 .avatar17 {
-  background-image: url("../assets/img/team/thumbnail/francisco.png");
+  background-image: url("../assets/img/team/thumbnail/francisco.jpg");
   background-repeat: no-repeat;
   background-position: center center;
   background-color: #ffffff;
@@ -10481,11 +10481,11 @@ h2 {
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
   .navBarVertical {
-    padding-top: 25px !important; }
+    padding-top: 20px !important; }
   .navbar-brand img {
     width: 95%; }
   .team-member-holder {
-    padding-left: 15%; }
+    padding-left: 30%; }
   .paddingtop {
     padding-top: 120px !important; }
   .paddingbottomsmall {
@@ -10626,7 +10626,6 @@ footer {
       font-family: raleway;
       font-size: 1em;
       font-weight: 500;
-      letter-spacing: 0.2em;
       text-transform: uppercase; }
     .customNavbar ul li:hover {
       background-color: rgba(0, 0, 0, 0.5); }
