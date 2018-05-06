@@ -1485,17 +1485,17 @@ th {
       padding: 8px;
       line-height: 1.42857143;
       vertical-align: top;
-      border-top: 1px solid #ddd;
+      border-top: 1px solid #1bce7c;
     }
     thead > tr > th {
       vertical-align: bottom;
-      border-bottom: 2px solid #ddd;
+      border-bottom: 2px solid #1bce7c;
     }
     caption + thead > tr:first-child > th, colgroup + thead > tr:first-child > th, thead:first-child > tr:first-child > th, caption + thead > tr:first-child > td, colgroup + thead > tr:first-child > td, thead:first-child > tr:first-child > td {
       border-top: 0;
     }
     tbody + tbody {
-      border-top: 2px solid #ddd;
+      border-top: 2px solid #1bce7c;
     }
   }
   .table {

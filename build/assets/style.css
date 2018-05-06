@@ -1179,14 +1179,14 @@ th {
     padding: 8px;
     line-height: 1.42857143;
     vertical-align: top;
-    border-top: 1px solid #ddd; }
+    border-top: 1px solid #1bce7c; }
   .table > thead > tr > th {
     vertical-align: bottom;
-    border-bottom: 2px solid #ddd; }
+    border-bottom: 2px solid #1bce7c; }
   .table > caption + thead > tr:first-child > th, .table > colgroup + thead > tr:first-child > th, .table > thead:first-child > tr:first-child > th, .table > caption + thead > tr:first-child > td, .table > colgroup + thead > tr:first-child > td, .table > thead:first-child > tr:first-child > td {
     border-top: 0; }
   .table > tbody + tbody {
-    border-top: 2px solid #ddd; }
+    border-top: 2px solid #1bce7c; }
   .table .table {
     background-color: #fff; }
 
@@ -10760,6 +10760,17 @@ footer {
       color: #1bd982;
       font-weight: 900;
       padding-right: .5em; }
+  .titleSection .styledLists ol li {
+    font-size: 1.1em;
+    padding-left: 1em;
+    padding-bottom: .2em;
+    padding-top: .9em;
+    border-bottom: 1px solid #1bd9827a; }
+    .titleSection .styledLists ol li::before {
+      content: '-';
+      color: #1bd982;
+      font-weight: 900;
+      padding-right: .5em; }
 
 .titleSection2 {
   padding-bottom: 2%;
@@ -10814,6 +10825,17 @@ footer {
     padding-left: 1em;
     padding-bottom: .5em; }
     .titleSection2 .styledLists ul li::before {
+      content: '-';
+      color: #1bd982;
+      font-weight: 900;
+      padding-right: .5em; }
+  .titleSection2 .styledLists ol li {
+    font-size: 1.1em;
+    padding-left: 1em;
+    padding-bottom: .2em;
+    padding-top: .9em;
+    border-bottom: 1px solid #1bd9827a; }
+    .titleSection2 .styledLists ol li::before {
       content: '-';
       color: #1bd982;
       font-weight: 900;
@@ -10891,6 +10913,17 @@ footer {
       color: #1bd982;
       font-weight: 900;
       padding-right: .5em; }
+  .bodySection .styledLists ol li {
+    font-size: 1.1em;
+    padding-left: 1em;
+    padding-bottom: .2em;
+    padding-top: .9em;
+    border-bottom: 1px solid #1bd9827a; }
+    .bodySection .styledLists ol li::before {
+      content: '-';
+      color: #1bd982;
+      font-weight: 900;
+      padding-right: .5em; }
 
 .footerSection {
   margin-top: 5%;
@@ -10936,6 +10969,17 @@ footer {
     padding-left: 1em;
     padding-bottom: .5em; }
     .footerSection .styledLists ul li::before {
+      content: '-';
+      color: #1bd982;
+      font-weight: 900;
+      padding-right: .5em; }
+  .footerSection .styledLists ol li {
+    font-size: 1.1em;
+    padding-left: 1em;
+    padding-bottom: .2em;
+    padding-top: .9em;
+    border-bottom: 1px solid #1bd9827a; }
+    .footerSection .styledLists ol li::before {
       content: '-';
       color: #1bd982;
       font-weight: 900;

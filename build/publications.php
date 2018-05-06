@@ -160,7 +160,7 @@ include 'includes/nav-bar.php';
         <div href="#collapse<?php echo $count?>" class="atab well ">
           <input id="accordion<?php echo $accordion?>" type="checkbox" name="tabs">
           <label for="accordion<?php echo $accordion?>"><?php echo $v['name'];?></label>
-          <div class="atab-content">
+          <div class="atab-content styledLists">
 
             <ol>
               <?php $sub_cats = DB::query("SELECT * FROM pub_categories where parent=".$v['id']);
