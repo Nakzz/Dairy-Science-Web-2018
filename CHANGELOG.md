@@ -1,3 +1,13 @@
+V:1.07-
+- Debug admin panel
+- Added analytics
+- 
+
+V:1.06-
+- Created PHP scripts to automate tools file transfer
+- Added style to Tools and Presentation
+- Added admin panel
+
 V:1.04 -
 - Added new images
 - Added cache control for faster page

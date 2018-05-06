@@ -101,9 +101,9 @@ include 'includes/nav-bar.php';
    <div class="atab-content">
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//feedval.png" alt="...">
    <div class="media-body"><strong><p>Estimates the market value of dairy feed ingredients</p></strong>
-   <p>Online Tool <a href="../tools/feedval_12_v2/index.php" target="_blank">(Open)</a></p>
-   <!--   <p>Online Tool <a href="../tools/feedval_12/index.php"   target="_blank">(Open)</a></p> -->
-   <p>Presentation <a href="../presentations/Wisconsin_Audience/2012_Millhome_Kaukauna.pdf" target="_blank">(Download)</a></p>
+   <p>Online Tool <a href="tools/feedval_12_v2/index.php" target="_blank">(Open)</a></p>
+   <!--   <p>Online Tool <a href="tools/feedval_12/index.php"   target="_blank">(Open)</a></p> -->
+   <p>Presentation <a href="presentations/Wisconsin_Audience/2012_Millhome_Kaukauna.pdf" target="_blank">(Download)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/PX1alKkHObQ?rel=0">Link to the video.</a>
    <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe>
  </div>
@@ -116,11 +116,11 @@ include 'includes/nav-bar.php';
    <div class="atab-content">
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//cluster.png" alt="...">
    <div class="media-body"> <strong><p>Evaluates grouping strategies for feeding lactating dairy     cattle</p></strong>
-   <p>HTML Online Tool <a href="../tools/grouping_strategy/index.php" target="_blank">(Open)</a></p>
-   <p>Instructions and Documentation <a href="../tools/cluster/FeedGrouping.pdf" target="_blank">(Download)</a></p>
-   <p>Presentation 1 <a href="../publications/2012_Cabrera_4-State_Presentation.pdf" target="_blank">(Download)</a></p>
-   <p>Presentation 2 <a href="../tools/cluster/Lactating_Dairy_Cattle_Feeding_Grouping.pdf" target="_blank">(Download)</a></p>
-   <p>Paper <a href="../publications/2012_Cabrera_4-State_Paper.pdf" target="_blank">(Download)</a></p>
+   <p>HTML Online Tool <a href="tools/grouping_strategy/index.php" target="_blank">(Open)</a></p>
+   <p>Instructions and Documentation <a href="tools/cluster/FeedGrouping.pdf" target="_blank">(Download)</a></p>
+   <p>Presentation 1 <a href="publications/2012_Cabrera_4-State_Presentation.pdf" target="_blank">(Download)</a></p>
+   <p>Presentation 2 <a href="tools/cluster/Lactating_Dairy_Cattle_Feeding_Grouping.pdf" target="_blank">(Download)</a></p>
+   <p>Paper <a href="publications/2012_Cabrera_4-State_Paper.pdf" target="_blank">(Download)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the  Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/ycPExNW_RSE?rel=0">Link to the  video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
@@ -133,7 +133,7 @@ include 'includes/nav-bar.php';
    <div class="media-body">
    <p><strong>This tool is a “live” summary of data collected from a survey sent to 1,771 farms from Wisconsin and Michigan (WI=971, MI=800) in 2012.</strong></p>
    <p>Online Tool (<a href="/tools/ds/index.php" target="_blank">Open</a>) </p>
-   <p>Paper (<a href="../publications/papers/WisMi.pdf" target="_blank">Download</a>) </p>
+   <p>Paper (<a href="publications/papers/WisMi.pdf" target="_blank">Download</a>) </p>
    </div>
        </div>
    </div>
@@ -144,9 +144,9 @@ include 'includes/nav-bar.php';
    <div class="atab-content">
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//optigen.png" alt="...">
    <div class="media-body"> <strong><p>Calculates the econnomic value of using Optigen® with lactating    cows. Optigen® replaces a user-defined source of protein and adds a    user-defined source of energy</p></strong>
-   <p>HTML Online Tool <a href="../tools/optigen/index.php" target="_blank">(Open)</a> </p>
-   <p>Poster <a href="../publications/presentations/2009_ADSA_Inostroza.pdf" target="_blank">(Download)</a></p>
-   <p>Paper <a href="../publications/Inostroza_etal_10.pdf" target="_blank">(Download)</a> </p>
+   <p>HTML Online Tool <a href="tools/optigen/index.php" target="_blank">(Open)</a> </p>
+   <p>Poster <a href="publications/presentations/2009_ADSA_Inostroza.pdf" target="_blank">(Download)</a></p>
+   <p>Paper <a href="publications/Inostroza_etal_10.pdf" target="_blank">(Download)</a> </p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the        Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/csuIg9zD_W4?rel=0">Link to the        video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
@@ -160,8 +160,8 @@ include 'includes/nav-bar.php';
    <p>Excel SpreadSheet <a href="../oldtools/iofsc/spreadsheet.php" target="_blank">(Download)</a></p>
    <p>Instructions <a href="../oldtools/iofsc/IOFSC.pdf" target="_blank">(Download)</a> </p>
    <p>Documentation <a href="../oldtools/iofsc/IOFSC_doc.pdf" target="_blank">(Download)</a> </p>
-   <p>Presentation <a href="../publications/presentations/2009_4STATE_Cabrera.pdf" target="_blank">(Download)</a></p>
-   <p>Paper <a href="../publications/papers/2009_4State_Cabrera.pdf" target="_blank">(Download)</a></p>
+   <p>Presentation <a href="publications/presentations/2009_4STATE_Cabrera.pdf" target="_blank">(Download)</a></p>
+   <p>Paper <a href="publications/papers/2009_4State_Cabrera.pdf" target="_blank">(Download)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the        Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/t8TW-QjUmLU?rel=0">Link to the        video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> <strong><p>Spanish (Argentinian) version: Margen Sobre Los Gastos de  Concentrado</p></strong>
    <p>Hoja de Cálculo en Excel <a href="../oldtools/iofsc/MSGC/MSGC.xlsm" target="_blank">(Abrir)</a></p>
    <p>Instrucciones en PDF <a href="../oldtools/iofsc/MSGC/MSGC.pdf" target="_blank">(Descargar)</a></p>
@@ -178,7 +178,7 @@ include 'includes/nav-bar.php';
    <div class="media-body"> <strong><p>Benchmarks feed costs and income over feed cost (IOFC) for a     group of participating herds</p></strong>
    <p>Web-based Database System <a href="../iofscdb/login.php" target="_blank">(Open)</a> </p>
    <p>Documentation <a href="../iofscdb/WIFeedEvaluator.pdf" target="_blank">(Open)</a> </p>
-   <p>Presentation <a href="../publications/presentations/2010_4STATE_Cabrera.pdf" target="_blank">(Download)</a></p>
+   <p>Presentation <a href="publications/presentations/2010_4STATE_Cabrera.pdf" target="_blank">(Download)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/M32GIqqcguQ?rel=0">Link to the video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
@@ -189,10 +189,10 @@ include 'includes/nav-bar.php';
    <div class="atab-content">
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//cornfeeding.png" alt="...">
    <div class="media-body"> <strong><p>Calculates the income over feed cost (IOFC), the marginal value of milk to corn, and the optimal level of corn usage for defined milk price, feed costs, and stage of lactation</p></strong>
-   <p>Online Tool <a href="../tools/CornFeeding/index.php" target="_blank">(Open)</a> </p>
-   <p>Flash Online Tool <a href="../tools/CornFeeding/Corn.php" target="_blank">(Open)</a> </p>
+   <p>Online Tool <a href="tools/CornFeeding/index.php" target="_blank">(Open)</a> </p>
+   <p>Flash Online Tool <a href="tools/CornFeeding/Corn.php" target="_blank">(Open)</a> </p>
    <p>Excel Spreadsheet <a href="../oldtools/CornFeeding/spreadsheet.php" target="_blank">(Download)</a></p>
-   <p>Presentation <a href="../presentations/HealthClinic_Dec08.pdf" target="_blank">(Download)</a></p>
+   <p>Presentation <a href="presentations/HealthClinic_Dec08.pdf" target="_blank">(Download)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the       Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/eylM-7r8wMg?rel=0">Link to the       video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
@@ -203,8 +203,8 @@ include 'includes/nav-bar.php';
    <div class="atab-content">
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//iofc.png" alt="...">
    <div class="media-body"> <strong><p>Calculates the income over feed cost (IOFC), the marginal value   of milk to corn, and the optimal level of corn usage for defined   milk price, feed costs, and stage of lactation</p></strong>
-   <p>HTML Online Tool <a href="../tools/iofc/index.php" target="_blank">(Open)</a></p>
-   <p>Flash Online Tool <a href="../tools/iofc/IOFC.php" target="_blank">(Open)</a></p>
+   <p>HTML Online Tool <a href="tools/iofc/index.php" target="_blank">(Open)</a></p>
+   <p>Flash Online Tool <a href="tools/iofc/IOFC.php" target="_blank">(Open)</a></p>
    <p>Documentation <a href="../oldtools/CornFeeding/Corn-to-Milk081908.pdf" target="_blank">(Download)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the    Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/PZ7qzJNQNhg?rel=0">Link to the    video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
@@ -216,8 +216,8 @@ include 'includes/nav-bar.php';
    <div class="atab-content">
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//dairyration.png" alt="...">
    <div class="media-body"> <strong><p>Estimates the break-even milk production needed to pay for a        ration feed additive ingredient</p></strong>
-   <p>HTML Online Tool <a href="../tools/DairyRation/index.php" target="_blank">(Open)</a> </p>
-   <p>Flash Online Tool <a href="../tools/DairyRation/Additive.php" target="_blank">(Open)</a></p>
+   <p>HTML Online Tool <a href="tools/DairyRation/index.php" target="_blank">(Open)</a> </p>
+   <p>Flash Online Tool <a href="tools/DairyRation/Additive.php" target="_blank">(Open)</a></p>
    <p>Documentation <a href="../oldtools/DairyRation/Additive.pdf" target="_blank">(Open)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the  Video)</a></p> <a class="video_link not_seen"
        href="http://www.youtube.com/embed/57REqVNakKk?rel=0">Link to the  video.</a> <iframe class="video not_seen" width="560"
@@ -238,7 +238,7 @@ include 'includes/nav-bar.php';
    <div class="atab-content">
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//heifer_pregnancy_rate.png" alt="...">
    <div class="media-body"> <strong><p>Calculates the true heifer pregnancy rate of a herd.</p></strong>
-   <p>Online Tool (<a href="../tools/heifer_pregnancy_rate/index.php" target="_blank">Open</a>)</p>
+   <p>Online Tool (<a href="tools/heifer_pregnancy_rate/index.php" target="_blank">Open</a>)</p>
    <p>Excel Spreadsheet (<a href="../oldtools/heifer_pregnancy_rate/spreadsheet.php" target="_blank">Download</a>)</p>
    <p>A snapshot of the tool.</p>
    </div>
@@ -251,8 +251,8 @@ include 'includes/nav-bar.php';
    <div class="atab-content">
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//costbenefit.png" alt="...">
    <div class="media-body"> <strong><p>Evaluates the use of accelerated heifer feeding programs with    respect to conventional feeding programs</p></strong>
-   <p>HTML Online Tool (<a href="../tools/CostBenefit/index.php" target="_blank">Open</a>)</p>
-   <p>Flash Online Tool (<a href="../tools/CostBenefit/Accelerated.php" target="_blank">Open</a>)</p>
+   <p>HTML Online Tool (<a href="tools/CostBenefit/index.php" target="_blank">Open</a>)</p>
+   <p>Flash Online Tool (<a href="tools/CostBenefit/Accelerated.php" target="_blank">Open</a>)</p>
    <p>Documentation (<a href="../oldtools/CostBenefit/Accelerated_000.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the     Video)</a></p> <a class="video_link not_seen"
        href="http://www.youtube.com/embed/ITwU-L9-9t0?rel=0">Link to the     video.</a> <iframe class="video not_seen"
@@ -266,13 +266,13 @@ include 'includes/nav-bar.php';
    <div class="atab-content">
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//sexed_semen.png" alt="...">
    <div class="media-body"> <strong><p>Estimates the difference of the net present value of various sexed semen reproductive programs and a conventional semen reproductive program for dairy heifers</p></strong>
-   <p>HTML Online Tool (<a href="../tools/sexed_semen/index.php" target="_blank">Open</a>)</p>
+   <p>HTML Online Tool (<a href="tools/sexed_semen/index.php" target="_blank">Open</a>)</p>
    <p>Flash Online Tool (<a href="../oldtools/sexed_semen/EV_SexedSemen.swf" target="_blank">Open</a>)</p>
    <p>Flash Offline Tool (<a href="../oldtools/sexed_semen/EV_SexedSemen.pdf" target="_blank">Download</a>)</p>
    <p>Instructions (<a href="../oldtools/sexed_semen/NPVSexedSemen.pdf" target="_blank">Download</a>)</p>
    <p>Documentation (<a href="../oldtools/sexed_semen/DCRC_Meeting_09.pdf" target="_blank">Download</a>)</p>
-   <p>Presentation (<a href="../publications/presentations/2009_DCRC_Cabrera(c).pdf" target="_blank">Download</a>)</p>
-   <p>Paper (<a href="../publications/papers/2009_DCRC_Cabrera.pdf" target="_blank">Download</a>)</p>
+   <p>Presentation (<a href="publications/presentations/2009_DCRC_Cabrera(c).pdf" target="_blank">Download</a>)</p>
+   <p>Paper (<a href="publications/papers/2009_DCRC_Cabrera.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the     Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/_h7-VbrzZXQ?rel=0">Link to the     video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe>
    <p>Spanish Version (Argentina)</p>
@@ -291,7 +291,7 @@ include 'includes/nav-bar.php';
    <div class="atab-content">
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//heiferreplacement.png" alt="...">
    <div class="media-body"> <strong><p>Calculates the number of heifers needed as replacement to  maintain constant the herd size in the long-term</p></strong>
-   <p>Online Tool (<a href="../tools/heifer_replacement/index.php" target="_blank">Open</a>)</p>
+   <p>Online Tool (<a href="tools/heifer_replacement/index.php" target="_blank">Open</a>)</p>
    <p>Excel SpreadSheet (<a href="../oldtools/heifer_replacement/spreadsheet.php" target="_blank">Download</a>)</p>
    <p>Documentation (<a href="../oldtools/heifer_replacement/Heifer_Replacement.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the      Video)</a></p>
@@ -308,7 +308,7 @@ include 'includes/nav-bar.php';
    <div class="atab-content">
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//heiferbreakeven.png" alt="...">
    <div class="media-body"> <strong><p>Calculates the total cost of raising heifers in three points in    time: at 12 months, 24 months, and after 24 months</p></strong>
-   <p>Online Tool (<a href="../tools/heifer_breakeven/index.php" target="_blank">Open</a>)</p>
+   <p>Online Tool (<a href="tools/heifer_breakeven/index.php" target="_blank">Open</a>)</p>
    <p>Excel SpreadSheet (<a href="../oldtools/heifer_breakeven/spreadsheet.php" target="_blank">Download</a>)</p>
    <p>Documentation (<a href="../oldtools/heifer_breakeven/Heifer_Breakeven.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the     Video)</a></p>
@@ -323,9 +323,9 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//HSS.png" alt="...">
    <div class="media-body">
    <p><strong>Simulates on a monthly basis the dynamics of a dairy herd population, including the future make-up of the herd</strong></p>
-   <p>Online Tool <a href="../tools/hss/hss.php" target="_blank">(Open)</a> </p>
-   <p>Excel Spreadsheet <a href="../tools/hss/docs/spreadsheet.php" target="_blank">(Download)</a></p>
-   <p>Documentation <a href="../tools/hss/docs/HSSModel.pdf" target="_blank">(Download)</a> </p>
+   <p>Online Tool <a href="tools/hss/hss.php" target="_blank">(Open)</a> </p>
+   <p>Excel Spreadsheet <a href="tools/hss/docs/spreadsheet.php" target="_blank">(Download)</a></p>
+   <p>Documentation <a href="tools/hss/docs/HSSModel.pdf" target="_blank">(Download)</a> </p>
    </div>
        </div>
    </div>
@@ -357,10 +357,10 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//economic_cow_value.png" alt="...">
    <div class="media-body">
    <p><strong>Calculates the projected net return of a cow or the entire     herd.</strong></p>
-   <p>Online Tool (<a href="../tools/cow_value_resp/index.php" target="_blank">Open</a>)</p>
-   <p>Presentation (<a href="../presentations/Wisconsin_Audience/2012_Madison.pdf" target="_blank">Download</a>)</p>
-   <p>Paper (<a href="../publications/2012_JDS_Cabrera.pdf" target="_blank">Download</a>) </p>
-   <p>Magazine Article (<a href="../publications/2012_Hoards_Cabrera.pdf" target="_blank">Download</a>)</p>
+   <p>Online Tool (<a href="tools/cow_value_resp/index.php" target="_blank">Open</a>)</p>
+   <p>Presentation (<a href="presentations/Wisconsin_Audience/2012_Madison.pdf" target="_blank">Download</a>)</p>
+   <p>Paper (<a href="publications/2012_JDS_Cabrera.pdf" target="_blank">Download</a>) </p>
+   <p>Magazine Article (<a href="publications/2012_Hoards_Cabrera.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the      Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/qCCj1fa-UXw?rel=0">Link to the      video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
@@ -375,7 +375,7 @@ include 'includes/nav-bar.php';
    <p><strong>This tool is a “live” summary of data collected through the University of Wisconsin-Extension Repro Money Program from 40 dairy farms in Wisconsin between the years 2010 and 2014.</strong></p>
    <p>Online Tool (<a href="/tools/ds/index2.php" target="_blank">Open</a>)</p>
    <p>Questionnaire (<a href="../Survey7.pdf" target="_blank">Open</a>) </p>
-   <!--        <p>Paper (<a href="../publications/2012_JDS_Cabrera.pdf"        target="_blank">Download</a>)      </p>        <p>Magazine Article (<a href="../publications/2012_Hoards_Cabrera.pdf"      target="_blank">Download</a>)</p>        <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the      Video)</a></p>      <a class="video_link not_seen"      href="http://www.youtube.com/embed/qCCj1fa-UXw?rel=0">Link to the      video.</a>      <iframe class="video not_seen" width="560" height="315" src=""      frameborder="0"></iframe>    -->
+   <!--        <p>Paper (<a href="publications/2012_JDS_Cabrera.pdf"        target="_blank">Download</a>)      </p>        <p>Magazine Article (<a href="publications/2012_Hoards_Cabrera.pdf"      target="_blank">Download</a>)</p>        <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the      Video)</a></p>      <a class="video_link not_seen"      href="http://www.youtube.com/embed/qCCj1fa-UXw?rel=0">Link to the      video.</a>      <iframe class="video not_seen" width="560" height="315" src=""      frameborder="0"></iframe>    -->
    </div>
        </div>
    </div>
@@ -387,13 +387,13 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//sexed_semen_1.png" alt="...">
    <div class="media-body">
    <p><strong>Estimates the difference of the net present value of various        sexed semen reproductive programs and a conventional semen        reproductive program for dairy heifers</strong></p>
-   <p>HTML Online Tool (<a href="../tools/sexed_semen/index.php" target="_blank">Open</a>)</p>
+   <p>HTML Online Tool (<a href="tools/sexed_semen/index.php" target="_blank">Open</a>)</p>
    <p>Flash Online Tool (<a href="../oldtools/sexed_semen/EV_SexedSemen.swf" target="_blank">Open</a>)</p>
    <p>Flash Offline Tool (<a href="../oldtools/sexed_semen/EV_SexedSemen.pdf" target="_blank">Download</a>)</p>
    <p>Instructions (<a href="../oldtools/sexed_semen/NPVSexedSemen.pdf" target="_blank">Download</a>)</p>
    <p>Documentation (<a href="../oldtools/sexed_semen/DCRC_Meeting_09.pdf" target="_blank">Download</a>)</p>
-   <p>Presentation (<a href="../publications/presentations/2009_DCRC_Cabrera(c).pdf" target="_blank">Download</a>)</p>
-   <p>Paper (<a href="../publications/papers/2009_DCRC_Cabrera.pdf" target="_blank">Download</a>)</p>
+   <p>Presentation (<a href="publications/presentations/2009_DCRC_Cabrera(c).pdf" target="_blank">Download</a>)</p>
+   <p>Paper (<a href="publications/papers/2009_DCRC_Cabrera.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the    Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/_h7-VbrzZXQ?rel=0">Link to the    video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe>
    <p>Spanish Version (Argentina)</p>
@@ -413,7 +413,7 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//pregnancy.png" alt="...">
    <div class="media-body">
    <p><strong>Combines novel lactation curve definitions with key economic figures to help dairy producers explore the impact of pregnancy timing on milk Income Over Feed Cost.</strong></p>
-   <p>Online Tool (<a href="../tools/pregnancy/" target="_blank">Open</a>)</p>
+   <p>Online Tool (<a href="tools/pregnancy/" target="_blank">Open</a>)</p>
    <p>Instructions and Documentation (<a href="../oldtools/pregnancy/pregnancy.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/inRoHgMQDoc?rel=0">Link to the video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
@@ -440,7 +440,7 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//heifer_pregnancy_rate_1.png" alt="...">
    <div class="media-body">
    <p><strong>Calculates the true heifer pregnancy rate of a herd.</strong></p>
-   <p>Online Tool (<a href="../tools/heifer_pregnancy_rate/index.php" target="_blank">Open</a>)</p>
+   <p>Online Tool (<a href="tools/heifer_pregnancy_rate/index.php" target="_blank">Open</a>)</p>
    <p>Excel Spreadsheet (<a href="../oldtools/heifer_pregnancy_rate/spreadsheet.php" target="_blank">Download</a>)</p>
    </div>
        </div>
@@ -453,7 +453,7 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//rpo_calc.png" alt="...">
    <div class="media-body">
    <p><strong>Retention Pay-Off (RPO) Calculator</strong></p>
-   <p>Online Tool (<a href="../tools/rpo_calc/" target="_blank">Open</a>)</p>
+   <p>Online Tool (<a href="tools/rpo_calc/" target="_blank">Open</a>)</p>
    </div>
        </div>
    </div>
@@ -465,8 +465,8 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//acc_gen_tool.png" alt="...">
    <div class="media-body">
    <!--<strong><p>Estimates the break-even milk production needed to pay for a ration feed additive ingredient</p></strong>-->
-   <p>HTML Online Tool (<a href="../tools/acc_gen/index.php" target="_blank">Open</a>) </p>
-   <p>Excel Spreadsheet (<a href="../tools/acc_gen/Premium_Beef_on_Dairy_Program.xlsx" target="_blank">Download</a>)</p>
+   <p>HTML Online Tool (<a href="tools/acc_gen/index.php" target="_blank">Open</a>) </p>
+   <p>Excel Spreadsheet (<a href="tools/acc_gen/Premium_Beef_on_Dairy_Program.xlsx" target="_blank">Download</a>)</p>
    </div>
        </div>
    </div>
@@ -477,7 +477,7 @@ include 'includes/nav-bar.php';
    <div class="atab-content">
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//cow_value_delta.png" alt="...">
    <div class="media-body"> <strong><p>It helps to estimate the economic benefit of increasing a dairy herd’s 21d pregnancy rate.</p></strong>
-   <p>HTML Online Tool (<a href="../tools/cow_value_delta/index.php" target="_blank">Open</a>) </p>
+   <p>HTML Online Tool (<a href="tools/cow_value_delta/index.php" target="_blank">Open</a>) </p>
    </div>
        </div>
    </div>
@@ -528,7 +528,7 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//mcf.png" alt="...">
    <div class="media-body">
    <p><strong>This tool finds the best parameters of a function that explains milk production by days postpartum based on observed data points.</strong></p>
-   <p>Online Tool (<a href="../tools/mcf_online/newindex.php" target="_blank">Open</a>) </p>
+   <p>Online Tool (<a href="tools/mcf_online/newindex.php" target="_blank">Open</a>) </p>
    <p>Installable Application (Microsoft Windows) (<a href="../oldtools/MCF/tool1.php" target="_blank">Download</a>)</p>
    <p>Alternate Installable Application (Microsoft Windows) (<a href="../oldtools/MCF/tool2.php" target="_blank">Download</a>)</p>
    </div>
@@ -542,7 +542,7 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//dedss.png" alt="...">
    <div class="media-body">
    <p><strong>The DE-DSS is designed to help dairy producers explore “what-if”      situations as they predict changes in dairy production and      expansion. Dairy producers using the tool are able to forecast      changes in herd structure for all calves, heifers, and      cows.</strong></p>
-   <p>Online Tool (<a href="../tools/dss_c/index.php" target="_blank">Open</a>) </p>
+   <p>Online Tool (<a href="tools/dss_c/index.php" target="_blank">Open</a>) </p>
    <p>Spreadsheet (<a href="../oldtools/dedss/spreadsheet.php" target="_blank">Download</a>) </p>
    <p>Documentation (<a href="http://fyi.uwex.edu/news/2010/03/08/a-decision-support-system-for-dairy-production-and-expansion/" target="_blank">Download</a>)</p>
    <p>Detailed User Guide (<a href="../oldtools/dedss/DE-DSS_Operators_Manual.pdf" target="_blank">Download</a>) </p>
@@ -560,8 +560,8 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//ecoanalysis2x3x.png" alt="...">
    <div class="media-body">
    <p><strong>Estimates the economic benefit (or loss) of a change in the milking frequency from 2 times a day (2X) to 3 times a day (3X) based on user-defined parameters</strong></p>
-   <p>Online Tool (<a href="../tools/eco2x3x/jsindex.php" target="_blank">Open</a>)</p>
-   <p>Flash Online Tool (<a href="../tools/eco2x3x/index.php" target="_blank">Open</a>) </p>
+   <p>Online Tool (<a href="tools/eco2x3x/jsindex.php" target="_blank">Open</a>)</p>
+   <p>Flash Online Tool (<a href="tools/eco2x3x/index.php" target="_blank">Open</a>) </p>
    <p>Documentation (<a href="../oldtools/eco2x3x/Milking3X.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the       Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/Tois4i0h3gY?rel=0">Link to the       video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe>
@@ -578,8 +578,8 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//lactationbenchmark.png" alt="...">
    <div class="media-body">
    <p><strong>Compares Wisconsin benchmark lactation curves with your own data. Benchmarks for 18,000 to 30,000 lb/cow/year of RHA and for parities 1, 2, 3 and higher from 3.6 million records provided by Wisconsin AgSource Cooperative Services</strong></p>
-   <p>HTML Online Tool (<a href="../tools/lactationbench/jstool.php" target="_blank">Open</a>)</p>
-   <p>Flash Online Tool (<a href="../tools/lactationbench/index.php" target="_blank">Open</a>)</p>
+   <p>HTML Online Tool (<a href="tools/lactationbench/jstool.php" target="_blank">Open</a>)</p>
+   <p>Flash Online Tool (<a href="tools/lactationbench/index.php" target="_blank">Open</a>)</p>
    <p>Excel SpreadSheet in lb (<a href="../oldtools/lactationbench/spreadsheet_lbs.php" target="_blank">Download</a>)</p>
    <p>Excel SpreadSheet in kg (<a href="../oldtools/lactationbench/spreadsheet_kg.php" target="_blank">Download</a>) </p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p>
@@ -594,8 +594,8 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//rbST.png" alt="...">
    <div class="media-body">
    <p><strong>Evaluates the cost/benefit of using recombinant bovine     Somatotropin</strong></p>
-   <p>Online Tool (<a href="../tools/rbST/index.php" target="_blank">Open</a>) </p>
-   <p>Falsh Online Tool (<a href="../tools/rbST/rbst.php" target="_blank">Open</a>)</p>
+   <p>Online Tool (<a href="tools/rbST/index.php" target="_blank">Open</a>) </p>
+   <p>Falsh Online Tool (<a href="tools/rbST/rbst.php" target="_blank">Open</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the  Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/aUn4YNnDpU8?rel=0">Link to the  video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
@@ -629,10 +629,10 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//economic_cow_value_1.png" alt="...">
    <div class="media-body">
    <p><strong>Calculates the projected net return of a cow or the entire    herd.</strong></p>
-   <p>Online Tool <a href="../tools/cow_value_resp/" target="_blank">(Open)</a></p>
-   <p>Presentation <a href="../presentations/Wisconsin_Audience/2012_Madison.pdf" target="_blank">(Download)</a></p>
-   <p>Paper <a href="../publications/2012_JDS_Cabrera.pdf" target="_blank">(Download)</a> </p>
-   <p>Magazine Article <a href="../publications/2012_Hoards_Cabrera.pdf" target="_blank">(Download)</a></p>
+   <p>Online Tool <a href="tools/cow_value_resp/" target="_blank">(Open)</a></p>
+   <p>Presentation <a href="presentations/Wisconsin_Audience/2012_Madison.pdf" target="_blank">(Download)</a></p>
+   <p>Paper <a href="publications/2012_JDS_Cabrera.pdf" target="_blank">(Download)</a> </p>
+   <p>Magazine Article <a href="publications/2012_Hoards_Cabrera.pdf" target="_blank">(Download)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the    Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/qCCj1fa-UXw?rel=0">Link to the    video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
@@ -645,7 +645,7 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//thumbnail.png" alt="...">
    <div class="media-body">
    <p><strong>Calculates the value of a replacement heifer under specific farm conditions, an indicative of her buying or selling price.</strong> </p>
-   <p>Online Tool <a href="../tools/springer_value/index.php" target="_blank">(Open)</a> </p>
+   <p>Online Tool <a href="tools/springer_value/index.php" target="_blank">(Open)</a> </p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/HNuJt4UAIoM?rel=0">Link to the video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
@@ -658,7 +658,7 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//heiferreplacement1.png" alt="...">
    <div class="media-body">
    <p><strong>Calculates the number of heifers needed as replacement to     maintain constant the herd size in the long-term</strong></p>
-   <p>Online Tool <a href="../tools/heifer_replacement/index.php" target="_blank">(Open)</a></p>
+   <p>Online Tool <a href="tools/heifer_replacement/index.php" target="_blank">(Open)</a></p>
    <p>Excel SpreadSheet <a href="../oldtools/heifer_replacement/spreadsheet.php" target="_blank">(Download)</a></p>
    <p>Documentation <a href="../oldtools/heifer_replacement/Heifer_Replacement.pdf" target="_blank">(Download)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p>
@@ -676,7 +676,7 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//heiferbreakeven1.png" alt="...">
    <div class="media-body">
    <p><strong>Calculates the total cost of raising heifers in three points in       time: at 12 months, 24 months, and after 24 months</strong></p>
-   <p>Online Tool <a href="../tools/heifer_breakeven/index.php" target="_blank">(Open)</a> </p>
+   <p>Online Tool <a href="tools/heifer_breakeven/index.php" target="_blank">(Open)</a> </p>
    <p>Excel SpreadSheet <a href="../oldtools/heifer_breakeven/spreadsheet.php" target="_blank">(Download)</a></p>
    <p>Documentation <a href="../oldtools/heifer_breakeven/Heifer_Breakeven.pdf" target="_blank">(Download)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the     Video)</a></p>
@@ -691,7 +691,7 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//rpo_calc1.png" alt="...">
    <div class="media-body">
    <p><strong>Retention Pay-Off (RPO) Calculator</strong></p>
-   <p>Online Tool <a href="../tools/rpo_calc/" target="_blank">(Open)</a></p>
+   <p>Online Tool <a href="tools/rpo_calc/" target="_blank">(Open)</a></p>
    </div>
        </div>
    </div>
@@ -703,9 +703,9 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//HSS.png" alt="...">
    <div class="media-body">
    <p><strong>Simulates on a monthly basis the dynamics of a dairy herd    population, including the future make-up of the herd</strong></p>
-   <p>Online Tool <a href="../tools/hss/hss.php" target="_blank">(Open)</a> </p>
-   <p>Excel Spreadsheet <a href="../tools/hss/docs/spreadsheet.php" target="_blank">(Download)</a></p>
-   <p>Documentation <a href="../tools/hss/docs/HSSModel.pdf" target="_blank">(Download)</a> </p>
+   <p>Online Tool <a href="tools/hss/hss.php" target="_blank">(Open)</a> </p>
+   <p>Excel Spreadsheet <a href="tools/hss/docs/spreadsheet.php" target="_blank">(Download)</a></p>
+   <p>Documentation <a href="tools/hss/docs/HSSModel.pdf" target="_blank">(Download)</a> </p>
    </div>
        </div>
    </div>
@@ -723,7 +723,7 @@ include 'includes/nav-bar.php';
    <div class="atab-content">
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//eval_choline.png" alt="...">
    <div class="media-body"> <strong><p>Calculates the Return Over Investment of a given technology that  claims to be effective preventing a disease with known economic  effects.</p></strong>
-   <p>HTML Online Tool <a href="../tools/eval_choline/index.php" target="_blank">(Open)</a></p>
+   <p>HTML Online Tool <a href="tools/eval_choline/index.php" target="_blank">(Open)</a></p>
    </div>
        </div>
    </div>
@@ -735,7 +735,7 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//milk_quality_tool.png" alt="...">
    <div class="media-body">
    <!--<strong><p>Estimates the break-even milk production needed to pay for a ration feed additive ingredient</p></strong>-->
-   <p>HTML Online Tool <a href="../tools/milk_quality/index.php" target="_blank">(Open)</a></p>
+   <p>HTML Online Tool <a href="tools/milk_quality/index.php" target="_blank">(Open)</a></p>
    </div>
        </div>
    </div>
@@ -755,9 +755,9 @@ include 'includes/nav-bar.php';
    <div class="media-body">
    <p><strong>LGM-Dairy Analyzer</strong></p>
    <p>Price risk management tool that uses the Livestock Gross Margin for dairy insurance. </p>
-   <p>Online Tool (<a href="../tools/lgm_analyzer/index.php" target="_blank">Open</a>) </p>
+   <p>Online Tool (<a href="tools/lgm_analyzer/index.php" target="_blank">Open</a>) </p>
    <p>Additional Information (<a href="../lgm.php" target="_blank">Open</a>)</p>
-   <p>Paper (<a href="../publications/Valvekar.pdf" target="_blank">Download</a>) </p>
+   <p>Paper (<a href="publications/Valvekar.pdf" target="_blank">Download</a>) </p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the  Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/OFIOPed9zhc?rel=0">Link to the  video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
@@ -788,7 +788,7 @@ include 'includes/nav-bar.php';
    <p><strong>The Wisconsin Dairy Farm Ratio Benchmarking is a spreadsheet   based tool especially created for this project. It compares dairy   farm's financial status with +500 dairy farms in the State of   Wisconsin.</strong></p>
    <p>Online Tool (<a href="../benchmark/index.php" target="_blank">Open</a>) </p>
    <p>Excel SpreadSheet (<a href="../benchmark/spreadsheet.php" target="_blank">Download</a>) </p>
-   <p>Presentation (<a href="../presentations/Wisconsin_Audience/2010_ANRE_Cabrera.pdf" target="_blank">Download</a>)</p>
+   <p>Presentation (<a href="presentations/Wisconsin_Audience/2010_ANRE_Cabrera.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the   Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/2hTlszPu-Hs?rel=0">Link to the   video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
@@ -801,7 +801,7 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//dedss_1.png" alt="...">
    <div class="media-body">
    <p><strong>The DE-DSS is designed to help dairy producers explore “what-if”       situations as they predict changes in dairy production and       expansion. Dairy producers using the tool are able to forecast       changes in herd structure for all calves, heifers, and       cows.</strong></p>
-   <p>Online Tool (<a href="../tools/dss_c/index.php" target="_blank">Open</a>) </p>
+   <p>Online Tool (<a href="tools/dss_c/index.php" target="_blank">Open</a>) </p>
    <p>Spreadsheet (<a href="../oldtools/dedss/spreadsheet.php" target="_blank">Download</a>) </p>
    <p>Documentation (<a href="http://fyi.uwex.edu/news/2010/03/08/a-decision-support-system-for-dairy-production-and-expansion/" target="_blank">Download</a>)</p>
    <p>Detailed User Guide (<a href="../oldtools/dedss/DE-DSS_Operators_Manual.pdf" target="_blank">Download</a>) </p>
@@ -819,7 +819,7 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//least_cost_optimizer_1.png" alt="...">
    <div class="media-body">
    <p><strong>This applciation finds the monthly level of LGM-Dairy contract  that gives you the least cost premium for a target income over feed  cost.</strong></p>
-   <p>Online Tool (<a href="../tools/lgm_least_cost/index.php" target="_blank">Open</a>) </p>
+   <p>Online Tool (<a href="tools/lgm_least_cost/index.php" target="_blank">Open</a>) </p>
    <p>Additional Resources (<a href="../lgm.php" target="_blank">Open</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the    Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/W4fM51LjORc?rel=0">Link to the    video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
@@ -859,7 +859,7 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//mailbox.png" alt="...">
    <div class="media-body">
    <p><strong>Predicts your mailbox price according to expected Class III price    and future month</strong></p>
-   <p>Online Tool (<a href="../tools/mailbox/milkprice.php" target="_blank">Open</a>)</p>
+   <p>Online Tool (<a href="tools/mailbox/milkprice.php" target="_blank">Open</a>)</p>
    </div>
        </div>
    </div>
@@ -871,7 +871,7 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//lgmfeeds_1.png" alt="...">
    <div class="media-body">
    <p><strong>Calculate the amount of feed to be insured within an LGM-Dairy   contract.</strong></p>
-   <p>Online Tool (<a href="../tools/lgmfeeds/index.php" target="_blank">Open</a>)</p>
+   <p>Online Tool (<a href="tools/lgmfeeds/index.php" target="_blank">Open</a>)</p>
    <p>Documentation (<a href="../oldtools/lgmfeeds/lgmfeeds.pdf" target="_blank">Open</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/NuGFlxne8hY?rel=0">Link to the video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
@@ -885,7 +885,7 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//ngiofc.png" alt="...">
    <div class="media-body">
    <p><strong>Help to calculate the Net Guarantee IOFC as the difference of all farm costs and feed costs. This value can be used to use the LGM-Dairy optimizer to find out the least cost premium. This tool also can be used to calculate the corn and soybean mean equivalents based upon a user defined diet. The corn and SBM equivalents are inputs needed for an LGM-Dairy contract</strong></p>
-   <p>Online Tool (<a href="../tools/NGIOFC/index.php" target="_blank">Open</a>) </p>
+   <p>Online Tool (<a href="tools/NGIOFC/index.php" target="_blank">Open</a>) </p>
    <p>Excel Spreadsheet (<a href="../oldtools/NGIOFC/spreadsheet.php" target="_blank">Download</a>)</p>
    </div>
        </div>
@@ -917,7 +917,7 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//least_cost_optimizer.png" alt="...">
    <div class="media-body">
    <p><strong>This applciation finds the monthly level of LGM-Dairy contract     that gives you the least cost premium for a target income over feed     cost.</strong></p>
-   <p>Online Tool (<a href="../tools/lgm_least_cost/index.php" target="_blank">Open</a>) </p>
+   <p>Online Tool (<a href="tools/lgm_least_cost/index.php" target="_blank">Open</a>) </p>
    <p>Additional Resources (<a href="../lgm.php" target="_blank">Open</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the       Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/W4fM51LjORc?rel=0">Link to the       video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
@@ -932,7 +932,7 @@ include 'includes/nav-bar.php';
    <div class="media-body">
    <p><strong>LGM Premium</strong></p>
    <p>This program will calculate your estimated premium for various deductible levels to aid you in your decision.</p>
-   <p>Online Tool (<a href="../tools/lgm_premium_estimator/index.php" target="_blank">Online</a>)</p>
+   <p>Online Tool (<a href="tools/lgm_premium_estimator/index.php" target="_blank">Online</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the        Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/ltWIh7sDl3I?rel=0">Link to the        video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
@@ -946,7 +946,7 @@ include 'includes/nav-bar.php';
    <div class="media-body">
    <p><strong>LGM Dairy Feed Equivalent Calculator</strong></p>
    <p>Calculate the amount of feed to be insured within an LGM-Dairy contract. </p>
-   <p>Online Tool (<a href="../tools/lgmfeeds/index.php" target="_blank">Open</a>)</p>
+   <p>Online Tool (<a href="tools/lgmfeeds/index.php" target="_blank">Open</a>)</p>
    <p>Documentation (<a href="../oldtools/lgmfeeds/lgmfeeds.pdf" target="_blank">Open</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the      Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/NuGFlxne8hY?rel=0">Link to the      video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
@@ -1011,7 +1011,7 @@ include 'includes/nav-bar.php';
    <p><strong>Predicts seasonal manure excretion of lactating cows</strong></p>
    <p>Excel SpreadSheet (<a href="../oldtools/seasonal/spreadsheet.php" target="_blank">Download</a>)</p>
    <p>Documentation (<a href="../oldtools/seasonal/NMManure_Manual.pdf" target="_blank">Download</a>)</p>
-   <p>Paper (<a href="../publications/PAS08.pdf" target="_blank">Download</a>) </p>
+   <p>Paper (<a href="publications/PAS08.pdf" target="_blank">Download</a>) </p>
    </div>
        </div>
    </div>

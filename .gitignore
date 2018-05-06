@@ -1,1 +1,3 @@
+#database auth files
 connection.php
+db.php

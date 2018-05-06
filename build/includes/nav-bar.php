@@ -82,7 +82,7 @@
                      <li><a href="links.php#AdditionalSourcesofInformation">Additional Sources of Information</a></li>
                      <li><a href="links.php#UniversityofWisconsin-Madison">University of Wisconsin-Madison</a></li>
                      <li><a  href="links.php#GrantAgencies">Grant Agencies</a></li>
-                     <li><a href="../admin" target="_blank">Admin Portal</a></li>
+                     <li><a href="admin/" target="_blank">Admin Portal</a></li>
 
                    </ul>
              </li>

@@ -1,0 +1,54 @@
+{
+	"keywords" : [
+		"url",
+		"link",
+		"check",
+		"existance",
+		"tool",
+		"website",
+		"analysis",
+		"anchor"
+	],
+	"extra" : {
+		"branch-alias" : {
+			"dev-master" : "1.0-dev"
+		}
+	},
+	"bin": [
+		"link-check"
+	],
+	"authors" : [{
+			"name" : "Maik Greubel",
+			"email" : "greubel@nkey.de",
+			"homepage" : "https://www.nkey.de",
+			"role" : "Maintainer"
+		}
+	],
+	"support" : {
+		"email" : "greubel@nkey.de",
+		"source" : "https://github.com/maikgreubel/link-check",
+		"issues" : "https://github.com/maikgreubel/link-check/issues",
+		"wiki" : "https://github.com/maikgreubel/phpgenerics/wiki"
+	},
+	"autoload" : {
+		"psr-4" : {
+			"Nkey\\LinkCheck\\" : "src"
+		}
+	},
+	"autoload-dev" : {
+		"psr-4" : {
+			"Nkey\\LinkCheck\\Tests\\" : "tests"
+		}
+	},
+	"name" : "nkey/link-check",
+	"type" : "application",
+	"license" : "BSD-2-Clause",
+	"require" : {
+		"php" : ">=7.0",
+		"nkey/phpgenerics" : "dev-master"
+	},
+	"require-dev" : {
+		"phpunit/phpunit" : "~6.3",
+		"scrutinizer/ocular" : "~1.4"
+	}
+}
