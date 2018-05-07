@@ -1,3 +1,8 @@
+<?php
+$title = 'Dairy Management: Home';
+
+?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -11,16 +16,8 @@
   ];
 
 
-  console.log("Known Bugs:");
-  for (var i = 0; i < (bugs.length -1); i++) {
-    console.warn(i+1 + ": "+ bugs[i]);
-  }
-
-
   </script>
 
-	<!-- TITLE -->
-	<title>Dairy Management</title>
 
 	<!-- DESCRIPTION -->
 	<meta name="description" content="This site is designed to support dairy farming

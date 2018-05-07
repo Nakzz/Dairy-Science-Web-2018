@@ -1,6 +1,5 @@
 <?php
-
-
+$title = 'Dairy Management: Awards';
 ?>
 
 <!DOCTYPE html>
@@ -15,16 +14,10 @@
      ""
   ];
 
-  console.log("Known Bugs:");
-  for (var i = 0; i < (bugs.length -1); i++) {
-    console.warn(i+1 + ": "+ bugs[i]);
-  }
-
   </script>
 
 	<!-- TITLE -->
   <?php // TODO: Change tittle ?>
-	<title>Dairy Management</title>
 
 	<!-- DESCRIPTION -->
 

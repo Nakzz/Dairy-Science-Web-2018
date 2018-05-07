@@ -117,3 +117,10 @@
   <script type="text/javascript" src="assets/script.js"></script>
 
   <script src="https://cdn.jsdelivr.net/npm/select2@4.0.6-rc.1/dist/js/select2.min.js"></script>
+
+  <script type="text/javascript">
+  console.log("Known Bugs:");
+  for (var i = 0; i < (bugs.length -1); i++) {
+    console.warn(i+1 + ": "+ bugs[i]);
+  }
+  </script>

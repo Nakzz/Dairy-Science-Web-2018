@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+
+
+        <link rel="stylesheet" href="css/normalize.css"> <!-- Reset. Not relevant for the tutorial-->
+        <link rel="stylesheet" href="css/main.css"><!-- Those are general page styles. They are not relevant for the tutorial-->
+
+        <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+		<script type="text/javascript" src="http://www.google.com/jsapi"></script>
+		<script type="text/javascript">google.load("jquery", "1.6.2");</script>
+        <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+
+<style type="text/css">
+
+.main-menu,
+.filters{
+	margin:			0;
+	padding:		0;
+	list-style:		none;
+	line-height:	1.0;
+}
+.main-menu ul,
+.filters ul {
+	position:		absolute;
+	display:none;
+	top:			1.5em;
+	left:			-40px;
+	width:			15em; /* left offset of submenus need to match (see below) */
+}
+
+.main-menu ul li,
+.filters ul li {
+	width:			100%;
+}
+.main-menu li:hover,
+.filters li:hover{
+	visibility:		inherit; /* fixes IE7 'sticky bug' */
+}
+.main-menu li,
+.filters li{
+	float:			left;
+	position:		relative;
+}
+.main-menu a,
+.filters a{
+	display:		block;
+	position:		relative;
+}
+.main-menu li:hover ul,
+.filters li:hover ul{
+	z-index:		99;
+	display:block;
+}
+
+
+
+/*** DEMO SKIN ***/
+.main-menu,
+.filters {
+	float:			left;
+	clear:both;
+	margin: 1em 0 0 0;
+	background:#E6E6E6;
+}
+.main-menu a,
+.filters a{
+	border-left:	1px solid #fff;
+	padding: 		.75em 1em;
+	text-decoration:none;
+}
+.main-menu a, .main-menu a:visited,
+.filters a, .filters a:visited{ /* visited pseudo selector so IE6 applies text colour*/
+	color:			#0099ff;
+}
+.main-menu li,
+.filters li{
+	background:		#E6E6E6;
+	list-style:none;
+}
+.main-menu li li,
+.filters  li li{
+	background:		#E6E6E6;
+}
+.main-menu li li a,
+.filters li li a{
+		border-top:		1px solid #ccc
+}
+.main-menu li:hover,
+.main-menu a:focus, .main-menu a:hover, .main-menu a:active,
+.filters li:hover,
+.filters a:focus, .filters a:hover, .filters a:active{
+	background:		#ccc;
+	outline:		0;
+	color:#fff;
+}
+
+/*FILTERS*/
+ul.filters{
+	clear:none;
+	margin-right:40px;
+}
+
+/*simple link hovers*/
+a:link {
+	color: #0099ff;
+}
+a:hover {
+	color: #F00;
+}
+</style>
+
+
+
+</head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+
+        <header class="clearfix">
+
+        	<h1>How to deal with :hover on touch screen devices. Starter template.</h1>
+
+        	<nav>
+            	<ul  class="main-menu">
+                	<li><a href="#">Menu with drop-downs on :hover</a></li>
+                    <li><a href="abc.php#">Item 2 with drop-down</a>
+                    	<ul>
+                			<li><a href="ab.php#">Sub-Item 1</a></li>
+                    		<li><a href="#">Sub-Item 2</a></li>
+                    		<li><a href="#">Sub-Item 3</a></li>
+                		</ul>
+                    </li>
+                    <li><a href="#">Item 3 with drop-down</a>
+                    	<ul>
+                			<li><a href="#">Sub-Item 1</a></li>
+                    		<li><a href="#">Sub-Item 2</a></li>
+                    		<li><a href="#">Sub-Item 3</a></li>
+                		</ul>
+                    </li>
+                    <li><a href="#">Item 4 with drop-down</a>
+                    	<ul>
+                			<li><a href="#">Sub-Item 1</a></li>
+                    		<li><a href="#">Sub-Item 2</a></li>
+                    		<li><a href="#">Sub-Item 3</a></li>
+                		</ul>
+                    </li>
+
+                </ul>
+            </nav>
+        </header>
+
+        <section id="main" class="clearfix">
+
+        	<h2> Main section</h2>
+
+            <ul id="filter1" class="filters">
+                <li class="parent"><a href="#1">This is filter#1</a>
+                    <ul class="children">
+                        <li><a href="#2">Filter 1</a></li>
+                        <li><a href="#3">Filter 2</a></li>
+                        <li><a href="#4">Filter 3</a></li>
+                    </ul>
+                </li>
+             </ul>
+
+             <ul  id="filter2" class="filters">
+                <li class="parent"><a href="#">This is filter#2</a>
+                    <ul class="children">
+                        <li><a href="#">Filter 1</a></li>
+                        <li><a href="#">Filter 2</a></li>
+                        <li><a href="#">Filter 3</a></li>
+                    </ul>
+                </li>
+             </ul>
+
+             <p style="width:100%; display:block; margin:20px 0; padding:20px 0 0; clear:left"><a href="http://google.com">This is a simple link. It changes to red on :hover. It doesn't? Then you are on some sort of touch screen.</a></p>
+
+        </section>
+
+        <footer>&copy; Prowebdesign.ro, 2013. You can copy, modify and use this code in personal or commercial projects without attribution. You may not distribute copy of <a href="http://www.prowebdesign.ro/how-to-deal-with-hover-on-touch-screen-devices/">tutorial</a> this code refers to as your own.</footer>
+
+
+
+    </body>
+</html>

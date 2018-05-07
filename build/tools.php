@@ -1,5 +1,5 @@
 <?php
-
+$title = 'Dairy Management: Tools';
 
 ?>
 
@@ -25,9 +25,6 @@
 
   </script>
 
-  <!-- TITLE -->
-  <?php // TODO: Change tittle ?>
-  <title>Dairy Management</title>
 
   <!-- DESCRIPTION -->
 

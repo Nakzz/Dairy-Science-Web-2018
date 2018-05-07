@@ -5,16 +5,22 @@ head tags should be in each file. add the follow in each page head element.
 <meta charset="utf-8">
 <title>Creative Home \ Progressive — Responsive Multipurpose HTML Template</title>
 <meta name="keywords" content="HTML5 Template">
-<meta name="description" content="Progressive — Responsive Multipurpose HTML Template">
-
-
--->
+<meta name="description" content="Progressive — Responsive Multipurpose HTML Template"> -->
 <?php
+error_reporting(E_ALL);
 
+// TODO: Uncomment prior to DEPLOY
+//require_once($_SERVER['DOCUMENT_ROOT'] . "/visitor/log_visitor.php");
+//log_visitor($title);
   //or, if you DO want a file to cache, use:
   //header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30days)
 
 ?>
+
+
+<!-- TITLE -->
+
+<title><?php $title ?></title>
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
@@ -50,4 +56,5 @@ head tags should be in each file. add the follow in each page head element.
 <![endif]-->
 
 <?php // Google Analytics
-include_once("../visitor/analyticstracking.php"); ?>
+// TODO: Uncomment prior to DEPLOY
+//include_once($_SERVER['DOCUMENT_ROOT'] . "/visitor/analyticstracking.php"); ?>

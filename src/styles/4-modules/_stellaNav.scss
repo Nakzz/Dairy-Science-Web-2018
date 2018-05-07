@@ -1,0 +1,525 @@
+/*
+ * Stellarnav.js 2.3.0
+ * Responsive, lightweight, multi-level dropdown menu.
+ * Copyright (c) 2018 Vinny Moreira - http://vinnymoreira.com
+ * Released under the MIT license
+ */
+/* all nav */
+
+.stellarnav {
+  position: relative;
+  width: 100%;
+  z-index: 9900;
+  line-height: normal;
+  ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  li {
+    list-style: none;
+    display: block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    line-height: normal;
+    vertical-align: middle;
+    a {
+      padding: 15px;
+      display: block;
+      text-decoration: none;
+      color: #fff;
+      font-family: raleway;
+    font-size: 1em;
+    font-weight: 500;
+    text-transform: uppercase;
+      box-sizing: border-box;
+      // -webkit-transition: all .3s ease-out;
+      // -moz-transition: all .3s ease-out;
+      // transition: all .3s ease-out;
+    }
+    &:hover {
+      background-color: rgba(0, 0, 0, 0.0);}
+  }
+  > ul > li {
+    display: inline-block;
+    > a {
+      padding: 20px 10px;
+    }
+  }
+  ul ul {
+    top: auto;
+    width: 220px;
+    position: absolute;
+    z-index: 9900;
+    text-align: left;
+    display: none;
+    background-color: rgba(0, 0, 0, 0.0);
+  }
+  li li {
+    display: block;
+  }
+  ul ul ul {
+    top: 0;
+    /* dd animtion - change to auto to remove */
+    left: 220px;
+  }
+  > ul > li {
+    &:hover > ul > li:hover > ul {
+      opacity: 1;
+      visibility: visible;
+      top: 0;
+    }
+    &.drop-left > ul {
+      right: 0;
+    }
+  }
+  li.drop-left ul ul {
+    left: auto;
+    right: 220px;
+  }
+  &.light {
+    background: rgba(255, 255, 255, 1);
+    ul ul {
+      background: rgba(255, 255, 255, 1);
+    }
+    li a {
+      color: #000;
+    }
+    .menu-toggle, .call-btn-mobile, .location-btn-mobile, .close-menu {
+      color: rgba(0, 0, 0, 1);
+    }
+  }
+  &.dark {
+    background: rgba(0, 0, 0, 1);
+    ul ul {
+      background: rgba(0, 0, 0, 1);
+    }
+    li a {
+      color: #FFF;
+    }
+    .menu-toggle, .call-btn-mobile, .location-btn-mobile, .close-menu {
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+  &.transparentAJ {
+    //background: rgba(0, 0, 0, 1);
+    ul ul {
+    //  background: rgba(0, 0, 0, 1);
+    }
+    li a {
+      //color: #FFF;
+    }
+    .menu-toggle, .call-btn-mobile, .location-btn-mobile, .close-menu {
+      color: rgba(255, 255, 255, 1);
+    }
+  }
+  &.fixed {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+  }
+}
+
+/* main level */
+
+/* first level dd */
+
+/* second level dd */
+
+/* .drop-left */
+
+/* light theme */
+
+/* dark theme */
+
+/* sticky nav */
+
+/* only used when 'scrollbarFix' is set to true in the js. This fixes horizontal scrollbar caused by the dd menus that are very long.*/
+
+body.stellarnav-noscroll-x {
+  overflow-x: hidden;
+}
+
+/* general styling */
+
+.stellarnav {
+  li {
+    &.has-sub > a:after {
+      content: '\f107';
+      font-family: 'FontAwesome';
+      margin-left: 10px;
+    }
+    li.has-sub > a:after {
+      content: '\f105';
+      font-family: 'FontAwesome';
+      margin-left: 10px;
+    }
+    &.drop-left li.has-sub > a:after {
+      float: left;
+      content: '\f104';
+      font-family: 'FontAwesome';
+      margin-right: 10px;
+    }
+  }
+  &.hide-arrows li {
+    &.has-sub > a:after, li.has-sub > a:after, &.drop-left li.has-sub > a:after {
+      display: none;
+    }
+  }
+  .menu-toggle, .close-menu, .call-btn-mobile, .location-btn-mobile {
+    display: none;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .dd-toggle {
+    display: none;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 0;
+    width: 48px;
+    height: 48px;
+    text-align: center;
+    z-index: 9999;
+    border: 0;
+    i {
+      position: absolute;
+      margin: auto;
+      top: 33%;
+      left: 0;
+      right: 0;
+      -webkit-transition: transform .3s ease-out;
+      -moz-transition: transform .3s ease-out;
+      transition: transform .3s ease-out;
+    }
+  }
+  &.mobile > ul > li > a.dd-toggle {
+    padding: 0;
+  }
+  li {
+    &.call-btn-mobile, &.location-btn-mobile {
+      display: none;
+    }
+    &.open > a.dd-toggle i {
+      -webkit-transform: rotate(135deg);
+      -ms-transform: rotate(135deg);
+      -o-transform: rotate(135deg);
+      transform: rotate(135deg);
+    }
+  }
+  .menu-toggle, .call-btn-mobile, .location-btn-mobile, .close-menu {
+    color: #777;
+    padding: 15px;
+    box-sizing: border-box;
+  }
+  .full {
+    width: 100%;
+  }
+  .half {
+    width: 50%;
+  }
+  .third {
+    width: 33%;
+    text-align: center;
+  }
+  .location-btn-mobile {
+    &.third {
+      text-align: center;
+    }
+    &.half {
+      text-align: right;
+    }
+  }
+  &.light {
+    .third, .half {
+      border-left: 1px solid rgba(0, 0, 0, 0.15);
+    }
+    &.left {
+      .third, .half {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+      }
+    }
+    &.right {
+      .third, .half {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+      }
+    }
+    .third:first-child, .half:first-child {
+      border-left: 0;
+    }
+  }
+  &.dark {
+    .third, .half {
+      border-left: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    &.left {
+      .third, .half {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      }
+    }
+    &.right {
+      .third, .half {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      }
+    }
+  }
+  &.light {
+    &.left .menu-toggle, &.right .menu-toggle {
+      border-bottom: 0;
+    }
+  }
+  &.dark {
+    &.left .menu-toggle, &.right .menu-toggle {
+      border-bottom: 0;
+    }
+    .third:first-child, .half:first-child {
+      border-left: 0;
+    }
+  }
+  &.mobile {
+    position: static;
+    &.fixed {
+      position: static;
+    }
+    ul {
+      position: relative;
+      display: none;
+    }
+    &.active {
+      padding-bottom: 0;
+      > ul {
+        display: block;
+      }
+    }
+    ul {
+      text-align: left;
+      //background: rgba(221, 221, 221, 1);
+      ul {
+        padding-left: 2em;
+        position: relative;
+        opacity: 1;
+        visibility: visible;
+        width: auto;
+        display: none;
+        -moz-transition: none;
+        -webkit-transition: none;
+        -o-transition: color 0 ease-in;
+        transition: none;
+        ul {
+          left: auto;
+          top: auto;
+        }
+      }
+    }
+    > ul > li {
+      display: block;
+      > a {
+        padding: 15px;
+      }
+    }
+    li {
+      &.drop-left ul ul {
+        right: auto;
+      }
+      a {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+      }
+      &.has-sub a {
+        padding-right: 50px;
+      }
+    }
+    > ul {
+      border-top: 1px solid rgba(255, 255, 255, 0.15);
+    }
+    &.light {
+      li a {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+      }
+      > ul {
+        border-top: 1px solid rgba(0, 0, 0, 0.15);
+      }
+    }
+    li a.dd-toggle, &.light li a.dd-toggle {
+      border: 0;
+    }
+    .menu-toggle, .dd-toggle, .close-menu, .call-btn-mobile, .location-btn-mobile {
+      display: inline-block;
+    }
+    li {
+      &.call-btn-mobile {
+        border-right: 1px solid rgba(255, 255, 255, 0.1);
+        box-sizing: border-box;
+        display: inline-block;
+        width: 50%;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      &.location-btn-mobile {
+        display: inline-block;
+        width: 50%;
+        text-transform: uppercase;
+        text-align: center;
+      }
+      &.call-btn-mobile.full, &.location-btn-mobile.full {
+        display: block;
+        width: 100%;
+        text-transform: uppercase;
+        border-right: 0;
+        text-align: left;
+      }
+      &.call-btn-mobile i, &.location-btn-mobile i {
+        margin-right: 5px;
+      }
+    }
+    &.light ul {
+      background: rgba(255, 255, 255, 1);
+    }
+    &.dark ul {
+      background: rgba(0, 0, 0, 1);
+      ul {
+        background: rgba(255, 255, 255, 0.08);
+      }
+    }
+    &.light li.call-btn-mobile {
+      border-right: 1px solid rgba(0, 0, 0, 0.1);
+    }
+    &.top {
+      position: absolute;
+      width: 100%;
+      top: 0;
+      left: 0;
+      z-index: 9999;
+    }
+    li {
+      &.has-sub > a:after, li.has-sub > a:after, &.drop-left li.has-sub > a:after {
+        display: none;
+      }
+    }
+    &.right > ul, &.left > ul {
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      width: 100%;
+      max-width: 280px;
+      overflow-x: hidden;
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+    }
+    &.right {
+      > ul {
+        right: 0;
+      }
+      .close-menu {
+        display: inline-block;
+        text-align: right;
+      }
+    }
+    &.left {
+      .close-menu {
+        display: inline-block;
+        text-align: right;
+      }
+      > ul {
+        left: 0;
+      }
+    }
+    &.right {
+      .location-btn-mobile.half, .call-btn-mobile.half, .close-menu.half, .location-btn-mobile.third, .call-btn-mobile.third, .close-menu.third {
+        text-align: center;
+      }
+    }
+    &.left {
+      .location-btn-mobile.half, .call-btn-mobile.half, .close-menu.half, .location-btn-mobile.third, .call-btn-mobile.third, .close-menu.third {
+        text-align: center;
+      }
+      .menu-toggle {
+        &.half, &.third {
+          text-align: left;
+        }
+      }
+    }
+    &.right .menu-toggle {
+      &.half, &.third {
+        text-align: left;
+      }
+    }
+    &.left .close-menu.third span, &.right .close-menu.third span {
+      display: none;
+    }
+  }
+  &.desktop {
+    li.mega {
+      li {
+        display: inline-block;
+        vertical-align: top;
+        margin-left: -4px;
+        li {
+          display: block;
+          margin-left: 0;
+        }
+      }
+      ul ul {
+        width: auto;
+      }
+      li {
+        li a {
+          padding: 5px 15px;
+        }
+        &.has-sub a:after {
+          display: none;
+        }
+      }
+    }
+    > ul > li.mega {
+      position: inherit;
+      > ul {
+        width: 100%;
+        li.has-sub ul {
+          display: block;
+          position: relative;
+          left: auto;
+        }
+        > li {
+          padding-bottom: 15px;
+          box-sizing: border-box;
+        }
+      }
+    }
+    > ul > li.mega > ul > li > a {
+      color: yellow;
+    }
+  }
+}
+
+/* mobile nav */
+
+/* left and right positions */
+
+/* left and right positions */
+/* mega dd */
+
+/* mega dd */
+
+/* Fallback for slow javascript load */
+@media only screen and (max-width: 768px) {
+  .stellarnav {
+    overflow: hidden;
+    display: block;
+    ul {
+      position: relative;
+      display: none;
+    }
+  }
+}
+
+/* mobile nav */
+@media only screen and (max-width: 420px) {
+  .stellarnav.mobile {
+    .call-btn-mobile.third span, .location-btn-mobile.third span {
+      display: none;
+    }
+  }
+}

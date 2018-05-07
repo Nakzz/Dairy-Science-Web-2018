@@ -1,5 +1,28 @@
 /*Medium devices (tablets, 768px and up)*/
 
+@media screen and (min-width: 769px) {
+  .stellarnav {
+    li {
+      a:hover {
+        background-color: rgba(0, 0, 0, 0.5) }
+    }
+
+ ul li:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+    ul ul {
+      background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    ul li li  {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+  }
+
+}
+
+
 @media screen and (max-width: 992px) {
   .customNavbar ul {
       display: none;}
@@ -7,6 +30,7 @@
 }
 
 @media screen and (max-width: 840px) {
+
 
   @include customPadding(tablet);
 

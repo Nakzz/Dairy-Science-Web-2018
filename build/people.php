@@ -1,4 +1,6 @@
-<?php // TODO: write a script to upload website based on changes.
+<?php
+
+$title = 'Dairy Management: People';
 
 //HACK: In the future, automate from admin panel to add members which will add form
 //database using iteration, making changes to team-member.css(thumbnail),
@@ -17,18 +19,8 @@
     ""
   ];
 
-
-	console.log("Known Bugs:");
-	for (var i = 0; i < (bugs.length -1); i++) {
-		console.warn(i+1 + ": "+ bugs[i]);
-	}
-
-
-
   </script>
 
-	<!-- TITLE -->
-	<title>Dairy Management</title>
 
 	<!-- DESCRIPTION -->
 

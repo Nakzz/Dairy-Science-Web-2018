@@ -6,6 +6,15 @@ jQuery( document ).ready(function( $ ) {
 	$.noConflict();
 
 /* Naviagation*/
+$( function() {
+	 $( "#menu" ).menu();
+ } );
+
+ jQuery('.stellarnav').stellarNav({
+	 theme: 'transparentAJ'
+
+ });
+
   var o = document.getElementsByName("buttonNav");
   $("#navbarbutton").click(function() {
     console.log("Clicked Button");

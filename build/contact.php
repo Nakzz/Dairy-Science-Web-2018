@@ -1,5 +1,5 @@
 <?php
-
+$title = 'Dairy Management: Contact';
 // if(isset($_POST['submit'])){
 //
 //     $name=$_POST['name'];
@@ -30,16 +30,9 @@
      ""
   ];
 
-  console.log("Known Bugs:");
-  for (var i = 0; i < (bugs.length -1); i++) {
-    console.warn(i+1 + ": "+ bugs[i]);
-  }
 
   </script>
-	<!-- TITLE -->
-  <?php // TODO: Change tittle ?>
-	<title>Dairy Management</title>
-
+	
 	<!-- DESCRIPTION -->
 
 	<meta name="description" content="This site is designed to support dairy farming

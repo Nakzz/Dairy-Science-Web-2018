@@ -1,5 +1,7 @@
 <?php
 
+$title = 'Dairy Management: Presentations';
+
   include('apps/publications/classes/class.publication.php');
 
 ?>
@@ -17,19 +19,9 @@
     ""
   ];
 
-  console.log("Known Bugs:");
-  for (var i = 0; i < (bugs.length -1); i++) {
-    console.warn(i+1 + ": "+ bugs[i]);
-  }
 </script>
 
 
-
-
-
-  <!-- TITLE -->
-  <?php // TODO: Change tittle ?>
-  <title>Dairy Management</title>
 
   <!-- DESCRIPTION -->
 

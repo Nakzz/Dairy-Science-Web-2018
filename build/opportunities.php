@@ -1,16 +1,11 @@
 <?php
-
-
+$title = 'Dairy Management: Opportunities';
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
 
-
-	<!-- TITLE -->
-  <?php // TODO: Change tittle ?>
-	<title>Dairy Management</title>
 
 	<!-- DESCRIPTION -->
 
