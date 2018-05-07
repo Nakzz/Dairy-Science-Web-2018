@@ -137,13 +137,16 @@
       padding-top:50%;
       text-align:center;
 
+      @media (min-width: 400px){
+        padding-top:44%;
+
+      }
       @media (min-width: 768px){
-        padding-top:30%;
+        padding-top:24%;
 
       }
 
       @media (min-width: 992px){
-
         padding-top:10%;
       }
 

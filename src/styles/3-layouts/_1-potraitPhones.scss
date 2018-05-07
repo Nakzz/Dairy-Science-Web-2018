@@ -5,6 +5,10 @@
 
 @media (min-width: 200px) {
 
+  .sy-slide > a > img {
+    height: 120px !important;
+      width: 100%;
+  }
 
     .dimmed div {
       background-color: rgba(0, 0, 0, 0.5);

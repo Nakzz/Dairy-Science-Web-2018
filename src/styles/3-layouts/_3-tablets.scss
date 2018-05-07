@@ -23,6 +23,7 @@
 }
 
 
+
 @media screen and (max-width: 992px) {
   .customNavbar ul {
       display: none;}
@@ -31,6 +32,10 @@
 
 @media screen and (max-width: 840px) {
 
+
+  .linksPadding{
+    padding-top: 70%;
+  }
 
   @include customPadding(tablet);
 

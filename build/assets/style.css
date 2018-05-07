@@ -7770,7 +7770,7 @@ video {
 .header {
   width: 100%;
   position: fixed;
-  z-index: 3;
+  z-index: 100;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
   -webkit-transition: all 0.3s ease;
@@ -10250,6 +10250,7 @@ body {
   z-index: 12;
   left: 10%; }
   .sy-caption-wrap .sy-caption {
+    font-size: 1.2em;
     position: relative;
     background-color: rgba(0, 0, 0, 0.54);
     color: #fff;
@@ -10327,6 +10328,9 @@ h2 {
 /** This is a dynamically generated file **/
 /*Small devices (landscape phones, 576px and up)*/
 @media screen and (max-width: 540px) {
+  .sy-slide > a > img {
+    height: 120px;
+    width: 100%; }
   .navbar-brand img {
     width: 100%; }
   .centerSmallScreen {
@@ -10444,6 +10448,8 @@ h2 {
     display: none; } }
 
 @media screen and (max-width: 840px) {
+  .linksPadding {
+    padding-top: 70%; }
   .paddingtop {
     padding-top: 120px !important; }
   .paddingbottomsmall {
@@ -10526,6 +10532,8 @@ h2 {
     /* Needs prefixing */
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone; }
+  .linksPadding {
+    padding-top: 100%; }
   .navBarVertical {
     padding-top: 20px !important; }
   .navbar-brand img {
@@ -10764,9 +10772,12 @@ footer {
     text-transform: uppercase;
     padding-top: 50%;
     text-align: center; }
+    @media (min-width: 400px) {
+      .titleSection h1 {
+        padding-top: 44%; } }
     @media (min-width: 768px) {
       .titleSection h1 {
-        padding-top: 30%; } }
+        padding-top: 24%; } }
     @media (min-width: 992px) {
       .titleSection h1 {
         padding-top: 10%; } }

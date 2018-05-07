@@ -3,10 +3,15 @@
 
 @media screen and (max-width: 540px) {
 
-  .navbar-brand img {
+  .sy-slide > a > img {
+    height: 120px;
       width: 100%;
   }
 
+
+  .navbar-brand img {
+      width: 100%;
+  }
 
   .centerSmallScreen{
     right: 38%;
