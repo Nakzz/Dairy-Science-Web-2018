@@ -6,4 +6,3 @@ DB::$dbName = 'presentations';
 DB::$host = 'localhost';
 
 define('SITE_URL','http://dairymgt.info/');
-

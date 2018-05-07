@@ -9,8 +9,6 @@ $title = 'Dairy Management: About';
 <script type="text/javascript">
 
 var bugs = [
-  "1: Social media link inside picture is not centered",
-
   "3: None of the files are linked yet",
    ""
 
@@ -93,7 +91,7 @@ include 'includes/nav-bar.php';
                   <div class="team-member-image center-block">
                       <img class="center-block" alt="" src="assets/img/team/crop_victor.jpg">
                       <div class="LINKoverlay">
-                        <div style="padding-top:100%" class="light-box box-hover linksOnly">
+                        <div style="padding-top:100%; padding-left:45px;" class="light-box box-hover linksOnly">
 
                           <a href="https://www.facebook.com/pages/University-of-Wisconsin-Dairy-Management/172972072340" target="_blank" class="blackIcon facebook team-member-links-item"><i class="fab fa-facebook fa-2x"></i></a>
                           <a href="https://twitter.com/vecabrera" target="_blank" class="twitter team-member-links-item"><i class="blackIcon fab fa-twitter fa-2x"></i></a>

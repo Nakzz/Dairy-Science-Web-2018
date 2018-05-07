@@ -12,16 +12,9 @@ $title = 'Dairy Management: Tools';
   var bugs = [
     "Links are missing",
 
-
-
     ""
   ];
 
-
-  console.log("Known Bugs:");
-  for (var i = 0; i < (bugs.length -1); i++) {
-    console.warn(i+1 + ": "+ bugs[i]);
-  }
 
   </script>
 
@@ -75,6 +68,8 @@ include 'includes/nav-bar.php';
 </section>
 <!--END Section Tittle-->
 
+<?php include 'includes/pageSlider.php'; ?>
+
 <!-- Section Body-->
 <section class="bodySection">
   <div class="container">  <!--Container-->
@@ -90,20 +85,29 @@ include 'includes/nav-bar.php';
 
       <!--Feeding-->
       <div class="col-sm-12 paddingtopsmall">
-  <h2 href="Feeding">Feeding</h2>
+  <h2 id="Feeding">Feeding</h2>
   <div id="accordion">
       <div class="atab well">
    <input id="tab1" type="checkbox" name="tabs">
    <label for="tab1">  FeedVal v6.0</label>
    <div class="atab-content">
-       <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools//feedval.png" alt="...">
-   <div class="media-body"><strong><p>Estimates the market value of dairy feed ingredients</p></strong>
-   <p>Online Tool <a href="tools/feedval_12_v2/index.php" target="_blank">(Open)</a></p>
-   <!--   <p>Online Tool <a href="tools/feedval_12/index.php"   target="_blank">(Open)</a></p> -->
-   <p>Presentation <a href="presentations/Wisconsin_Audience/2012_Millhome_Kaukauna.pdf" target="_blank">(Download)</a></p>
-   <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/PX1alKkHObQ?rel=0">Link to the video.</a>
-   <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe>
- </div>
+       <div class="media">
+
+
+
+       <div class="col-sm-5">
+         <strong><p>Estimates the market value of dairy feed ingredients</p></strong>
+         <p>Online Tool <a href="tools/feedval_12_v2/index.php" target="_blank">(Open)</a></p>
+         <!--   <p>Online Tool <a href="tools/feedval_12/index.php"   target="_blank">(Open)</a></p> -->
+         <p>Presentation <a href="presentations/Wisconsin_Audience/2012_Millhome_Kaukauna.pdf" target="_blank">(Download)</a></p>
+         <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/PX1alKkHObQ?rel=0">Link to the video.</a>
+       </div>
+       <div class="col-sm-7">
+       <img class="media-object img-responsive hidden-xs img-thumbnail" src="assets/img/tools//feedval.png" alt="...">
+      </div>
+    <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe>
+
+
        </div>
    </div>
       </div>
@@ -227,7 +231,7 @@ include 'includes/nav-bar.php';
       <!--Feeding ends-->
       <!--Heifers-->
       <div class="col-sm-12 paddingtopsmall">
-  <h2 href="Heifers">Heifers</h2>
+  <h2 id="Heifers">Heifers</h2>
   <div id="accordion">
       <div class="atab well">
    <input id="tab10" type="checkbox" name="tabs">
@@ -332,7 +336,7 @@ include 'includes/nav-bar.php';
       <!--Heifers ends-->
       <!--Reproduction-->
       <div class="col-sm-12 paddingtopsmall">
-  <h2 href="Reproduction">Reproduction</h2>
+  <h2 id="Reproduction">Reproduction</h2>
   <div id="accordion">
       <div class="atab well">
    <input id="tab16" type="checkbox" name="tabs">
@@ -484,7 +488,7 @@ include 'includes/nav-bar.php';
       <!--Reproduction ends-->
       <!--Genomics-->
       <div class="col-sm-12 paddingtopsmall">
-  <h2 href="Genomics">Genomics</h2>
+  <h2 id="Genomics">Genomics</h2>
   <div id="accordion">
       <div class="atab well">
    <input id="tab26" type="checkbox" name="tabs">
@@ -503,7 +507,7 @@ include 'includes/nav-bar.php';
       <!--Genomics ends-->
       <!--Production-->
       <div class="col-sm-12 paddingtopsmall">
-  <h2 href="Production">Production</h2>
+  <h2 id="Production">Production</h2>
   <div id="accordion">
       <div class="atab well">
    <input id="tab27" type="checkbox" name="tabs">
@@ -617,7 +621,7 @@ include 'includes/nav-bar.php';
       <!--Production ends-->
       <!--Replacement-->
       <div class="col-sm-12 paddingtopsmall">
-  <h2 href="Replacement">Replacement</h2>
+  <h2 id="Replacement">Replacement</h2>
   <div id="accordion">
       <div class="atab well">
    <input id="tab34" type="checkbox" name="tabs">
@@ -712,7 +716,7 @@ include 'includes/nav-bar.php';
       <!--Replacement ends-->
       <!--Health-->
       <div class="col-sm-12 paddingtopsmall">
-  <h2 href="Health">Health</h2>
+  <h2 id="Health">Health</h2>
   <div id="accordion">
       <div class="atab well">
    <input id="tab40" type="checkbox" name="tabs">
@@ -742,7 +746,7 @@ include 'includes/nav-bar.php';
       <!--Health ends-->
       <!--Financial-->
       <div class="col-sm-12 paddingtopsmall">
-  <h2 href="Financial">Financial</h2>
+  <h2 id="Financial">Financial</h2>
   <div id="accordion">
       <div class="atab well">
    <input id="tab42" type="checkbox" name="tabs">
@@ -893,7 +897,7 @@ include 'includes/nav-bar.php';
       <!--Financial ends-->
       <!--Price Risk-->
       <div class="col-sm-12 paddingtopsmall">
-  <h2 href="PriceRisk">Price Risk</h2>
+  <h2 id="PriceRisk">Price Risk</h2>
   <div id="accordion">
       <div class="atab well">
    <input id="tab52" type="checkbox" name="tabs">
@@ -967,7 +971,7 @@ include 'includes/nav-bar.php';
       </div>
       <!--Environment-->
       <div class="col-sm-12 paddingtopsmall">
-   <h2 href="Environment">Environment</h2>
+   <h2 id="Environment">Environment</h2>
    <div id="accordion">
        <div class="atab well">
    <input id="tab57" type="checkbox" name="tabs">

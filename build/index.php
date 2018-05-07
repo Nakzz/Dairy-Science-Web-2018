@@ -1,5 +1,5 @@
 <?php
-$title = 'Dairy Management: Home';
+ $GLOBALS['title'] = 'Dairy Management: Home';
 
 ?>
 
@@ -10,11 +10,9 @@ $title = 'Dairy Management: Home';
 	<script type="text/javascript">
 
   var bugs = [
-    "Navbar doesnt work in mobile or tablet",
-		 "Taking too long to load.",
+
      ""
   ];
-
 
   </script>
 

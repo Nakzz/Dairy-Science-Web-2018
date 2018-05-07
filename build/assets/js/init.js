@@ -15,7 +15,7 @@
 	   i) Subscribe
 	   j) Nice Scroll
 	   h) Placeholder for ie9
-	3.only play video on desktop devices
+	3.slider
 
 /*************************************/
 
@@ -54,6 +54,15 @@ try {
 
 jQuery( document ).ready(function( $ ) {
 	$.noConflict();
+
+
+	jQuery(document).ready(function(){
+	  jQuery('#slippry-slide').slippry({
+		
+
+		})
+	});
+
 
 
 
@@ -136,34 +145,7 @@ jQuery( document ).ready(function( $ ) {
 	$('.pull').slideToggle();
 	});
 
-	/******* Speakers Slider *************/
 
-	$('#portfolioSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: false,
-		pauseOnHover: true,
-
-	});
-
-	$('#servicesSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: true,
-		pauseOnHover: true,
-
-	});
-
-	$('#teamSlider').flexslider({
-		animation: "slide",
-		directionNav: false,
-		controlNav: true,
-		touch: true,
-		pauseOnHover: true,
-
-	});
 
 	/* Overlay */
 	if (Modernizr.touch) {
@@ -302,29 +284,29 @@ jQuery( document ).ready(function( $ ) {
 /***************************************/
 /*only play video on desktop devices  */
 /**************************************/
-	var isMobile = {
-	Android: function() {
-	return navigator.userAgent.match(/Android/i);
-	},
-	BlackBerry: function() {
-	return navigator.userAgent.match(/BlackBerry/i);
-	},
-	iOS: function() {
-	return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-	},
-	Opera: function() {
-	return navigator.userAgent.match(/Opera Mini/i);
-	},
-	Windows: function() {
-	return navigator.userAgent.match(/IEMobile/i);
-	},
-	any: function() {
-	return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-	}
-};
-
-var trueMobile = isMobile.any()
-if (trueMobile){
-	    $('#video').css('display','none');
-
-}
+// 	var isMobile = {
+// 	Android: function() {
+// 	return navigator.userAgent.match(/Android/i);
+// 	},
+// 	BlackBerry: function() {
+// 	return navigator.userAgent.match(/BlackBerry/i);
+// 	},
+// 	iOS: function() {
+// 	return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+// 	},
+// 	Opera: function() {
+// 	return navigator.userAgent.match(/Opera Mini/i);
+// 	},
+// 	Windows: function() {
+// 	return navigator.userAgent.match(/IEMobile/i);
+// 	},
+// 	any: function() {
+// 	return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
+// 	}
+// };
+//
+// var trueMobile = isMobile.any()
+// if (trueMobile){
+// 	    $('#video').css('display','none');
+//
+// }

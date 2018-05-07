@@ -5,7 +5,7 @@
 
 
   <nav class="navbar navbar-default " role="navigation">
-    <div id="navLogoDiv" class="col-lg-3 col-md-3 col-sm-6 col-xs-12 ">
+    <div id="navLogoDiv" class="col-lg-3 col-md-3 col-sm-6 col-xs-10 ">
       <a class="navbar-brand" data-scroll href="index.php"><img class="img-responsive" src="assets/img/logos/transparent_logo.png" alt="logo"/></a>
     </div>
 <!-- <?php // TODO: Make logo bigger in larger screen. do it how ever ?>
@@ -33,21 +33,21 @@
         <li><a href="contact.php">Contact</a></li>
         <li><a href="people.php">People</a></li>
         <li><a href="opportunities.php">Opportunities</a></li>
-        <li><a href="gallery.php">Gallery</a></li>
+        <!--<li><a href="gallery.php">Gallery</a></li> -->
       </ul>
     </li>
     <li><a href="tools.php">Tools</a>
           <ul>
-            <li><a class="toptop" href="tools.php#feeding">Feeding</a></li>
-            <li><a href="tools.php#heifers">Heifers</a></li>
-            <li><a href="tools.php#reproduction">Reproduction</a></li>
-            <li><a href="tools.php#genomics">Genomics</a></li>
-            <li><a href="tools.php#production">Production</a></li>
-            <li><a href="tools.php#replacement">Replacement</a></li>
-            <li><a href="tools.php#health">Health</a></li>
-            <li><a href="tools.php#financial">Financial</a></li>
-            <li><a class="toptop" href="tools.php#pricerisk">Price Risk</a></li>
-            <li><a href="tools.php#enviroment">Enviroment</a></li>
+            <li><a class="toptop" href="tools.php#Feeding">Feeding</a></li>
+            <li><a href="tools.php#Heifers">Heifers</a></li>
+            <li><a href="tools.php#Reproduction">Reproduction</a></li>
+            <li><a href="tools.php#Genomics">Genomics</a></li>
+            <li><a href="tools.php#Production">Production</a></li>
+            <li><a href="tools.php#Replacement">Replacement</a></li>
+            <li><a href="tools.php#Health">Health</a></li>
+            <li><a href="tools.php#Financial">Financial</a></li>
+            <li><a class="toptop" href="tools.php#PriceRisk">Price Risk</a></li>
+            <li><a href="tools.php#Enviroment">Enviroment</a></li>
           </ul>
     </li>
 
