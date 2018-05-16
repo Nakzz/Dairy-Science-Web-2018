@@ -15,7 +15,7 @@ $title = 'Dairy Management: People';
 	<script type="text/javascript">
 
   var bugs = [
-    "page is not scrollable until 1.683 second, JS parse error? Image compression error?",
+    "image preview is active stil after its clicked", "put di in the PHP section  as well with PAST"
     ""
   ];
 
@@ -590,7 +590,19 @@ include 'includes/nav-bar.php';
 						<ul class="slides">
 							<li>
 
-								<div class="col-md-4 col-sm-4 col-md-offset-4 col-sm-offset-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+								<div class="col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+									<div class="overlay-effect effects clearfix">
+										<div class="img">
+											<img src="assets/img/team/charbonneau.jpg" alt="Portfolio Item">
+											<div class="overlay">
+												<button class="md-trigger expand" data-modal="Charbonneau"><i class="big-icon fa fa-search"></i><br>View More</button>
+											</div>
+										</div>
+									</div>
+									<h4 class="text-center">Édith Charbonneau</h4>
+								</div>
+
+								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
 											<img src="assets/img/team/huichao.jpg" alt="Portfolio Item">
@@ -606,8 +618,31 @@ include 'includes/nav-bar.php';
 						</ul>
 					</div>
 				</div>
+
 		</div>
 		<!-- Card Info -->
+		<div class="md-modal md-effect-9" id="Charbonneau">
+			<div class="md-content">
+				<div class="folio">
+					<div class="Charbonneau"></div>
+					<div class="sp-name"><strong>Édith Charbonneau</strong><br/>Sabbatical Researcher</div>
+					<div class="sp-dsc">
+					Édith Charbonneau is a professor at Laval University. Her topics of research are related to dairy farm management and cow’s nutrition. She has developed an expertise in evaluating her topics of interest at a whole-farm level. She is currently working on projects evaluating the impact of strategies to mitigate greenhouse gas emission at the whole-farm level, evaluating strategies for dairy farms adaptation to climate change, and she is working on new ways to manage cows and calves for optimal farm profit.
+						<!-- <blockquote>
+							<p>Idea: Maybe timeline or something?</p>
+						</blockquote> -->
+					</div>
+					<div class="sp-social">
+						<ul>
+							<li><a href="#" class="social-btn"><i class="fas fa-envelope"></i></a></li>
+						</ul>
+					</div>
+					<button class="md-close"><i class="fa fa-times"></i></button>
+				</div>
+			</div>
+		</div>
+		<div class="md-overlay"></div>
+
 		<div class="md-modal md-effect-9" id="modal-11">
 			<div class="md-content">
 				<div class="folio">
