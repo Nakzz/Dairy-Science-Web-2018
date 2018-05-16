@@ -14,7 +14,7 @@ $title = 'Dairy Management: Presentations';
 
   var bugs = [
     "Search bar is notworking yet. Backend connections hasnt been established",
-    "Links are missing",
+    "Links are missing","anchor tags are not set properly",
 
     ""
   ];
@@ -71,7 +71,7 @@ include 'includes/nav-bar.php';
   </div>
 </section>
 <!--END Section Tittle-->
-
+<?php include 'includes/pageSlider.php'; ?>
 <!-- Section Body-->
 <section class="bodySection">
   <div class="container">  <!--Container-->
@@ -164,7 +164,7 @@ $href = str_replace(' ','', $v['name']);
                                 if($value2['type'] == 'file')
                                 {
                                   $name = str_replace(" ", "_", $v['name']);
-                                  $link = "../presentations/".$name.'/'.$value2['filename'];
+                                  $link = "archive/presentations/".$name.'/'.$value2['filename'];
                                 }
                                 if(!empty($link) && !empty($value2['name']))
                                 echo " (<a href='".$link."' target='_blank' >".$value2['name']."</a>) ";

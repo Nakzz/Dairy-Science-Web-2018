@@ -13,7 +13,7 @@ $title = 'Dairy Management: Publications';
 
   var bugs = [
     "Search bar is notworking yet. Backend connections hasnt been established",
-    "Links are missing",
+    "Links are missing", "Numbers for each publications are missing",
 
     ""
   ];
@@ -69,7 +69,7 @@ include 'includes/nav-bar.php';
   </div>
 </section>
 <!--END Section Tittle-->
-
+<?php include 'includes/pageSlider.php'; ?>
 <!-- Section Body-->
 <section class="bodySection">
   <div class="container">  <!--Container-->
@@ -194,9 +194,9 @@ include 'includes/nav-bar.php';
                           {
                             $name = str_replace(" ", "_", $v['name']);
                             if(!empty($catDir))
-                            $link = "../publications/".$catDir.'/'.$value2['filename'];
+                            $link = "archive/publications/".$catDir.'/'.$value2['filename'];
                             else
-                            $link = "../publications/".$value2['filename'];
+                            $link = "archive/publications/".$value2['filename'];
                           }
                           if(!empty($link) && !empty($value2['name']))
                           echo " (<a href='".$link."' target='_blank' >".$value2['name']."</a>) ";
@@ -232,9 +232,9 @@ include 'includes/nav-bar.php';
                           {
                             $name = str_replace(" ", "_", $v['name']);
                             if(!empty($catDir))
-                            $link = "../publications/".$catDir.'/'.$value2['filename'];
+                            $link = "archive/publications/".$catDir.'/'.$value2['filename'];
                             else
-                            $link = "../publications/".$value2['filename'];
+                            $link = "archive/publications/".$value2['filename'];
                           }
                           if(!empty($link) && !empty($value2['name']))
                           echo " (<a href='".$link."' target='_blank' >".$value2['name']."</a>) ";

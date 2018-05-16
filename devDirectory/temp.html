@@ -1,0 +1,96 @@
+<h1 style="color: #616f99; text-align: center;" >Vision Recognition: Self-Aware Car | Ajmain Naqib </h1>
+Hi, my name is Ajmain Naqib, and I am rising senior at <a href="http://newtownhighschool.org/">Newtown High school</a>. For my starter project, I put together a voice changer from the Velleman-kit’s MK171 voice changer kit and my advanced project is to build a self-aware car. It would behave accordingly to traffic lights and park itself when parking is found. I will be using vision recognition for this which is a completely new area for me.
+
+My major involvement in engineering was in my school's robotics team although I had the passion for engineering even since my childhood. In my school's robotics team I am the captain, giving me the responsibility of overseeing the overall progress of build season's mechanical, electrical, programming, media and business part, I am personally responsible for the mechanical and designing aspect of the robot. Other than being involved in the robotics team, personally I have worked with Arduino and Raspberry Pi to make several projects on my own.
+
+Programming isn't my area of expertise but I have always been keen to learn more. I have taken steps towards it. I know C, C++, HTML and somewhat Java. BlueStamp engineering gave me the extra push to learn more and get in-depth with Java. For my project, I need to write code in Java with OpenCV library for vision recognition, which has very little to no documentation. Being able to complete the tasks that was crucial for the project was a huge learning curve for me.
+
+<hr />
+
+<h1 style="color: #616f99; text-align: center;">Final Milestone:</h1>
+&nbsp;
+<div></div>
+
+<hr />
+
+<h1 style="color: #616f99; text-align: center;">Second Milestone</h1>
+&nbsp;
+<div align="aligncenter"></div>
+<div align="aligncenter"></div>
+My second milestone was to get the vision recognition working. I used OpenCV library for this process and the code was done in Java. is a library of programming functions mainly aimed at real-time computer vision. OpenCV is initially written in C++. There are a lot of documentation for python as well. But there is very few documentation in Java which was a great issue for me. The source code is attached to the bottom.
+
+[caption id="attachment_23385" align="alignright" width="283"]<a href="http://bluestampengineering.com/wp-content/uploads/2016/07/1.jpeg"><img class="wp-image-23385 " src="http://bluestampengineering.com/wp-content/uploads/2016/07/1-300x225.jpeg" alt="1" width="283" height="212" /></a> Fig 1[/caption]
+
+In order for me to process the image for my robot to act accordingly, first I had to code to find a specific color. After looking at many C++ and python code I kind of got the basic understanding. My first idea was to take a video feed, process it and draw a rectangle over the target and then find the center of the target. But a video is just composition of multiple frames. So instead of taking a video, the more efficient method would be to take a picture from the webcam.(Fig 1) The contents of the captured image had to be stored in "Mat". For debugging purposes, I had every change to be stored on a different mat.
+
+[caption id="attachment_23387" align="alignleft" width="300"]<a href="http://bluestampengineering.com/wp-content/uploads/2016/07/2.jpeg"><img class="size-medium wp-image-23387" src="http://bluestampengineering.com/wp-content/uploads/2016/07/2-300x225.jpeg" alt="Fig 2" width="300" height="225" /></a> Fig 2[/caption]
+
+After taking the image for efficiency, it was converted to HSV. HSV stands for Hue-
+
+Saturation-Vibrance. A range of HSV with upper and lower limit was defined to find the color. This is where I got stuck for a while. Playing with the numbers to the exact color is hard which exactly what I did after I got a basic idea of the color from the HSV color circle diagram.
+
+So the steps I took later to make my life easier was to make sliders for every threshold
+
+[caption id="attachment_23389" align="alignright" width="300"]<a href="http://bluestampengineering.com/wp-content/uploads/2016/07/3.jpeg"><img class="wp-image-23389 size-medium" src="http://bluestampengineering.com/wp-content/uploads/2016/07/3-300x225.jpeg" alt="3" width="300" height="225" /></a> Fig 3[/caption]
+
+(Lower HSV and Upper HSV). It would change and show the change real-time which made finding the threshold for a specific color a lot easier.(Fig 3)
+
+Then this new thresholded image was used to find contours. Contour is an outline, especially one representing or bounding the shape or form of something. This was done in order to use a function called boundingRect. It would find the object's outlines and draw a rectangle over it. Next, it was easy to get the points of each corner and use Algebra to find its center and then calculate the difference from the center of the image. (Fig 4)
+
+[caption id="attachment_23390" align="alignleft" width="300"]<a href="http://bluestampengineering.com/wp-content/uploads/2016/07/5.jpeg"><img class="wp-image-23390 size-medium" src="http://bluestampengineering.com/wp-content/uploads/2016/07/5-300x225.jpeg" alt="5" width="300" height="225" /></a> Fig 4[/caption]
+
+This process uses the FindCenter.java class.  A problem that I noticed while doing this was in a video feed was that the rectangles I was drawing were overlapping. For that, I turned to just taking one image and showing the changes. But later I discovered it was because of line 127
+<blockquote><span class="pl-k">List&lt;<span class="pl-smi">MatOfPoint</span>&gt;</span> contours <span class="pl-k">=</span> <span class="pl-k">new</span> <span class="pl-k">ArrayList&lt;<span class="pl-smi">MatOfPoint</span>&gt;</span>();</blockquote>
+had to be inside the loop. This is where the contours were being stored, and every time I was finding the contours, they were just saving.
+
+&nbsp;
+
+&nbsp;
+
+Source Code: <a href="https://github.com/Nakzz/SelfAwareCar/tree/917cd745a637483955dfb556bfecedaac0b0bda6">Github</a>
+
+<hr />
+
+<h1 style="color: #616f99; text-align: center;">First Milestone</h1>
+&nbsp;
+<div align="aligncenter"></div>
+
+[caption id="attachment_20099" align="alignright" width="177"]<a href="http://bluestampengineering.com/wp-content/uploads/2016/07/FB0SQHNIH0YHYZ7.MEDIUM.jpg"><img class="wp-image-20099" src="http://bluestampengineering.com/wp-content/uploads/2016/07/FB0SQHNIH0YHYZ7.MEDIUM-233x300.jpg" alt="FB0SQHNIH0YHYZ7.MEDIUM" width="177" height="163" /></a> Mecanum Directional Drive[/caption]
+
+[caption id="" align="alignright" width="178"]<a href="https://cdn.sparkfun.com//assets/parts/7/5/6/7/11578-02.jpg"><img src="https://cdn.sparkfun.com//assets/parts/7/5/6/7/11578-02.jpg" width="178" height="174" /></a> Mecanum Wheel[/caption]
+
+<span style="font-weight: 400;">My advanced project is to build a self-aware car. It’s objective would be to identify road signs and behave appropriately alongside parking by itself </span><span style="font-weight: 400;">using vision recognition and ultrasonic sensors when it's complete. My first milestone was to make a mecanum wheel drive which would properly drive and avoid any obstacles.
+</span>
+<span style="font-weight: 400;">The mecanum wheel </span><span style="font-weight: 400;">is a conventional wheel with a series of rollers attached to its
+circumference at 45 degrees to the plane of the wheel, parallel to the axis of rotation. By rotating different wheels in a different direction, the vehicle can be moved in different directions like forward, backward, left, right, diagonally.</span>
+
+<span style="font-weight: 400;">Also, I have an ultrasonic sensor attached to it which indicates the robot when to stop in order to avoid obstacles.  How an ultrasonic sensor works is that it converts </span><span style="font-weight: 400;">ultrasound</span><span style="font-weight: 400;"> waves to </span><span style="font-weight: 400;">electrical signals</span><span style="font-weight: 400;"> or vice versa. The trigger pin emits a wave and echo pin receives it. With the distance formula using the speed of sound and the time it can be calculated how far the object is for an obstacle. I made a mount for the sensor.</span>
+
+<span style="font-weight: 400;">One issue that I had was the wheel hubs since the metal ones weren’t in stock, we printed a substitute for it, but they are pretty weak, which prevents me from going left or right for now also some of my printed and cut models need to be redesigned. My next step would be to have the vision recognition to get to read to identify targets and communicate with the Arduino.</span>
+
+[gallery size="large" link="file" ids="20151,20152,20153"]
+
+<a href="http://bluestampengineering.com/wp-content/uploads/2016/07/Drawings.rar">Drawings- Self-aware Car</a>
+
+<hr />
+
+<h1 style="color: #616f99; text-align: center;">Starter Project</h1>
+<span style="font-weight: 400;">For my starter project, I put together a voice changer from the <a href="https://www.amazon.com/Velleman-MK171-Voice-Changer/dp/B004XZQ6RE">Velleman-kit’s MK171 voice changer kit.</a></span>
+
+[caption id="" align="alignright" width="293"]<a href="https://static.rapidonline.com/catalogueimages/Module/M078786P01WL.jpg"><img src="https://static.rapidonline.com/catalogueimages/Module/M078786P01WL.jpg" width="293" height="293" /></a> Velleman MK171 Voice Changer[/caption]
+
+<span style="font-weight: 400;">One important component of this project is it’s ICs, integrated circuit, which is a set of electronic circuits on a small plate, which is made out of semiconductor materials. This makes a circuit much smaller. </span><span style="font-weight: 400;">In this project, I used 2 ICs-HT8950 voice modulator and LM386 amplifier. </span><span style="font-weight: 400;">HT8950 is the component which has several steps to shift frequencies to make an input from a microphone have a dramatic change in the output such as robot voice, high-low pitch, and vibrato. </span><span style="font-weight: 400;"><span style="font-weight: 400;">LM386 is a low voltage audio power amplifier. It takes the output from HT8950 and processes it and delivers it to the speaker, which is the final output mode.</span> </span>
+
+<!--more-->
+
+<span style="font-weight: 400;">I used a 9V battery to power the circuit. First the current goes through a switch to a capacitor which filters the excess noise. Capacitors serve multiple purposes from storing electric charge to filter out lower frequencies, or extracting a signal from DC.</span> <span style="font-weight: 400;"> An indicator LED diode switches on, passing the current through a Zener-diode which is reverse biased. Zener-diodes are to regulate a constant amount of current until a certain voltage is reached. </span><span style="font-weight: 400;">When that voltage is reached, the diode will enter breakdown and allow nearly any amount of current through</span><span style="font-weight: 400;">. The current then splits into two ways passing from multiple capacitors- going to the voice modulator IC and powering the mic through a resistor, whose input goes through a variable resistor to the voice modulator as well. If the mic received any input, a second indicator led lights up accordingly. </span><span style="font-weight: 400;">The HT8950 is connected to 4 push-buttons which control vibrato, pitch and techno effect. This IC sends the processed frequency to LM386 which is an amplifier, through a resistor, a capacitor, and a variable resistor which control the volume of the speaker. The second IC controls gain set of amplifiers and sends the frequency to the speaker for the final output.</span>
+<div style="float: left;">
+
+[caption id="" align="aligncenter" width="220"]<img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Axial_electrolytic_capacitors.jpg" width="220" height="152" /> Capacitors[/caption]
+
+</div>
+<div style="float: left;">
+
+[caption id="attachment_18817" align="aligncenter" width="235"]<img class="wp-image-18817 " src="http://bluestampengineering.com/wp-content/uploads/2016/07/start_capacitor_resistor_2-300x194.jpg" alt="start_capacitor_resistor_2" width="235" height="152" /> Resistors[/caption]
+
+</div>

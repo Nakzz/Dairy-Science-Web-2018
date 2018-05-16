@@ -1,7 +1,12 @@
+V:1.08-
+-
+
 V:1.07-
 - Debug admin panel
 - Added analytics
-- 
+- Added Carousel
+- Added images for carousel
+- Minor device incompatibility issues
 
 V:1.06-
 - Created PHP scripts to automate tools file transfer

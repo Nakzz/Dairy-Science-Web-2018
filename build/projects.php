@@ -66,6 +66,8 @@ include 'includes/nav-bar.php';
 </section>
 <!--END Section Tittle-->
 
+<?php include 'includes/pageSlider.php'; ?>
+
 <!-- Section Body-->
 <section class="bodySection">
   <div class="container">  <!--Container-->
@@ -128,7 +130,7 @@ include 'includes/nav-bar.php';
                 using existing data - cow, herd, farm, market, weather, crops, and soils - and integrating these data streams to produce new
                 knowledge and optimized decision-support tools.
                 The project is especially important and relevant to Wisconsin, the largest dairy farm state (10,000 farms), in which dairying
-                contributes half of the agricultural economy, has an impact of $43 billion a year, and supports 80,000 jobs. (<a href="../virtualdairyfarmbrain.php" target="_blank">More</a>)</p>
+                contributes half of the agricultural economy, has an impact of $43 billion a year, and supports 80,000 jobs. (<a href="additional/virtualdairyfarmbrain.php" target="_blank">More</a>)</p>
               </p>
             </div>
           </div>
@@ -168,7 +170,7 @@ include 'includes/nav-bar.php';
 
               <p>The Specific Aim of this proposal is to promote more sustainable Wisconsin dairy farm production systems
                 applying systematic whole-farm integrated evaluations.
-                (<a href="../dairyreprosuitedev.php" target="_blank">More</a>)</p>
+                (<a href="additional/dairyreprosuitedev.php" target="_blank">More</a>)</p>
 
               </div>
             </div>
@@ -376,7 +378,7 @@ include 'includes/nav-bar.php';
                         </td>
                       </tr>
                     </table></div>
-                    <p>The Specific Aim of this proposal is to systematically evaluate the profitability of dairy reproductive management strategies and develop a suite of simulation models and decision support systems that will allow scientists, farmers, farm consultants, and extension agents assess the economic value of reproductive programs. (<a href="../dairyreprotooldev.php" target="_blank">More</a>)</p>
+                    <p>The Specific Aim of this proposal is to systematically evaluate the profitability of dairy reproductive management strategies and develop a suite of simulation models and decision support systems that will allow scientists, farmers, farm consultants, and extension agents assess the economic value of reproductive programs. (<a href="additional/dairyreprotooldev.php" target="_blank">More</a>)</p>
 
                   </div>
                 </div>
