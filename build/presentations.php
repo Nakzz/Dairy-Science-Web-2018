@@ -13,7 +13,6 @@ $title = 'Dairy Management: Presentations';
   <script type="text/javascript">
 
   var bugs = [
-    "Search bar is notworking yet. Backend connections hasnt been established",
     "Links are missing","anchor tags are not set properly",
 
     ""
@@ -91,7 +90,7 @@ include 'includes/nav-bar.php';
 
 
 
-      <select id="searchBar" class="search" style="width: 75%">
+      <select id="searchBar" class="search" style="width: 100%">
       <option></option>
       <?php
 
@@ -126,7 +125,7 @@ include 'includes/nav-bar.php';
 $href = str_replace(' ','', $v['name']);
               ?>
 
-          <div href="<?php echo $href;?>" class="atab well ">
+          <div id="<?php echo $href;?>" class="atab well ">
             <input id="presentations<?php echo $v['id'];?>" type="checkbox" name="tabs">
             <label for="presentations<?php echo $v['id'];?>"><?php echo $v['name'];?></label>
             <div class="atab-content">
@@ -222,8 +221,8 @@ var result_id="";
 
 jQuery(document).ready(function() {
   var count= parseInt(<?php echo $count; ?>)-1;
-
-console.log("count"+ count);
+if (DEBUG == 1) {
+console.log("count"+ count);}
 
 jQuery(".search").select2({placeholder: "Search Publications",
 width: 'resolve',
@@ -248,15 +247,21 @@ jQuery(".search").on("select2:select", function (e) {
 
 if(result_id!="")
 jQuery("#"+result_id).toggleClass("highlight");
+jQuery("#"+result_id).parent().show();
 result_id=e.params.data.id;
 jQuery("#"+result_id).toggleClass("highlight");
 var cat_id=parseInt(e.params.data.element.dataset.category);
 
-console.log("cat_id:"+cat_id);
+if (DEBUG == 1) {
+console.log("cat_id: "+cat_id);
+console.log("count: "+count);
+}
 
 for (var i = 1; i <=count; i++) {
-
+  if (DEBUG == 1) {
+console.log("i: "+i);}
   if(i== cat_id){
+    //document.getElementById("accordion" + (cat_id -2)).checked= true;
     jQuery('#presentations'+i).attr('checked', true);
     jQuery('#presentations'+i).getNiceScroll().resize();
   }else{

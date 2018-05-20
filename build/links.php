@@ -93,7 +93,7 @@ include 'includes/nav-bar.php';
             foreach($categories as $key=>$val) {
               $href = str_replace(' ','', $val['name']);
               ?>
-              <div href="<?php echo $href;?>" class="atab well ">
+              <div class="atab well "> <a class="anchor" name="<?php echo $href;?>"></a>
                 <input id="presentations<?php echo $val['id'];?>" type="checkbox" name="tabs">
                 <label for="presentations<?php echo $val['id'];?>"><?php echo $val['name'];?></label>
                 <div class="atab-content">

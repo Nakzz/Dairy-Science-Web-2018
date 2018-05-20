@@ -101,34 +101,31 @@ $( function() {
 
 
 	// Show video on tools page.
-  $('div.media-body').click(function (event) {
-    var media_body = $(event.target).parents('div.media-body');
+  $('div.media').click(function (event) {
+    var media_body = $(event.target).parents('div.media');
     var a = $(media_body).find('a.video_link');
     var video_link = $(a).attr('href');
+
     var iframe = $(media_body).find('iframe.video');
-    if ($(iframe).attr('src') == '') {
-      $(iframe).attr('src', video_link);
-      $(iframe).wrap('<div class="flex-video widescreen"></div>');
-    }
-    if (!$(iframe).is(':visible')) {
+
+		if (!$(iframe).is(':visible')) {
       iframe.show();
       $(iframe).parent().show();
     } else {
       $(iframe).hide();
-      $(iframe).parent().hide();
+      //$(iframe).parent().hide();
     }
+
+    if ($(iframe).attr('src') == '') {
+      $(iframe).attr('src', video_link);
+      $(iframe).wrap('<div class="flex-video row"><div class="col-sm-10 offset-sm-1"></div></div>');
+			iframe.show();
+			$(iframe).parent().show();
+    }
+
 
   });
 
-	$('#link').click(function () {
-	  var src = 'http://www.youtube.com/embed/PX1alKkHObQ?rel=0';
-	  $('#feedval').modal('show');
-	  $('#feedval iframe').attr('src', src);
-	});
-
-	$('#feedval button').click(function () {
-	  $('#feedval iframe').removeAttr('src');
-	});
 
 
 

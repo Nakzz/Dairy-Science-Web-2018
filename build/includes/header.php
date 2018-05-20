@@ -1,3 +1,15 @@
+<script type="text/javascript">
+  //Universal debugging. 1 is enabled.
+  const DEBUG = 1;
+
+  if(DEBUG==1){
+  	console.log('	Universal Debugging is enabled.');
+  } else {
+    console.log('	Universal Debugging is disabled.');
+  }
+
+</script>
+
 <!--
 
 head tags should be in each file. add the follow in each page head element.
@@ -7,7 +19,7 @@ head tags should be in each file. add the follow in each page head element.
 <meta name="keywords" content="HTML5 Template">
 <meta name="description" content="Progressive — Responsive Multipurpose HTML Template"> -->
 <?php
-error_reporting(E_ALL);
+//error_reporting(E_ALL);
 
 // TODO: Uncomment prior to DEPLOY
 //require_once($_SERVER['DOCUMENT_ROOT'] . "/visitor/log_visitor.php");

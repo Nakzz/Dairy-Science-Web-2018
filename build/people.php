@@ -15,7 +15,7 @@ $title = 'Dairy Management: People';
 	<script type="text/javascript">
 
   var bugs = [
-    "image preview is active stil after its clicked", "put di in the PHP section  as well with PAST"
+  "some overlay is all dark",
     ""
   ];
 
@@ -194,6 +194,7 @@ include 'includes/nav-bar.php';
 						<ul class="slides">
 							<li>
 
+
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
@@ -206,6 +207,17 @@ include 'includes/nav-bar.php';
 									<h4 class="text-center">Manfei Li</h4>
 								</div>
 
+								<div class="col-md-4 col-sm-4  wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
+									<div class="overlay-effect effects clearfix">
+										<div class="img">
+											<img src="assets/img/team/Di.jpg" alt="Portfolio Item">
+											<div class="overlay">
+												<button class="md-trigger expand" data-modal="modal-01"><i class="big-icon fa fa-search"></i><br>View More</button>
+											</div>
+										</div>
+									</div>
+									<h4 class="text-center">Di Liang</h4>
+								</div>
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
@@ -218,7 +230,7 @@ include 'includes/nav-bar.php';
 									<h4 class="text-center">Afshin Samia Kalantari</h4>
 								</div>
 
-								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
+								<div class="col-md-4 col-sm-4 col-md-offset-4 col-sm-offset-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
 											<img src="assets/img/team/marion.jpg" alt="Portfolio Item">
@@ -261,6 +273,33 @@ include 'includes/nav-bar.php';
 		</div>
 		<div class="md-overlay"></div>
 		<!-- /Card Info -->
+
+		<!-- Card Info -->
+			<div class="md-modal md-effect-9" id="modal-01">
+				<div class="md-content">
+					<div class="folio">
+						<div class="avatar1"></div>
+						<div class="sp-name"><strong>Di Liang</strong><br/>Ph.D Student, UW2020 virtual dairy farm brain project (Past)</div>
+						<div class="sp-dsc">
+							Di grew up in China and got her BS in China Agricultural University.
+							Then she obtained a MS degree in Animal Science from the University of Kentucky,
+							focused on dairy health economics. Di completed her PhD in August 2017 and now she
+							is working as a postdoc in the UW2020 virtual dairy farm brain project.
+							<!-- <blockquote>
+								<p>Idea: Maybe timeline or something?</p>
+							</blockquote> -->
+						</div>
+						<div class="sp-social">
+							<ul>
+								<li><a href="#" class="social-btn"><i class="fas fa-envelope"></i></a></li>
+							</ul>
+						</div>
+						<button class="md-close"><i class="fa fa-times"></i></button>
+					</div>
+				</div>
+			</div>
+			<div class="md-overlay"></div>
+			<!-- /Card Info -->
 
 		<!-- Card Info -->
 		<div class="md-modal md-effect-9" id="modal-4">
@@ -567,6 +606,9 @@ include 'includes/nav-bar.php';
 <!--END Section Body-->
 
 
+
+
+
 <!--Section Tittle (NOT TOP)-->
 <section class="titleSection2" >
   <div class="container">
@@ -595,7 +637,7 @@ include 'includes/nav-bar.php';
 										<div class="img">
 											<img src="assets/img/team/charbonneau.jpg" alt="Portfolio Item">
 											<div class="overlay">
-												<button class="md-trigger expand" data-modal="Charbonneau"><i class="big-icon fa fa-search"></i><br>View More</button>
+												<button class="md-trigger expand" data-modal="modal-0"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
 										</div>
 									</div>
@@ -620,14 +662,19 @@ include 'includes/nav-bar.php';
 				</div>
 
 		</div>
+
+
 		<!-- Card Info -->
-		<div class="md-modal md-effect-9" id="Charbonneau">
+		<div class="md-modal md-effect-9" id="modal-0">
 			<div class="md-content">
 				<div class="folio">
-					<div class="Charbonneau"></div>
+					<div class="avatar0"></div>
 					<div class="sp-name"><strong>Édith Charbonneau</strong><br/>Sabbatical Researcher</div>
 					<div class="sp-dsc">
-					Édith Charbonneau is a professor at Laval University. Her topics of research are related to dairy farm management and cow’s nutrition. She has developed an expertise in evaluating her topics of interest at a whole-farm level. She is currently working on projects evaluating the impact of strategies to mitigate greenhouse gas emission at the whole-farm level, evaluating strategies for dairy farms adaptation to climate change, and she is working on new ways to manage cows and calves for optimal farm profit.
+						Édith Charbonneau is a professor at Laval University. Her topics of research are related to dairy farm management and cow’s nutrition.
+						She has developed an expertise in evaluating her topics of interest at a whole-farm level. She is currently working on projects evaluating
+						the impact of strategies to mitigate greenhouse gas emission at the whole-farm level, evaluating strategies for dairy farms adaptation to climate
+						 change, and she is working on new ways to manage cows and calves for optimal farm profit.
 						<!-- <blockquote>
 							<p>Idea: Maybe timeline or something?</p>
 						</blockquote> -->
@@ -642,7 +689,9 @@ include 'includes/nav-bar.php';
 			</div>
 		</div>
 		<div class="md-overlay"></div>
+		<!-- /Card Info -->
 
+<!-- Card Info -->
 		<div class="md-modal md-effect-9" id="modal-11">
 			<div class="md-content">
 				<div class="folio">
@@ -1218,7 +1267,7 @@ include 'includes/nav-bar.php';
 					<div class="avatar19"></div>
 					<div class="sp-name"><strong>Ajmain Naqib</strong><br/>LAMP Stack Web Devoloper, Project Assistant</div>
 					<div class="sp-dsc">
-						Ajmain is responsible for developing and managing the website design and it's content for Dairy Management alongside developing, refining, and debugging new, and pre-exsiting research web-tools.
+						Ajmain is responsible for developing and managing the website design and it's content for Dairy Management alongside developing, refining, and debugging new, and pre-existing research web-tools.
 						He joined the team in late January 2018. Ajmain is currently pursing a Bachelors degree in Computer Science and intended certificate in Mathematics and/or Entrepreneurship at UW-Madison.
 						<blockquote>
 							<p>January 2018 - Present</p>

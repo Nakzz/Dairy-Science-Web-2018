@@ -290,13 +290,8 @@ tr{
         padding-bottom: .2em;
         padding-top: .9em;
         border-bottom: 1px solid #1bd9827a;
-
-        &::before{
-          content: '-';
-          color: #1bd982;
-          font-weight: 900;
-          padding-right: .5em;
-        }
+        list-style-position: inside;
+        
       }
 
 

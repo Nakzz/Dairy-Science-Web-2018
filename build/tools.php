@@ -10,7 +10,7 @@ $title = 'Dairy Management: Tools';
   <script type="text/javascript">
 
   var bugs = [
-    "Links are missing","Video demo links not openeing", "Dairy nutrition manager accordian bar is smaller.", "Slider text should be one line in bigger devices, and one in smaller devices",
+    "Links are missing",
 
     ""
   ];
@@ -94,7 +94,6 @@ include 'includes/nav-bar.php';
        <div class="media">
 
 
-
        <div class="col-sm-5">
          <strong><p>Estimates the market value of dairy feed ingredients</p></strong>
          <p>Online Tool <a href="tools/feedval_12_v2/index.php" target="_blank">(Open)</a></p>
@@ -103,9 +102,9 @@ include 'includes/nav-bar.php';
          <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/PX1alKkHObQ?rel=0">Link to the video.</a>
        </div>
        <div class="col-sm-7">
-       <img class="media-object img-responsive hidden-xs img-thumbnail" src="assets/img/tools/feedval.png" alt="...">
+       <img style="width:100%;"  class="media-object img-responsive hidden-xs img-thumbnail" src="assets/img/tools/feedval.png" alt="...">
       </div>
-    <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe>
+    <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe>
 
 
        </div>
@@ -122,7 +121,7 @@ include 'includes/nav-bar.php';
    <p>Presentation 1 <a href="archive/publications/2012_Cabrera_4-State_Presentation.pdf" target="_blank">(Download)</a></p>
    <p>Presentation 2 <a href="tools/cluster/Lactating_Dairy_Cattle_Feeding_Grouping.pdf" target="_blank">(Download)</a></p>
    <p>Paper <a href="archive/publications/2012_Cabrera_4-State_Paper.pdf" target="_blank">(Download)</a></p>
-   <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the  Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/ycPExNW_RSE?rel=0">Link to the  video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the  Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/ycPExNW_RSE?rel=0">Link to the  video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -148,7 +147,7 @@ include 'includes/nav-bar.php';
    <p>HTML Online Tool <a href="tools/optigen/index.php" target="_blank">(Open)</a> </p>
    <p>Poster <a href="archive/publications/presentations/2009_ADSA_Inostroza.pdf" target="_blank">(Download)</a></p>
    <p>Paper <a href="archive/publications/Inostroza_etal_10.pdf" target="_blank">(Download)</a> </p>
-   <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the        Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/csuIg9zD_W4?rel=0">Link to the        video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the        Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/csuIg9zD_W4?rel=0">Link to the        video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -163,7 +162,7 @@ include 'includes/nav-bar.php';
    <p>Documentation <a href="oldtools/iofsc/IOFSC_doc.pdf" target="_blank">(Download)</a> </p>
    <p>Presentation <a href="archive/publications/presentations/2009_4STATE_Cabrera.pdf" target="_blank">(Download)</a></p>
    <p>Paper <a href="archive/publications/papers/2009_4State_Cabrera.pdf" target="_blank">(Download)</a></p>
-   <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the        Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/t8TW-QjUmLU?rel=0">Link to the        video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> <strong><p>Spanish (Argentinian) version: Margen Sobre Los Gastos de  Concentrado</p></strong>
+   <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the        Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/t8TW-QjUmLU?rel=0">Link to the        video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> <strong><p>Spanish (Argentinian) version: Margen Sobre Los Gastos de  Concentrado</p></strong>
    <p>Hoja de Cálculo en Excel <a href="oldtools/iofsc/MSGC/MSGC.xlsm" target="_blank">(Abrir)</a></p>
    <p>Instrucciones en PDF <a href="oldtools/iofsc/MSGC/MSGC.pdf" target="_blank">(Descargar)</a></p>
    <p>Instrucciones en Word <a href="oldtools/iofsc/MSGC/MSGC.doc" target="_blank">(Descargar)</a></p>
@@ -180,7 +179,7 @@ include 'includes/nav-bar.php';
    <p>Web-based Database System <a href="iofscdb/login.php" target="_blank">(Open)</a> </p>
    <p>Documentation <a href="iofscdb/WIFeedEvaluator.pdf" target="_blank">(Open)</a> </p>
    <p>Presentation <a href="archive/publications/presentations/2010_4STATE_Cabrera.pdf" target="_blank">(Download)</a></p>
-   <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/M32GIqqcguQ?rel=0">Link to the video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/M32GIqqcguQ?rel=0">Link to the video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -194,7 +193,7 @@ include 'includes/nav-bar.php';
    <p>Flash Online Tool <a href="tools/CornFeeding/Corn.php" target="_blank">(Open)</a> </p>
    <p>Excel Spreadsheet <a href="oldtools/CornFeeding/spreadsheet.php" target="_blank">(Download)</a></p>
    <p>Presentation <a href="presentations/HealthClinic_Dec08.pdf" target="_blank">(Download)</a></p>
-   <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the       Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/eylM-7r8wMg?rel=0">Link to the       video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the       Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/eylM-7r8wMg?rel=0">Link to the       video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -207,7 +206,7 @@ include 'includes/nav-bar.php';
    <p>HTML Online Tool <a href="tools/iofc/index.php" target="_blank">(Open)</a></p>
    <p>Flash Online Tool <a href="tools/iofc/IOFC.php" target="_blank">(Open)</a></p>
    <p>Documentation <a href="oldtools/CornFeeding/Corn-to-Milk081908.pdf" target="_blank">(Download)</a></p>
-   <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the    Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/PZ7qzJNQNhg?rel=0">Link to the    video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the    Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/PZ7qzJNQNhg?rel=0">Link to the    video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -221,7 +220,7 @@ include 'includes/nav-bar.php';
    <p>Flash Online Tool <a href="tools/DairyRation/Additive.php" target="_blank">(Open)</a></p>
    <p>Documentation <a href="oldtools/DairyRation/Additive.pdf" target="_blank">(Open)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the  Video)</a></p> <a class="video_link not_seen"
-       href="http://www.youtube.com/embed/57REqVNakKk?rel=0">Link to the  video.</a> <iframe class="video not_seen" width="560"
+       href="http://www.youtube.com/embed/57REqVNakKk?rel=0">Link to the  video.</a> <iframe class="video not_seen" align="center" width="560"
        height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
@@ -275,7 +274,7 @@ include 'includes/nav-bar.php';
    <p>Presentation (<a href="archive/publications/presentations/2009_DCRC_Cabrera(c).pdf" target="_blank">Download</a>)</p>
    <p>Paper (<a href="archive/publications/papers/2009_DCRC_Cabrera.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the     Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/_h7-VbrzZXQ?rel=0">Link to the     video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/_h7-VbrzZXQ?rel=0">Link to the     video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe>
    <p>Spanish Version (Argentina)</p>
    <p>Herramienta (<a href="oldtools/sexed_semen/SemenSexadoArgentina.swf" target="_blank">Abrir</a>)</p>
    <p>Documento (<a href="oldtools/sexed_semen/SemenSexado.pdf" target="_blank">Descargar</a>)</p>
@@ -296,7 +295,7 @@ include 'includes/nav-bar.php';
    <p>Excel SpreadSheet (<a href="oldtools/heifer_replacement/spreadsheet.php" target="_blank">Download</a>)</p>
    <p>Documentation (<a href="oldtools/heifer_replacement/Heifer_Replacement.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the      Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/Lqqq0g-ucOE?rel=0">Link to the      video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/Lqqq0g-ucOE?rel=0">Link to the      video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe>
    <p>Spanish Version (Chile)</p>
    <p>Herramienta (<a href="oldtools/heifer_replacement/Remplazo_Vaquillas.xls" target="_blank">Abrir</a>)</p>
    </div>
@@ -313,7 +312,7 @@ include 'includes/nav-bar.php';
    <p>Excel SpreadSheet (<a href="oldtools/heifer_breakeven/spreadsheet.php" target="_blank">Download</a>)</p>
    <p>Documentation (<a href="oldtools/heifer_breakeven/Heifer_Breakeven.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the     Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/QM2Wrm7UfPI?rel=0">Link to the     video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/QM2Wrm7UfPI?rel=0">Link to the     video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -363,7 +362,7 @@ include 'includes/nav-bar.php';
    <p>Paper (<a href="archive/publications/2012_JDS_Cabrera.pdf" target="_blank">Download</a>) </p>
    <p>Magazine Article (<a href="archive/publications/2012_Hoards_Cabrera.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the      Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/qCCj1fa-UXw?rel=0">Link to the      video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/qCCj1fa-UXw?rel=0">Link to the      video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -376,7 +375,7 @@ include 'includes/nav-bar.php';
    <p><strong>This tool is a “live” summary of data collected through the University of Wisconsin-Extension Repro Money Program from 40 dairy farms in Wisconsin between the years 2010 and 2014.</strong></p>
    <p>Online Tool (<a href="/tools/ds/index2.php" target="_blank">Open</a>)</p>
    <p>Questionnaire (<a href="additional/Survey7.pdf" target="_blank">Open</a>) </p>
-   <!--        <p>Paper (<a href="archive/publications/2012_JDS_Cabrera.pdf"        target="_blank">Download</a>)      </p>        <p>Magazine Article (<a href="archive/publications/2012_Hoards_Cabrera.pdf"      target="_blank">Download</a>)</p>        <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the      Video)</a></p>      <a class="video_link not_seen"      href="http://www.youtube.com/embed/qCCj1fa-UXw?rel=0">Link to the      video.</a>      <iframe class="video not_seen" width="560" height="315" src=""      frameborder="0"></iframe>    -->
+   <!--        <p>Paper (<a href="archive/publications/2012_JDS_Cabrera.pdf"        target="_blank">Download</a>)      </p>        <p>Magazine Article (<a href="archive/publications/2012_Hoards_Cabrera.pdf"      target="_blank">Download</a>)</p>        <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the      Video)</a></p>      <a class="video_link not_seen"      href="http://www.youtube.com/embed/qCCj1fa-UXw?rel=0">Link to the      video.</a>      <iframe class="video not_seen" align="center" width="560" height="315" src=""      frameborder="0"></iframe>    -->
    </div>
        </div>
    </div>
@@ -396,7 +395,7 @@ include 'includes/nav-bar.php';
    <p>Presentation (<a href="archive/publications/presentations/2009_DCRC_Cabrera(c).pdf" target="_blank">Download</a>)</p>
    <p>Paper (<a href="archive/publications/papers/2009_DCRC_Cabrera.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the    Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/_h7-VbrzZXQ?rel=0">Link to the    video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/_h7-VbrzZXQ?rel=0">Link to the    video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe>
    <p>Spanish Version (Argentina)</p>
    <p>Herramienta (<a href="oldtools/sexed_semen/SemenSexadoArgentina.swf" target="_blank">Abrir</a>)</p>
    <p>Documento (<a href="oldtools/sexed_semen/SemenSexado.pdf" target="_blank">Descargar</a>)</p>
@@ -417,7 +416,7 @@ include 'includes/nav-bar.php';
    <p>Online Tool (<a href="tools/pregnancy/" target="_blank">Open</a>)</p>
    <p>Instructions and Documentation (<a href="oldtools/pregnancy/pregnancy.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/inRoHgMQDoc?rel=0">Link to the video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/inRoHgMQDoc?rel=0">Link to the video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -430,7 +429,7 @@ include 'includes/nav-bar.php';
    <p><strong>Simulates a dairy herd and their replacements for nine     lactations: from the moment of the first calving to the ninth     parturition</strong></p>
    <p>Online Tool (<a href="markov/reader.php" target="_blank">open</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the       Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/XkT_s98OMF0?rel=0">Link to the       video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/XkT_s98OMF0?rel=0">Link to the       video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -550,7 +549,7 @@ include 'includes/nav-bar.php';
    <p>Progressive Dairyman Article (<a href="http:/progressivedairy.com/index.php?option=com_content&task=view&id=4214" target="_blank">Download</a>)</p>
    <p>Paper (<a href="http://www.joe.org/joe/2011june/rb1.php" target="_blank">Download</a>) </p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the    Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/Ypav-d20tbI?rel=0">Link to the    video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/Ypav-d20tbI?rel=0">Link to the    video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -565,7 +564,7 @@ include 'includes/nav-bar.php';
    <p>Flash Online Tool (<a href="tools/eco2x3x/index.php" target="_blank">Open</a>) </p>
    <p>Documentation (<a href="oldtools/eco2x3x/Milking3X.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the       Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/Tois4i0h3gY?rel=0">Link to the       video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/Tois4i0h3gY?rel=0">Link to the       video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe>
    <p>Spanish (Argentinian) version: Impacto de cambiar ordeño de 2X a 3X</p>
    <p>Flash aplicación (<a href="oldtools/eco2x3x/2X-3XArg.swf" target="_blank">Abrir</a>)</p>
    </div>
@@ -584,7 +583,7 @@ include 'includes/nav-bar.php';
    <p>Excel SpreadSheet in lb (<a href="oldtools/lactationbench/spreadsheet_lbs.php" target="_blank">Download</a>)</p>
    <p>Excel SpreadSheet in kg (<a href="oldtools/lactationbench/spreadsheet_kg.php" target="_blank">Download</a>) </p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/x_AE-az-UmQ?rel=0">Link to the video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/x_AE-az-UmQ?rel=0">Link to the video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -598,7 +597,7 @@ include 'includes/nav-bar.php';
    <p>Online Tool (<a href="tools/rbST/index.php" target="_blank">Open</a>) </p>
    <p>Falsh Online Tool (<a href="tools/rbST/rbst.php" target="_blank">Open</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the  Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/aUn4YNnDpU8?rel=0">Link to the  video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/aUn4YNnDpU8?rel=0">Link to the  video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -635,7 +634,7 @@ include 'includes/nav-bar.php';
    <p>Paper <a href="archive/publications/2012_JDS_Cabrera.pdf" target="_blank">(Download)</a> </p>
    <p>Magazine Article <a href="archive/publications/2012_Hoards_Cabrera.pdf" target="_blank">(Download)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the    Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/qCCj1fa-UXw?rel=0">Link to the    video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/qCCj1fa-UXw?rel=0">Link to the    video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -648,7 +647,7 @@ include 'includes/nav-bar.php';
    <p><strong>Calculates the value of a replacement heifer under specific farm conditions, an indicative of her buying or selling price.</strong> </p>
    <p>Online Tool <a href="tools/springer_value/index.php" target="_blank">(Open)</a> </p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/HNuJt4UAIoM?rel=0">Link to the video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/HNuJt4UAIoM?rel=0">Link to the video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -663,7 +662,7 @@ include 'includes/nav-bar.php';
    <p>Excel SpreadSheet <a href="oldtools/heifer_replacement/spreadsheet.php" target="_blank">(Download)</a></p>
    <p>Documentation <a href="oldtools/heifer_replacement/Heifer_Replacement.pdf" target="_blank">(Download)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/Lqqq0g-ucOE?rel=0">Link to the video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/Lqqq0g-ucOE?rel=0">Link to the video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe>
    <p>Spanish Version (Chile)</p>
    <p>Herramienta <a href="oldtools/heifer_replacement/Remplazo_Vaquillas.xls" target="_blank">(Abrir)</a></p>
    </div>
@@ -681,7 +680,7 @@ include 'includes/nav-bar.php';
    <p>Excel SpreadSheet <a href="oldtools/heifer_breakeven/spreadsheet.php" target="_blank">(Download)</a></p>
    <p>Documentation <a href="oldtools/heifer_breakeven/Heifer_Breakeven.pdf" target="_blank">(Download)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the     Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/QM2Wrm7UfPI?rel=0">Link to the     video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/QM2Wrm7UfPI?rel=0">Link to the     video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -760,7 +759,7 @@ include 'includes/nav-bar.php';
    <p>Additional Information (<a href="additional/lgm.php" target="_blank">Open</a>)</p>
    <p>Paper (<a href="archive/publications/Valvekar.pdf" target="_blank">Download</a>) </p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the  Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/OFIOPed9zhc?rel=0">Link to the  video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/OFIOPed9zhc?rel=0">Link to the  video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -776,7 +775,7 @@ include 'includes/nav-bar.php';
    <p>Template 2 (<a href="oldtools/wcdss/CashFlowAgFAAnalysisImportTemplate2.xlsx" target="_blank">Download</a>)</p>
    <p>Template 3 (<a href="oldtools/wcdss/FarmEarningsAgFAImportAnalysisTemplate5.xlsx" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the       Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/Ypav-d20tbI?rel=0">Link to the       video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/Ypav-d20tbI?rel=0">Link to the       video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -791,7 +790,7 @@ include 'includes/nav-bar.php';
    <p>Excel SpreadSheet (<a href="benchmark/spreadsheet.php" target="_blank">Download</a>) </p>
    <p>Presentation (<a href="presentations/Wisconsin_Audience/2010_ANRE_Cabrera.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the   Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/2hTlszPu-Hs?rel=0">Link to the   video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/2hTlszPu-Hs?rel=0">Link to the   video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -809,7 +808,7 @@ include 'includes/nav-bar.php';
    <p>Progressive Dairyman Article (<a href="http:/progressivedairy.com/index.php?option=com_content&task=view&id=4214" target="_blank">Download</a>)</p>
    <p>Paper (<a href="http://www.joe.org/joe/2011june/rb1.php" target="_blank">Download</a>) </p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the     Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/Ypav-d20tbI?rel=0">Link to the     video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/Ypav-d20tbI?rel=0">Link to the     video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -823,7 +822,7 @@ include 'includes/nav-bar.php';
    <p>Online Tool (<a href="tools/lgm_least_cost/index.php" target="_blank">Open</a>) </p>
    <p>Additional Resources (<a href="additional/lgm.php" target="_blank">Open</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the    Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/W4fM51LjORc?rel=0">Link to the    video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/W4fM51LjORc?rel=0">Link to the    video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -849,7 +848,7 @@ include 'includes/nav-bar.php';
    <p>Excel Spreadsheet (<a href="oldtools/returntolabor/spreadsheet.php" target="_blank">Download</a>)</p>
    <p>Documentation (<a href="oldtools/returntolabor/ReturntoLabor.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the        Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/PWA-jGhugtY?rel=0">Link to the        video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/PWA-jGhugtY?rel=0">Link to the        video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -875,7 +874,7 @@ include 'includes/nav-bar.php';
    <p>Online Tool (<a href="tools/lgmfeeds/index.php" target="_blank">Open</a>)</p>
    <p>Documentation (<a href="oldtools/lgmfeeds/lgmfeeds.pdf" target="_blank">Open</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/NuGFlxne8hY?rel=0">Link to the video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/NuGFlxne8hY?rel=0">Link to the video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -921,7 +920,7 @@ include 'includes/nav-bar.php';
    <p>Online Tool (<a href="tools/lgm_least_cost/index.php" target="_blank">Open</a>) </p>
    <p>Additional Resources (<a href="additional/lgm.php" target="_blank">Open</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the       Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/W4fM51LjORc?rel=0">Link to the       video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/W4fM51LjORc?rel=0">Link to the       video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -935,7 +934,7 @@ include 'includes/nav-bar.php';
    <p>This program will calculate your estimated premium for various deductible levels to aid you in your decision.</p>
    <p>Online Tool (<a href="tools/lgm_premium_estimator/index.php" target="_blank">Online</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the        Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/ltWIh7sDl3I?rel=0">Link to the        video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/ltWIh7sDl3I?rel=0">Link to the        video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>
@@ -950,7 +949,7 @@ include 'includes/nav-bar.php';
    <p>Online Tool (<a href="tools/lgmfeeds/index.php" target="_blank">Open</a>)</p>
    <p>Documentation (<a href="oldtools/lgmfeeds/lgmfeeds.pdf" target="_blank">Open</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the      Video)</a></p>
-   <a class="video_link not_seen" href="http://www.youtube.com/embed/NuGFlxne8hY?rel=0">Link to the      video.</a> <iframe class="video not_seen" width="560" height="315" src="" frameborder="0"></iframe> </div>
+   <a class="video_link not_seen" href="http://www.youtube.com/embed/NuGFlxne8hY?rel=0">Link to the      video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
       </div>

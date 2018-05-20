@@ -13,3 +13,39 @@ h2{
   padding-top: 70px !important;
   margin-top: -70px !important;
 }
+
+#accordion{
+  .anchor{
+    a{
+    padding-top: 70px !important;
+    margin-top: -70px !important;
+  }
+  span{
+  padding-top: 70px !important;
+  margin-top: -70px !important;
+}
+}}
+
+.flex-video {
+    position: relative;
+    padding-top: 25px;
+    display: table;
+    margin: auto;
+}
+
+
+.media { .img-responsive {
+
+    width: 40%;}
+}
+
+.select2{
+  span{
+    width: 100%;
+  }
+
+}
+
+ .select2-dropdown--below {
+    border-top: none;
+    margin-top: -27px;}

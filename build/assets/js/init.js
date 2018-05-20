@@ -58,7 +58,7 @@ jQuery( document ).ready(function( $ ) {
 
 	jQuery(document).ready(function(){
 	  jQuery('#slippry-slide').slippry({
-		
+
 
 		})
 	});
@@ -156,6 +156,17 @@ jQuery( document ).ready(function( $ ) {
 		if (!$(this).hasClass("hover")) {
 			$(this).addClass("hover");
 		}
+
+		if(DEBUG==1){
+			console.log('	removing hover');
+		}
+
+		e.preventDefault();
+		e.stopPropagation();
+		if ($(this).closest(".img").hasClass("hover")) {
+			$(this).closest(".img").removeClass("hover");
+		}
+
 	});
 	// handle the closing of the overlay
 	$(".close-overlay").click(function(e){
@@ -263,6 +274,9 @@ jQuery( document ).ready(function( $ ) {
 	$('.md-overlay').click(function(e){
 		$("#modal-10").removeClass("md-show");
 		$("#modal-11").removeClass("md-show");
+
+
+
 	});
 
 	/**********Menu Close Logic***************/

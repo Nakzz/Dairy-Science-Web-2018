@@ -12,8 +12,7 @@ $title = 'Dairy Management: Publications';
   <script type="text/javascript">
 
   var bugs = [
-    "Search bar is notworking yet. Backend connections hasnt been established",
-    "Links are missing", "Numbers for each publications are missing",
+    "Links are missing",
 
     ""
   ];
@@ -149,9 +148,10 @@ include 'includes/nav-bar.php';
 
         <?php
         foreach($categories as $k=>$v)
-        {?>
+        {
+          $href = str_replace(' ','', $v['name']);?>
 
-        <div href="#collapse<?php echo $count?>" class="atab well ">
+        <div href="<?php echo $href?>" class="atab well ">
           <input id="accordion<?php echo $accordion?>" type="checkbox" name="tabs">
           <label for="accordion<?php echo $accordion?>"><?php echo $v['name'];?></label>
           <div class="atab-content styledLists">
@@ -286,8 +286,8 @@ var result_id="";
 
 jQuery(document).ready(function() {
   var count= parseInt(<?php echo $count; ?>)-1;
-
-console.log("count"+ count);
+if (DEBUG == 1) {
+console.log("count"+ count);}
 
 jQuery(".search").select2({placeholder: "Search Publications",
 width: 'resolve',
@@ -316,15 +316,20 @@ result_id=e.params.data.id;
 jQuery("#"+result_id).toggleClass("highlight");
 var cat_id=parseInt(e.params.data.element.dataset.category);
 
-console.log("cat_id:"+cat_id);
+if (DEBUG == 1) {
+console.log("cat_id: "+cat_id);
+console.log("count: "+count);
+}
 
 for (var i = 1; i <=count; i++) {
-
-  if(i== cat_id){
-    jQuery('#presentations'+i).attr('checked', true);
+  if (DEBUG == 1) {
+console.log("i: "+i);}
+  if(i== (cat_id-2)){
+    jQuery('#accordion'+i).attr('checked', true);
     jQuery('#presentations'+i).getNiceScroll().resize();
   }else{
-    jQuery('#presentations'+i).attr('checked', false);
+
+    jQuery('#accordion'+i).attr('checked', false);
     jQuery('#presentations'+i).niceScroll({cursorcolor:"#00F"});
 }};
 jQuery(".search").select2("val","");

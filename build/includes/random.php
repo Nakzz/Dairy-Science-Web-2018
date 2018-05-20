@@ -35,11 +35,11 @@ shuffle($captions);
 
     case 'long':
     $captions = array(
-      "Decision-making focused <br> on scientific research",
-      "Model-based decision <br> support tools",
-      "Improving cost-efficiency <br> and profitability",
-      "Environmental stewardship in <br> dairy farms",
-      "Helping dairy farms <br> improve economic performance"
+      "Decision-making focused on scientific research",
+      "Model-based decision support tools",
+      "Improving cost-efficiency and profitability",
+      "Environmental stewardship in dairy farms",
+      "Helping dairy farms improve economic performance"
     );
     shuffle($captions);
           return $captions;
