@@ -79,6 +79,16 @@ function randomMedia($type, &$directory){
     }
     break;
 
+    case 'full_screen_video_smaller':
+    $dir= $directory.'smaller/*.mp4';
+    $media_files = glob($dir);
+    foreach($media_files as $key => $file) {
+      $file=basename($file);
+      $fileNameOnly = substr($file, 0 , (strrpos(($file), ".")));
+
+      $filenames[$key] = $fileNameOnly;
+    }
+    break;
     default:
     break;
   }

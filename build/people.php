@@ -131,7 +131,7 @@ include 'includes/nav-bar.php';
 						</div>
 					</div>
 				</div>
-				<div class="md-overlay"></div>
+
 				<!-- /Card Info -->
 
 				<!-- Card Info -->
@@ -271,7 +271,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 
 		<!-- Card Info -->
@@ -298,7 +298,7 @@ include 'includes/nav-bar.php';
 					</div>
 				</div>
 			</div>
-			<div class="md-overlay"></div>
+
 			<!-- /Card Info -->
 
 		<!-- Card Info -->
@@ -327,7 +327,7 @@ include 'includes/nav-bar.php';
 			</div>
 		</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 
 		<!-- Card Info -->
@@ -478,7 +478,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 
 		<!-- Card Info -->
@@ -503,7 +503,7 @@ include 'includes/nav-bar.php';
 			</div>
 		</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 
 		<!-- Card Info -->
@@ -531,7 +531,7 @@ include 'includes/nav-bar.php';
 			</div>
 		</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 
 		<!-- Card Info -->
@@ -562,7 +562,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 
 		<!-- Card Info -->
@@ -688,7 +688,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 
 <!-- Card Info -->
@@ -831,7 +831,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 
 		<!-- Card Info -->
@@ -855,7 +855,7 @@ include 'includes/nav-bar.php';
 			</div>
 		</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 
 
@@ -885,7 +885,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 
 
@@ -915,7 +915,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 
 
@@ -1034,7 +1034,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 
 		<!-- Card Info -->
@@ -1232,7 +1232,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 
 		<!-- Card Info -->
@@ -1259,7 +1259,7 @@ include 'includes/nav-bar.php';
 			</div>
 		</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 		<div class="md-modal md-effect-9" id="modal-19">
 			<div class="md-content">
@@ -1283,7 +1283,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 		<div class="md-modal md-effect-9" id="modal-20">
 			<div class="md-content">
@@ -1305,7 +1305,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 		<div class="md-modal md-effect-9" id="modal-21">
 			<div class="md-content">
@@ -1328,7 +1328,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 		<div class="md-modal md-effect-9" id="modal-22">
 			<div class="md-content">
@@ -1351,7 +1351,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 		<div class="md-modal md-effect-9" id="modal-23">
 			<div class="md-content">
@@ -1375,7 +1375,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 		<div class="md-modal md-effect-9" id="modal-24">
 			<div class="md-content">
@@ -1404,7 +1404,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 		<div class="md-modal md-effect-9" id="modal-25">
 			<div class="md-content">
@@ -1428,7 +1428,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 		<!-- /Card Info -->
 		<div class="md-modal md-effect-9" id="modal-26">
@@ -1453,7 +1453,7 @@ include 'includes/nav-bar.php';
 				</div>
 			</div>
 		</div>
-		<div class="md-overlay"></div>
+
 		<!-- /Card Info -->
 		<div class="md-modal md-effect-9" id="modal-27">
 			<div class="md-content">

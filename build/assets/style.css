@@ -8022,11 +8022,12 @@ ul.social-buttons li:last-child {
   -moz-border-radius: 50%;
   -webkit-border-radius: 50%;
   -o-border-radius: 50%;
-  background: #212739;
+  background: #1bce7c;
   display: inline-block;
   color: #fff;
   line-height: 46px;
-  text-align: center; }
+  text-align: center;
+  transition: background 1s; }
 
 .social-btn i {
   font-size: 1.2em;
@@ -8034,7 +8035,7 @@ ul.social-buttons li:last-child {
 
 .social-btn:hover,
 .social-btn:focus {
-  background: #1bce7c;
+  background: #64ebad;
   color: #fff; }
 
 blockquote {

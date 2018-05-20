@@ -87,7 +87,12 @@ include 'includes/nav-bar.php';
 				<div class="row">
 					<div class="paddingtopsmall">
 						<div class="wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
-							<div class="col-lg-3 col-md-3 contact-details">
+							<div class="col-lg-3 col-md-3">
+                <div class="col-lg-12 col-md-12 col-sm-12 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
+                  <a href="tools.php" target="_blank">
+                                      <img class="img-responsive" src="assets/img/logos/tools.png" alt="Tools" style="width: 250px; margin-bottom: 15px;">
+                                  </a>
+                </div>
 								<div class="col-lg-12 col-md-12 col-sm-12 wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="light-box box-hover">
 
