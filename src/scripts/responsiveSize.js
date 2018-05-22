@@ -10,7 +10,10 @@ jQuery( document ).ready(function( $ ) {
 			throttle: 250,
 			unload: false,
 			callback: function (element, op) {
-				console.log(element, 'has been', op + 'ed')
+				if (DEBUG ==1) {
+					console.log(element, 'has been', op + 'ed')
+				}
+
 			}
 		});
 /* Naviagation*/
