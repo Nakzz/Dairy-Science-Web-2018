@@ -39,11 +39,7 @@ $title = 'Dairy Management: Projects';
 
 <body id="top" data-spy="scroll" data-target=".header" data-offset="80">
 
-  <!--PRELOADER
-  <div class="preloader">
-  <div class="status"></div>
-</div>
-<!--/PRELOADER-->
+
 
 <!--HEADER-->
 
@@ -378,7 +374,9 @@ include 'includes/nav-bar.php';
                         </td>
                       </tr>
                     </table></div>
-                    <p>The Specific Aim of this proposal is to systematically evaluate the profitability of dairy reproductive management strategies and develop a suite of simulation models and decision support systems that will allow scientists, farmers, farm consultants, and extension agents assess the economic value of reproductive programs. (<a href="additional/dairyreprotooldev.php" target="_blank">More</a>)</p>
+                    <p>The Specific Aim of this proposal is to systematically evaluate the profitability of dairy reproductive management strategies
+                      and develop a suite of simulation models and decision support systems that will allow scientists, farmers, farm consultants,
+                       and extension agents assess the economic value of reproductive programs. (<a href="additional/dairyreprotooldev.php" target="_blank">More</a>)</p>
 
                   </div>
                 </div>

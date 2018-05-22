@@ -112,7 +112,7 @@ include 'includes/nav-bar.php';
             </li>
             <li>
                 2002. Agricultural Development Foundation, Managua, Nicaragua.
-                Outstanding Contributions to Farming Systems in Nicaragua (<a href="./images/funica.jpg" target="_blank">Certificate</a>)
+                Outstanding Contributions to Farming Systems in Nicaragua (<a href="./images/funica.jpg" target="_blank">Certificate)</a>
             </li>
             <li>
                 1993. La Molina Agrarian University, Lima, Peru.

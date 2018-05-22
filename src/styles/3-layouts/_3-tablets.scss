@@ -20,6 +20,7 @@
     }
   }
 
+
 }
 
 
@@ -43,7 +44,9 @@
 
   .team-member-holder {
     padding-top: 5%;
-padding-left: 30%;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   .buttonNavbar {
@@ -91,8 +94,7 @@ ul{
 
   .dimmed div {
     background-color: rgba(0, 0, 0, 0.5);
-    margin-left: 15%;
-    width: 70%;
+      @include centerPadding(55%);
     color: #fff;
     display: block;
     padding: 0.5rem;

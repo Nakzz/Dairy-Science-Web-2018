@@ -227,7 +227,7 @@ Dr. Cabrera has been invited as speaker or consultant to many States in the US, 
       profitability, and environmental stewardship.
     <br><br>
 
-        Dr. Cabrera's research and Extension programs involve interdisciplinary and participatory approaches towards the creation of user-friendly decision support systems. A primary focus of Dr. Cabreraâ€™s Extension work is the creation and delivery of computerized decision support tools using simulation techniques, artificial intelligence, and expert systems. As an Extension Specialist, Dr. Cabrera works in close relationship with county-based Extension faculty, dairy producers, consultants, and related industry.
+        Dr. Cabrera's research and Extension programs involve interdisciplinary and participatory approaches towards the creation of user-friendly decision support systems. A primary focus of Dr. Cabrera's Extension work is the creation and delivery of computerized decision support tools using simulation techniques, artificial intelligence, and expert systems. As an Extension Specialist, Dr. Cabrera works in close relationship with county-based Extension faculty, dairy producers, consultants, and related industry.
 
   <br><br>
         <a href="/apps/filemanager/uploads/CV_Cabrera.pdf" target="_blank">Full Curriculum Vitae</a>

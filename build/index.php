@@ -39,13 +39,13 @@
 
 
 
-<!--HEADER-->
+<!--Navbar-->
 
 <?php
 include 'includes/nav-bar.php';
 ?>
 
-<!--/HEADER-->
+<!--/Navbar-->
 
 <!--HOME-->
 
@@ -147,7 +147,7 @@ include 'includes/nav-bar.php';
 
 									<div class="col-lg-4 col-md-4 col-lg-4 paddingtopsmall paddingSmall_bottom">
 
-										<a class="twitter-timeline" height="300" href="https://twitter.com/vecabrera" data-widget-id="343590479574757376">Tweets by @vecabrerai</a>
+										<a class="twitter-timeline" height="400" href="https://twitter.com/vecabrera" data-widget-id="343590479574757376">Tweets by @vecabrerai</a>
 										<script>!function(d, s, id){var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location)?'http':'https'; if (!d.getElementById(id)){js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); }}(document, "script", "twitter-wjs");</script>
 
 									</div>

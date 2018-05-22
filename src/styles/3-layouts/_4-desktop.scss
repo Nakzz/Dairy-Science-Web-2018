@@ -24,7 +24,9 @@
   }
 
   .team-member-holder {
-padding-left: 30%;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   @include customPadding(tablet);

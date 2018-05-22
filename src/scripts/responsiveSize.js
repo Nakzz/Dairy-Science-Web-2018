@@ -7,9 +7,6 @@ jQuery( document ).ready(function( $ ) {
 
 
 /* Naviagation*/
-$( function() {
-	 $( "#menu" ).menu();
- } );
 
  jQuery('.stellarnav').stellarNav({
 	 theme: 'transparentAJ'
