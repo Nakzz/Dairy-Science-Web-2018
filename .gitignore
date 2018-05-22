@@ -1,3 +1,7 @@
 #database auth files
 connection.php
 db.php
+
+devDirectory
+logo
+node_modules
