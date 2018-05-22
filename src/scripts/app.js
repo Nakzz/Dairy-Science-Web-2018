@@ -14,3 +14,5 @@ function toggleShow(){
             video.pause();
          }
       }
+
+    

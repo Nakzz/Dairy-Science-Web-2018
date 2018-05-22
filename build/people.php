@@ -15,7 +15,6 @@ $title = 'Dairy Management: People';
 	<script type="text/javascript">
 
   var bugs = [
-  "some overlay is all dark",
     ""
   ];
 
@@ -83,7 +82,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2  wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/Di.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/Di.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-1"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -95,7 +94,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/hector.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/hector.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-2"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -198,7 +197,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/manfei.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/manfei.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-3"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -210,7 +209,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4  wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/Di.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/Di.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-01"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -221,7 +220,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/afshin_samia_kalantari.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/afshin_samia_kalantari.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-4"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -233,7 +232,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 col-md-offset-4 col-sm-offset-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/marion.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/marion.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-5"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -396,7 +395,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/jorgebar.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/jorgebar.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-6"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -408,7 +407,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/yaqi.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/yaqi.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-7"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -420,7 +419,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/claudia_hardie.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/claudia_hardie.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-8"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -432,7 +431,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2  wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/mayuri_valvekar.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/mayuri_valvekar.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-9"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -444,7 +443,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/jay_janowski.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/jay_janowski.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-10"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -635,7 +634,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/charbonneau.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/charbonneau.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-0"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -647,7 +646,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/huichao.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/huichao.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-11"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -746,7 +745,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/ramon.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/ramon.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-12"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -758,7 +757,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/veronique.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/veronique.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-13"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -771,7 +770,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/Lenka.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/Lenka.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-14"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -783,7 +782,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4  col-md-offset-2 col-sm-offset-2  wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/Monica_Piccardi_small.png" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/Monica_Piccardi_small.png" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-15"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -795,7 +794,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/Emiliano_Demarchi.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/Emiliano_Demarchi.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-16"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -982,7 +981,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 col-md-offset-2 col-sm-offset-2  wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/francisco.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/francisco.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-17"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -994,7 +993,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/connie_cordoba.png" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/connie_cordoba.png" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-18"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -1085,7 +1084,7 @@ include 'includes/nav-bar.php';
 <!--END Section Tittle (NOT TOP)-->
 
 <!-- Section Body-->
-<section class="bodySection">
+<section class="bodySection paddingSmall_bottom">
   <div class="container">  <!--Container-->
     <div class="row"> <!--Row-->
       <div class="col-sm-12">
@@ -1097,7 +1096,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.5s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/aj.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/aj.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-19"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -1109,7 +1108,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/zack.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/zack.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-20"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -1121,7 +1120,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/pedro_melgarejo.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/pedro_melgarejo.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-21"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -1133,7 +1132,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/Prasanth_Krishnan.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/Prasanth_Krishnan.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-22"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -1145,7 +1144,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/sathiya_kumaran.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/sathiya_kumaran.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-23"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -1157,7 +1156,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/Varun_Vats.png" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/Varun_Vats.png" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-24"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -1169,7 +1168,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/anjaligola.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/anjaligola.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-25"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -1181,7 +1180,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/Krishnendra_Nathella_small.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/Krishnendra_Nathella_small.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-26"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
@@ -1193,7 +1192,7 @@ include 'includes/nav-bar.php';
 								<div class="col-md-4 col-sm-4 wow animated fadeInUp" data-wow-duration="1s" data-wow-delay="0.7s">
 									<div class="overlay-effect effects clearfix">
 										<div class="img">
-											<img src="assets/img/team/nikhil_suryanarayanan.jpg" alt="Portfolio Item">
+											<img src="assets/img/team/blank.gif" data-echo="assets/img/team/nikhil_suryanarayanan.jpg" alt="Portfolio Item">
 											<div class="overlay">
 												<button class="md-trigger expand" data-modal="modal-27"><i class="big-icon fa fa-search"></i><br>View More</button>
 											</div>
