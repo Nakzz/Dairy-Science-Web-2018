@@ -70,7 +70,7 @@ include 'includes/nav-bar.php';
 <!--END Section Tittle-->
 <?php include 'includes/pageSlider.php'; ?>
 <!-- Section Body-->
-<section class="bodySection">
+<section id ="bodySection" class="bodySection">
   <div class="container">  <!--Container-->
     <div class="row"> <!--Row-->
       <div class="col-sm-12">
@@ -132,7 +132,6 @@ include 'includes/nav-bar.php';
 
       <?php
           $parent_cats  = DB::query("SELECT * FROM pub_categories where parent=0");
-          $count = 1 ;
           $accordion = 1;
           foreach($parent_cats as $parent_k=>$parent_v)
           {
@@ -144,7 +143,7 @@ include 'includes/nav-bar.php';
             if($categories)
             { ?>
 
-      <div id="accordion">
+      <div class="accordianNest" id="accordion">
 
         <?php
         foreach($categories as $k=>$v)
@@ -248,7 +247,7 @@ include 'includes/nav-bar.php';
                 </ol>
           </div>
         </div>
-          <?php $count++;
+          <?php
         $accordion++;}
         }
         ?>
@@ -285,9 +284,8 @@ var result_id="";
 
 
 jQuery(document).ready(function() {
-  var count= parseInt(<?php echo $count; ?>)-1;
-if (DEBUG == 1) {
-console.log("count"+ count);}
+  var accordion= parseInt(<?php echo $accordion; ?>)-1;
+
 
 jQuery(".search").select2({placeholder: "Search Publications",
 width: 'resolve',
@@ -310,34 +308,71 @@ return data;
 
 jQuery(".search").on("select2:select", function (e) {
 
+  // var debugArray = [
+  //    ['data', e.params.data],
+  // ['id' , e.params.data.id],
+  // ['selectId', ], 
+  // ['category', e.params.data.element.dataset.category]
+  // ]
+  
+  // for(var i = 0; i < debugArray.length; i++) {
+ 
+  // console.log( debugArray[i][0] + ": "+ debugArray[i][1]);
+ 
+//}
+
 if(result_id!="")
 jQuery("#"+result_id).toggleClass("highlight");
 result_id=e.params.data.id;
 jQuery("#"+result_id).toggleClass("highlight");
-var cat_id=parseInt(e.params.data.element.dataset.category);
+
+
+var cat_id= parseInt(e.params.data.element.dataset.category);
+
+if(cat_id>14){
+  cat_id=13;} else{
+    cat_id-=2;
+}
+    	
 
 if (DEBUG == 1) {
 console.log("cat_id: "+cat_id);
-console.log("count: "+count);
+console.log("accordion number: "+ accordion);
 }
 
-for (var i = 1; i <=count; i++) {
-  if (DEBUG == 1) {
-console.log("i: "+i);}
-  if(i== (cat_id-2)){
-    jQuery('#accordion'+i).attr('checked', true);
-    jQuery('#presentations'+i).getNiceScroll().resize();
+for (var i = 1; i <=accordion; i++) {
+  
+  if(i== cat_id){
+    
+    jQuery('#accordion'+i).prop('checked', true);
+    jQuery('#accordion'+i).getNiceScroll().resize();
   }else{
-
-    jQuery('#accordion'+i).attr('checked', false);
-    jQuery('#presentations'+i).niceScroll({cursorcolor:"#00F"});
+    jQuery('#accordion'+i).prop('checked', false);
+    jQuery('#accordion'+i).getNiceScroll().resize();
 }};
 jQuery(".search").select2("val","");
 //jQuery.scrollTo( '#'+result_id, 1700, { easing:'swing',axis:'y'});
+
 setTimeout(function(){
-jQuery.scrollTo( document.getElementById(result_id), 800,{offset:-85});
-}, 10);
+
+ var offsetVal = -(30 + parseInt(jQuery("#navDim").height())) ;
+
+jQuery.scrollTo( document.getElementById(result_id), 800,{offset: offsetVal});
+}, 500);
 });
+
+
+    jQuery('.accordianNest').on('input', function(){
+  console.log('Checkbox stat changed. Window should resize now');
+
+  setTimeout(function(){
+
+
+jQuery("html").getNiceScroll().resize();
+}, 500);
+
+});
+
 
 });
 </script>

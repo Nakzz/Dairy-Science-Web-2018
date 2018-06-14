@@ -1,5 +1,5 @@
 <?php
- $GLOBALS['title'] = 'Dairy Management: Home';
+$GLOBALS['title'] = 'Dairy Management: Home';
 
 ?>
 
@@ -30,8 +30,8 @@
 	<meta name="author" content="Ajmain Naqib" />
 
 	<?php
-	include 'includes/header.php';
-	?>
+include 'includes/header.php';
+?>
 
 </head>
 
@@ -50,39 +50,13 @@ include 'includes/nav-bar.php';
 <!--HOME-->
 
 	<?php
-	// TODO: video doesn't play automatically in IOS
-	include 'includes/full_screen_video.php';
-	?>
+include 'includes/full_screen_video.php';
+?>
 
 
-<!--/HOME-->
-
-<!--ABOUT
-<section class="intro text-center section-padding" id="intro">
-<div class="container wow animated fadeInLeft animated" data-wow-duration="1s" data-wow-delay="0.5s">
-<div class="row">
-<div class="col-lg-12 align-center about">
-<!-- <h1 class="arrow">About the Event: #ADD_TOOLS_ANIMATION LOGO HERE</h1>
-<hr>
-
-
-
-<div class="col-sm-8 col-md-8 bottom-padding">
-
-</div>
-
-</div>
-</div>
-</div>
-</section>
-<!--/ABOUT-->
-
-<!--FEATURES-->
+<!--Info-->
 <section class="features text-center" id="features">
 	<div class="row">
-
-			<!-- /grid-gallery -->
-
 			<div class="padding_right padding_left features-md paddingSmall_bottom">
 				<div class="row">
 					<div class="paddingtopsmall">
@@ -143,29 +117,22 @@ include 'includes/nav-bar.php';
 										</div>
 									</div>
 
-
-
 									<div class="col-lg-4 col-md-4 col-lg-4 paddingtopsmall paddingSmall_bottom">
 
 										<a class="twitter-timeline" height="400" href="https://twitter.com/vecabrera" data-widget-id="343590479574757376">Tweets by @vecabrerai</a>
 										<script>!function(d, s, id){var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location)?'http':'https'; if (!d.getElementById(id)){js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); }}(document, "script", "twitter-wjs");</script>
-
 									</div>
-
-
 								</div>
 							</div>
 
 						</div>
 					</div>
 
-					<!-- Vimoe Video-->
-
 				<!--row ends here-->
 			</section>
-			<!--/FEATURES-->
+			<!--/Info-->
 
-			<!--SCHEDULE-->
+			<!--Featured-->
 			<section class="text-center section-padding" id="responsive">
 				<div class="container wow animated fadeInLeft bottom-spacing">
 					<div class="row">
@@ -180,8 +147,6 @@ include 'includes/nav-bar.php';
 
 					<div class="row padding_right padding_left ">
 						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 paddingSmall_bottom ">
-
-
 							<p>Liang, D. F. Sun, M. A. Wattiaux, V. E. Cabrera, J. L. Hedtcke, and E. M. Silva. 2017.
 								Effect of feeding strategies and cropping systems on greenhouse gas emission from Wisconsin
 								certified organic dairy farms. Journal of Dairy Science 100:5957-5973.
@@ -194,8 +159,6 @@ include 'includes/nav-bar.php';
 						</div>
 
 						<div class="col-lg-4 col-md-4 col-sm-12 paddingSmall_bottom">
-
-
 							<p>
 								A Virtual Dairy Farm Brain: The Next Big Leap in Dairy
 								Farm Management Applying Artificial Intelligence.
@@ -220,19 +183,13 @@ include 'includes/nav-bar.php';
 						</div>
 
 					</div>
-
-
-
 				</div>
 			</section>
 
-			<!--/SCHEDULE-->
+			<!--/Featured-->
 
 
-
-
-
-			<!--FEATURES-->
+			<!--ABOUT-->
 			<section class="paralax text-center paddingtopsmall" id="about">
 
 				<div class="row">
@@ -249,33 +206,20 @@ include 'includes/nav-bar.php';
 
 					</div><!--row ends here-->
 				</section>
-				<!--/FEATURES-->
-
-
-
-
-
-
-
+				<!--/ABOUT-->
 
 
 				<!--Links-->
-
-				<?php // TODO: add animation ?>
 				<div id="sponsers" class="ignite-cta text-center section-padding">
 					<div class="container">
 						<div class="row">
 							<div class="col-md-8 align-center wow animated fadeInLeft" data-wow-duration="1s" data-wow-delay="0.5s">
 								<h1 class="arrow">University of Wisconsin</h1><hr>
 							</div>
-
-
-
 							<div class="buttonForSlide">
 									<a onclick="toggleShow()" class="learn-more-btn btn-effect">
 										<i class="fas fa-chevron-down"></i>
 										<span>Links</span></a>
-
 							<div id="SlideOnClick" class="col-lg-12 col-md-12 ">
 								<!-- Service row 1 -->
 								<div class="row paddingtopsmall">
@@ -371,9 +315,6 @@ include 'includes/nav-bar.php';
 							</div>
 </div>
 							<!-- Service row 3 -->
-
-
-
 						</div>
 					</div>
 				</div>
@@ -384,7 +325,7 @@ include 'includes/nav-bar.php';
 					<div class="subscribe-overlay"></div>
 					<div class="container wow animated fadeInDown" data-wow-duration="1s" data-wow-delay="0.3s">
 						<h1>Subscribe for newsletter</h1>
-						<form action="notify-me.php" id="notifyMe" method="POST" class="center-block align-center col-lg-5 col-md-5 col-sm-10 col-xs-10">
+						<form action="includes/notify-me.php" id="notifyMe" method="POST" class="center-block align-center col-lg-5 col-md-5 col-sm-10 col-xs-10">
 							<div class="input-group col-lg-12 align-center">
 								<input type="text" class="form-control email-add" name="email" placeholder="Enter Email Address">
 								<button class="btn btn-default notify-button"><i class="fa fa-paper-plane"></i><span>Send</span></button>
@@ -396,14 +337,14 @@ include 'includes/nav-bar.php';
 
 <!-- /Logo row -->
 				<?php
-				include 'includes/logoRow.php';
-				?>
+include 'includes/logoRow.php';
+?>
 <!-- /logo row -->
 
 				<!--FOOTER & scripts-->
 				<?php
-				include 'includes/footer.php';
-				?>
+include 'includes/footer.php';
+?>
 				<!-- /FOOTER scripts-->
 			</body>
 			</html>

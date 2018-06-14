@@ -132,7 +132,8 @@ include 'includes/nav-bar.php';
       </div>
 
 
-<div class="col-sm-12 paddingtopsmall ">
+
+<div class="col-sm-12 paddingtopsmall paddingbottomsmall">
     <h1>Professional Experience</h1>
 
       <ul>
@@ -219,8 +220,20 @@ include 'includes/nav-bar.php';
 Dr. Cabrera has been invited as speaker or consultant to many States in the US, Argentina, Brazil, Canada, Chile,
     China, Costa Rica, Cyprus, Ecuador, Ethiopia, Honduras, Ireland, Kosovo, Mexico, Nicaragua, Panama, Poland, Peru,
     Slovakia, Spain, Turkey, United Kingdom and  Uruguay.
-  <br><br>
-    Dr. Cabreraâ€™s ultimate goal is to help rural people to improve their life quality through applied biophysical,
+  
+  
+<div class="col-sm-12 paddingtopsmall ">
+  
+  <?php //include '../../apps/MapApp_v1/index.php'; ?>
+    <div >
+    <iframe src="../../apps/MapApp_v1/index.php" scrolling="no" style=" width: 100%; height: 500px;  overflow: hidden;" >
+    </iframe>
+  
+    </div>
+    </div>
+
+<br><br>
+    Dr. Cabrera's ultimate goal is to help rural people to improve their life quality through applied biophysical,
       socio-economic, and environmental research. Coming from a farm, he has always been linked to the agricultural and
       rural sectors and his studies and works have always focused on enhancing farming systems. Dr. Cabrera is committed
       to providing leadership in scientific-based dairy management decision-making related to cost-efficiency,

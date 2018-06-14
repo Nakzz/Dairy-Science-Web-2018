@@ -10,7 +10,8 @@ variables with your actual MailChimp API Key and List ID below
 */
 
 // Set to "mailchimp" to store contacts in MailChimp or "file" to store in a file.
-$STORE_MODE = "mailchimp";
+$STORE_MODE = "file";
+$STORE_FILE = "assets/subscribers";
 
 // Your MailChimp API Key
 $API_KEY =  "cb6a20c0676b26b78e8f18f047b619a2-us8";

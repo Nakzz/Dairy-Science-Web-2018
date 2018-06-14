@@ -114,7 +114,7 @@ include 'includes/nav-bar.php';
 
       <div class="col-sm-12 paddingtopsmall">
 
-        <div id="accordion">
+        <div class="accordianNest" id="accordion">
 
           <?php
           $categories = DB::query("SELECT * FROM categories");
@@ -262,17 +262,31 @@ for (var i = 1; i <=count; i++) {
 console.log("i: "+i);}
   if(i== cat_id){
     //document.getElementById("accordion" + (cat_id -2)).checked= true;
-    jQuery('#presentations'+i).attr('checked', true);
-    jQuery('#presentations'+i).getNiceScroll().resize();
+    jQuery('#presentations'+i).prop('checked', true);
+    //jQuery('#presentations'+i).getNiceScroll().resize();
   }else{
-    jQuery('#presentations'+i).attr('checked', false);
-    jQuery('#presentations'+i).niceScroll({cursorcolor:"#00F"});
+    jQuery('#presentations'+i).prop('checked', false);
+    //jQuery('#presentations'+i).niceScroll({cursorcolor:"#00F"});
 }};
 jQuery(".search").select2("val","");
 //jQuery.scrollTo( '#'+result_id, 1700, { easing:'swing',axis:'y'});
 setTimeout(function(){
-jQuery.scrollTo( document.getElementById(result_id), 800,{offset:-85});
-}, 10);
+
+    var offsetVal = -(30 + parseInt(jQuery("#navDim").height())) ;
+
+jQuery.scrollTo( document.getElementById(result_id), 800,{offset: offsetVal});
+}, 500);
+});
+
+    jQuery('.accordianNest').on('input', function(){
+  console.log('Checkbox stat changed. Window should resize now');
+
+  setTimeout(function(){
+
+
+jQuery("html").getNiceScroll().resize();
+}, 500);
+
 });
 
 });
