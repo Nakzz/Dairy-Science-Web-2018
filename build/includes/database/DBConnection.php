@@ -14,6 +14,7 @@ class DBConnection{
   private $password;
   private $charset;
   private $databaseName;
+  protected $DB = null;
 
   public function __construct(){
     $this->hostname = DB_HOST;
@@ -31,17 +32,38 @@ class DBConnection{
       $dsn = 'mysql:dbname=' . $this->databaseName . ';host=' .
       $this->hostname . ';charset=' . $this->charset;
 
-      $pdo = new PDO($dsn, $this->username, $this->password);
-      $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+      $this->DB = new PDO($dsn, $this->username, $this->password);
+      $this->DB->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
       //$this->pdo = $pdo;
 
     //ChromePhp::log("Connection successful to: " . $databaseName);
 
-      return $pdo;
+      return $this->DB;
 
     } catch (PDOException $e) {
-      ChromePhp::log("Connection failed: " . $e->getMessage());
+      //ChromePhp::log("Connection failed: " . $e->getMessage());
+      print $e->getMessage();
     }
   }
+
+  public function query($query)
+        {
+        return $this->DB->query($query);
+        }
+
+          public function prepare($query)
+        {
+        return $this->DB->prepare($query);
+        }
+
+        public function execute()
+        {
+        return $this->DB->execute();
+        }
+
+        public function fetch()
+        {
+        return $this->DB->fetch((PDO::FETCH_ASSOC));
+        }
 }
 ?>

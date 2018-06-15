@@ -328,7 +328,7 @@ include 'includes/full_screen_video.php';
 						<form action="includes/notify-me.php" id="notifyMe" method="POST" class="center-block align-center col-lg-5 col-md-5 col-sm-10 col-xs-10">
 							<div class="input-group col-lg-12 align-center">
 								<input type="text" class="form-control email-add" name="email" placeholder="Enter Email Address">
-								<button class="btn btn-default notify-button"><i class="fa fa-paper-plane"></i><span>Send</span></button>
+								<button class="btn btn-default notify-button"><i class="fa fa-paper-plane"></i><span></span></button>
 							</div>
 						</form>
 					</div>

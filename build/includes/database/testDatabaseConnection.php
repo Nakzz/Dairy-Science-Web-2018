@@ -12,7 +12,7 @@ include_once 'DBConnection.php';
 
 <?php
 $db = new DBConnection('');
-$databaseName = 'Resume';
+$databaseName = 'Utils';
 //$db->getConnection($databaseName);
 
 if ($db->connect($databaseName)) {

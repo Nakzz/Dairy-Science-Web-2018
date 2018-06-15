@@ -15,7 +15,8 @@
 			msgError503: "Oops. Looks like something went wrong. Please try again later.",
 			msgErrorValidation: "This email address looks fake or invalid. Please enter a real email address.",
 			msgErrorFormat: "Your e-mail address is incorrect.",
-			msgSuccess: "Congrats! You are in list."
+			msgSuccess: "Congrats! You are in list.",
+			msgExist: "You are already in the list!"
 		}, options );
 
     
@@ -81,6 +82,13 @@
 						icon.removeClass();
 						icon.addClass(iconSuccess);
 						message.text(settings.msgSuccess);	
+					}else if (data.status == "exists") {
+						// Add success class to form
+						$this.addClass("error");
+						// Change the icon to success
+						icon.removeClass();
+						icon.addClass(iconSuccess);
+						message.text(settings.msgExist);
 					} else {
 						// Add error class to form
 						$this.addClass("error");
