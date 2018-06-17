@@ -193,9 +193,9 @@ include 'includes/nav-bar.php';
                           {
                             $name = str_replace(" ", "_", $v['name']);
                             if(!empty($catDir))
-                            $link = "archive/publications/".$catDir.'/'.$value2['filename'];
+                            $link = "publications/".$catDir.'/'.$value2['filename'];
                             else
-                            $link = "archive/publications/".$value2['filename'];
+                            $link = "publications/".$value2['filename'];
                           }
                           if(!empty($link) && !empty($value2['name']))
                           echo " (<a href='".$link."' target='_blank' >".$value2['name']."</a>) ";
@@ -231,9 +231,9 @@ include 'includes/nav-bar.php';
                           {
                             $name = str_replace(" ", "_", $v['name']);
                             if(!empty($catDir))
-                            $link = "archive/publications/".$catDir.'/'.$value2['filename'];
+                            $link = "publications/".$catDir.'/'.$value2['filename'];
                             else
-                            $link = "archive/publications/".$value2['filename'];
+                            $link = "publications/".$value2['filename'];
                           }
                           if(!empty($link) && !empty($value2['name']))
                           echo " (<a href='".$link."' target='_blank' >".$value2['name']."</a>) ";

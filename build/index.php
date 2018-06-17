@@ -24,9 +24,7 @@ $GLOBALS['title'] = 'Dairy Management: Home';
 	decision support tools to help dairy farmers improve their
 	economic performance along with environmental  stewardship.">
 
-	<meta name="keywords"  content="Event, Coming Soon, Concert, Conference,
-	Counter, Exhibition, Festival, Landing Page, Music, One Page, Registration
-	Form, Seminar, Subscription, Mailchimp" />
+	<meta name="keywords"  content="" />
 	<meta name="author" content="Ajmain Naqib" />
 
 	<?php

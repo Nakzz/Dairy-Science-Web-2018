@@ -1,28 +1,49 @@
 <?php
 $title = 'Dairy Management: Contact';
 // if(isset($_POST['submit'])){
-//
+
 //     $name=$_POST['name'];
 //     $subject=$_POST['subject'];
 //     $subject="[DairyMGT]".$subject;
 //     $message=$_POST['message'];
 //     $from=$_POST['email'];
 //     $headers='From:'.$from;
-//
-// // if(mail('naqib@wisc.edu',$subject,$message,$headers)){
-// //     Header( "Location: /index.php" );
-// // }else{
-// //     Header("Location: ./contact.php");
-// // }
 
-// TODO: LINK CONTANT MAIL TO SERVER
+// if(mail('naqib@wisc.edu',$subject,$message,$headers)){
+//     Header( "Location: /index.php" );
+// }else{
+//     Header("Location: ./contact.php");
+// }
+
+// //TODO: LINK CONTANT MAIL TO SERVER
 
 ?>
 
 <!DOCTYPE html>
 <html>
 <head>
-
+<script type="text/javascript">
+    function validate(){
+        if(document.getElementById("name").value==""){
+            alert('Please enter your name');
+            return false;
+        }
+        if(document.getElementById("email").value==""){
+            alert('Please enter your e-mail address');
+            return false;
+        }
+        if(document.getElementById("subject").value== ""){
+            alert('Please enter subject');
+            return false;
+        }
+        if (document.getElementById("message").value == ""){
+            alert('Please enter message');
+            return false;
+        }else{
+            return true;
+        }
+    }
+ </script>
   <script type="text/javascript">
 
   var bugs = [
@@ -137,7 +158,7 @@ include 'includes/nav-bar.php';
 
         <div id="contactWebnote" class="col-sm-5">
             <h2>Send a Webnote</h2>
-            <form id="contact-form" role="form" action="/contact.php" method="post" onSubmit=" return validate()">
+            <form id="contact-form" role="form" action="includes/contactForm.php" method="post" onSubmit=" return validate()">
                 <div class="form-group">
                     <label class="sr-only" for="cname">Name</label>
                     <input required type="text" name="name" id="name" value="" size="30" class="form-control" placeholder="Name" data-validation-required-message="Please enter your name.">

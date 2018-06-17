@@ -163,7 +163,7 @@ $href = str_replace(' ','', $v['name']);
                                 if($value2['type'] == 'file')
                                 {
                                   $name = str_replace(" ", "_", $v['name']);
-                                  $link = "archive/presentations/".$name.'/'.$value2['filename'];
+                                  $link = "presentations/".$name.'/'.$value2['filename'];
                                 }
                                 if(!empty($link) && !empty($value2['name']))
                                 echo " (<a href='".$link."' target='_blank' >".$value2['name']."</a>) ";
