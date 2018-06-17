@@ -219,10 +219,10 @@ include 'includes/nav-bar.php';
   <br><br>
 Dr. Cabrera has been invited as speaker or consultant to many States in the US, Argentina, Brazil, Canada, Chile,
     China, Costa Rica, Cyprus, Ecuador, Ethiopia, Honduras, Ireland, Kosovo, Mexico, Nicaragua, Panama, Poland, Peru,
-    Slovakia, Spain, Turkey, United Kingdom and  Uruguay.
+    Slovakia, Spain, Turkey, United Kingdom and  Uruguay.</p>
   
   
-<div class="col-sm-12 paddingtopsmall ">
+<div class="col-sm-12 paddingtopsmall paddingbottomsmall">
   
   <?php //include '../../apps/MapApp_v1/index.php'; ?>
     <div >
@@ -232,6 +232,7 @@ Dr. Cabrera has been invited as speaker or consultant to many States in the US, 
     </div>
     </div>
 
+<p>
 <br><br>
     Dr. Cabrera's ultimate goal is to help rural people to improve their life quality through applied biophysical,
       socio-economic, and environmental research. Coming from a farm, he has always been linked to the agricultural and

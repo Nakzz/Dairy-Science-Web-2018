@@ -33,7 +33,7 @@
         <li><a href="contact.php">Contact</a></li>
         <li><a href="people.php">People</a></li>
         <li><a href="opportunities.php">Opportunities</a></li>
-        <!--<li><a href="gallery.php">Gallery</a></li> -->
+        <li><a href="gallery.php">Gallery</a></li>
       </ul>
     </li>
     <li><a href="tools.php">Tools</a>
@@ -47,7 +47,7 @@
             <li><a href="tools.php#Health">Health</a></li>
             <li><a href="tools.php#Financial">Financial</a></li>
             <li><a class="toptop" href="tools.php#PriceRisk">Price Risk</a></li>
-            <li><a href="tools.php#Enviroment">Enviroment</a></li>
+            <li><a href="tools.php#Environment">Environment</a></li>
           </ul>
     </li>
 
