@@ -33,7 +33,7 @@
         <li><a href="contact.php">Contact</a></li>
         <li><a href="people.php">People</a></li>
         <li><a href="opportunities.php">Opportunities</a></li>
-        <li><a href="gallery.php">Gallery</a></li>
+        <li><a href="gallery.php" target="_blank">Gallery</a></li>
       </ul>
     </li>
     <li><a href="tools.php">Tools</a>

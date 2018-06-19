@@ -21,7 +21,7 @@ $videoFilenameSmaller = $directory ."smaller/" . $filenamesSmaller[$rand_keysSma
 <!-- <section id="sec_1" style="background: url('<?php //echo $previewFilename ?>.png') no-repeat center center;" class="autoheight"> -->
 <section id="sec_1" class="autoheight">
   <video autoplay muted loop playsinline id="Video1" preload="auto" autoplay="autoplay" loop="loop" onclick="vidplay()" >
-     <source src="<?php echo $videoFilenameSmaller?>.mp4" type="video/mp4" media="all and (max-width: 480px)">
+    <source src="<?php echo $videoFilenameSmaller?>.mp4" type="video/mp4" media="all and (max-width: 480px)">
     <source src="<?php echo $videoFilename?>.mp4" type="video/mp4">
       <!-- <source src="<?php //echo $videoFilename?>.webm" type="video/webm"> -->
         your browser does not support HTML5

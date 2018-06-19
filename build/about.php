@@ -217,15 +217,20 @@ include 'includes/nav-bar.php';
   authored or coauthored >40 peer-reviewed publications, 5 book chapters, >50 Extension publications, >50 proceeding
   papers, and developed more than 40 scientific tools for decision-making.
   <br><br>
-Dr. Cabrera has been invited as speaker or consultant to many States in the US, Argentina, Brazil, Canada, Chile,
+ Dr. Cabrera has been invited as speaker or consultant to many States in the 
+<!--US, Argentina, Brazil, Canada, Chile,
     China, Costa Rica, Cyprus, Ecuador, Ethiopia, Honduras, Ireland, Kosovo, Mexico, Nicaragua, Panama, Poland, Peru,
-    Slovakia, Spain, Turkey, United Kingdom and  Uruguay.</p>
+    Slovakia, Spain, Turkey, United Kingdom and  Uruguay. -->
   
-  
+  <?php 
+ include 'includes/countriesVisited.php';
+  ?>
+  </p>
 <div class="col-sm-12 paddingtopsmall paddingbottomsmall">
   
   <?php //include '../../apps/MapApp_v1/index.php'; ?>
     <div >
+    <!-- <iframe src="../../MapApp_v1/index.php" scrolling="no" style=" width: 100%; height: 500px;  overflow: hidden;" > -->
     <iframe src="../../apps/MapApp_v1/index.php" scrolling="no" style=" width: 100%; height: 500px;  overflow: hidden;" >
     </iframe>
   
