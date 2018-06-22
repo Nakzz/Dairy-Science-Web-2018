@@ -125,9 +125,10 @@ include 'includes/nav-bar.php';
 $href = str_replace(' ','', $v['name']);
               ?>
 
-          <div id="<?php echo $href;?>" class="atab well ">
+          <div class="atab well ">
+          <a class="anchor" id="<?php echo $href;?>"></a>
             <input id="presentations<?php echo $v['id'];?>" type="checkbox" name="tabs">
-            <label for="presentations<?php echo $v['id'];?>"><?php echo $v['name'];?></label>
+            <label for="presentations<?php echo $v['id'];?>"><h2><?php echo $v['name'];?></h2></label>
             <div class="atab-content">
 
               <table class="table">

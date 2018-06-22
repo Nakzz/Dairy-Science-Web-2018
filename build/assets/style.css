@@ -7609,16 +7609,16 @@ p {
   overflow: hidden !important; }
 
 .status {
-  background: url("../assets/img/giphy.webp") no-repeat scroll 0 0 transparent;
+  background: url("../assets/img/loading.gif") no-repeat scroll 0 0 transparent;
   float: none;
-  height: 100%;
-  left: calc(50% - 180px);
+  height: 104px;
+  left: calc(50% - 100px);
   margin: 0 auto;
   opacity: 1;
   overflow-y: hidden;
   position: absolute;
   text-align: center;
-  top: calc(50% - 125px);
+  top: calc(50% - 52px);
   width: 100%;
   z-index: 111; }
 
@@ -10864,6 +10864,12 @@ body {
 /*Global */
 #opportunities a {
   color: #86a0f1 !important; }
+
+a.anchor {
+  display: block;
+  position: relative;
+  top: -70px;
+  visibility: hidden; }
 
 .hideDiv {
   display: none; }

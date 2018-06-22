@@ -3,7 +3,12 @@
 #opportunities a{  color: $hyperlink !important;
 }
 
-
+a.anchor{
+      display: block;
+      position: relative;
+      top: -70px;
+      visibility: hidden;
+}
 
 .hideDiv{
     display: none;
