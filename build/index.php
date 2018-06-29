@@ -22,7 +22,7 @@ $GLOBALS['title'] = 'Dairy Management: Home';
 	decision-making focusing on model-based scientific research.
 	The ultimate goal is to provide user-friendly computerized
 	decision support tools to help dairy farmers improve their
-	economic performance along with environmental  stewardship.">
+	economic performance along with environmental  stewardship.">	
 
 	<meta name="keywords"  content="" />
 	<meta name="author" content="Ajmain Naqib" />
@@ -261,13 +261,6 @@ include 'includes/full_screen_video.php';
 											</div>
 										</div>
 									</div>
-									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
-										<div class="service-box">
-											<div class="service-box-content">
-													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://www.uwex.edu/ces/dairynutrition/" target="_blank">Dairy Cattle Nutrition</a>
-											</div>
-										</div>
-									</div>
 								</div>
 								<!-- Service row 2 -->
 
@@ -287,7 +280,7 @@ include 'includes/full_screen_video.php';
 									<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
 										<div class="service-box">
 											<div class="service-box-content">
-													<i class="fas fa-angle-right"></i>&nbsp;<a href="http://dairynutrient.wisc.edu/" target="_blank">UW Dairy Nutrient</a>
+													<i class="fas fa-angle-right"></i>&nbsp;<a href="https: //kb.wisc.edu/dairynutrient/" target="_blank">UW Dairy Nutrient</a>
 											</div>
 										</div>
 									</div>

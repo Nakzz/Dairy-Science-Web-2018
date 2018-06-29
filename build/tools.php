@@ -962,8 +962,8 @@ include 'includes/nav-bar.php';
    <p><strong>Milk Component Price Analysis</strong></p>
    <p>Calculates the value of each milk component and the premium/deduct according to the level of SCC. Performs sensitivity analysis according to different levels of butterfat, protein, other components, and SCC. </p>
    <p>Spreadsheet (<a href="oldtools/component/spreadsheet.php" target="_blank">Download</a>)</p>
-   <p>Documentation (Basic Milk Pricing Concepts for Dairy Farmers) (<a href="http:/future.aae.wisc.edu/archive/publications/a3379.pdf" target="_blank">Download</a>)</p>
-   <p>Understanding Dairy Markets Class Price Forecaster (<a href="http:/future.aae.wisc.edu/collection/software/advanced_prices_final_version1.xls" target="_blank">Download</a>)</p>
+   <p>Documentation (Basic Milk Pricing Concepts for Dairy Farmers) (<a href="https://dairy.aae.wisc.edu/dairy-marketing-tools/" target="_blank">Download</a>)</p>
+   <p>Understanding Dairy Markets Class Price Forecaster (<a href="https://dairy.aae.wisc.edu/dairy-marketing-tools/" target="_blank">Download</a>)</p>
    </div>
        </div>
    </div>

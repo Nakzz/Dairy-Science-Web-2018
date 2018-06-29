@@ -295,7 +295,7 @@ include 'includes/nav-bar.php';
                   <input id="tab-six" type="checkbox" name="tabs">
                   <label for="tab-six"> Integrated Analysis of Diverse Dairy Systems in Mexico & Wisconsin: Building Capacity for Multi-disciplinary Appraisal of Sustainability <a href="/cris_projects/integrated_analysis_sustainability.php" target="_blank">(CRIS)</a></label>
                   <div class="atab-content">
-                    <p><a class="accordion-toggle" href="http://dairynutrient.wisc.edu/sustainable-dairy/" target="_blank">
+                    <p><a class="accordion-toggle" href="" target="_blank">
                       Integrated Analysis of Diverse Dairy Systems in Mexico & Wisconsin: Building Capacity for Multi-disciplinary Appraisal of Sustainability <a href="/cris_projects/integrated_analysis_sustainability.php" target="_blank">(CRIS)</a>
                     </a></p>
                   </div>
@@ -698,7 +698,7 @@ include 'includes/nav-bar.php';
                     research-based farm management responses to current industry needs. The participatory approach will
                     include the development and maintenance of a Web portal as a communication hub in the process of
                     technology transfer.
-                    (<a href="http://cris.nifa.usda.gov/cgi-bin/starfinder/0?path=fastlink1.txt&id=anon&pass=&search=AN%3D0214922&format=WEBFULL" target="_blank">CRIS</a>)
+                    (CRIS</a>
                   </p>
                 </div>
               </div>

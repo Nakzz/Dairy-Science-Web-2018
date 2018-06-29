@@ -20,7 +20,8 @@ require $_SERVER['DOCUMENT_ROOT'] . '/oldtools/lgm/lgm_top.php';
 </p>
 
 <p>
-	<a href="http://future.aae.wisc.edu/lgm_dairy.html#5" target="_blank">LGM-Dairy email list :</a> This section sends notifications of new LGM-Dairy materials, software upgrades, new data, etc.
+	<a href="https: //dairy.aae.wisc.edu/dairy-marketing-tools/
+" target="_blank">LGM-Dairy email list :</a> This section sends notifications of new LGM-Dairy materials, software upgrades, new data, etc.
 </p>
 
 <p>
@@ -28,17 +29,20 @@ require $_SERVER['DOCUMENT_ROOT'] . '/oldtools/lgm/lgm_top.php';
 </p>
 
 <p align="justify">
-	<a href="http://future.aae.wisc.edu/lgm_dairy.html#4" target="_blank">Materials Explaining the LGM-Dairy:</a> This section has white papers, extension reports, brochures, and power point presentations to better understand the LGM-Dairy insurance program.
+<a href="https://dairy.aae.wisc.edu/dairy-marketing-tools/" target="_blank">Materials Explaining the LGM-Dairy:</a> This section has white papers, extension reports, brochures, and power point presentations
+to better understand the LGM-Dairy insurance program.
 </p>
 
 <p align="justify">
 	<br/>
-	<a href="http://future.aae.wisc.edu/lgm_dairy.html#3" target="_blank">Underlying Data:</a> This section provides a wide collection of historical and future data on commodity prices used for implementing  LGM-Dairy.
+<a href="https://dairy.aae.wisc.edu/dairy-marketing-tools/" target="_blank">Underlying Data:</a> This section provides a wide collection of historical and future data on commodity prices used for implementing
+LGM-Dairy.
 </p>
 
 <p align="justify">
 	<br/>
-	<a href="http://future.aae.wisc.edu/lgm_dairy.html#2" target="_blank">Supporting Software:</a> This section provides a comprehensive set of unique decision support tools to help in the decision of engaging in LGM-Dairy.
+<a href="https://dairy.aae.wisc.edu/dairy-marketing-tools/" target="_blank">Supporting Software:</a> This section provides a comprehensive set of unique decision support tools to help in the decision
+of engaging in LGM-Dairy.
 </p>
 
 <p align="justify">
@@ -54,7 +58,9 @@ require $_SERVER['DOCUMENT_ROOT'] . '/oldtools/lgm/lgm_top.php';
 </p>
 
 <p align="justify">
-	We feature our <a href="http://dairymgt.uwex.edu/lgm/lgm_cov.php">Optimizer or LGM-Dairy-Least-Cost</a> tool capable to minimize the LGM-Dairy premium cost to a defined level of income over feed cost protection.  This             web-based optimization model used to identify the insurance contract design             that minimizes the premium             cost per cwt of total farm milk of generating a predefined guaranteed income            over feed cost.&nbsp;&nbsp;The decision variables are the percentage of farm             milk to insure for each month of the insurance contract.&nbsp;&nbsp;This             program uses the            latest 3 days of trading data to provide an estimate of the costs of next            month's LGM-Dairy insurance contract.  An User's Manual is <a href="http://future.aae.wisc.edu/lgm-dairy/lgm-least-cost-manual.pdf"> available</a> for download.
+	We feature our <a href="https://dairy.aae.wisc.edu/dairy-marketing-tools/">Optimizer or LGM-Dairy-Least-Cost</a> tool capable to minimize the LGM-Dairy premium cost to a defined level of income over feed cost protection.  This             web-based optimization model used to identify the insurance contract design             that minimizes the premium             cost per cwt of total farm milk of generating a predefined guaranteed income            over feed cost.&nbsp;&nbsp;The decision variables are the percentage of farm             milk to insure for each month of the insurance contract.&nbsp;&nbsp;This             program uses the            latest 3 days of trading data to provide an estimate of the costs of next            
+ month's LGM-Dairy insurance contract. An User's Manual is
+<a href="https://dairy.aae.wisc.edu/dairy-marketing-tools/"> available</a> for download.
 	<br/>
 </p>
 
@@ -63,7 +69,7 @@ require $_SERVER['DOCUMENT_ROOT'] . '/oldtools/lgm/lgm_top.php';
 </p>
 
 <p align="justify">
-	Please visit the <a href="http://future.aae.wisc.edu/lgm_dairy.html" target="_blank">Understanding Dairy Markets LGM-Dairy </a>for more information related to LGM-Dairy.
+ Please visit the <a href="https://dairy.aae.wisc.edu/dairy-marketing-tools/" target="_blank">Understanding Dairy Markets LGM-Dairy </a>for more information related to LGM-Dairy.
 </p>
 
 
