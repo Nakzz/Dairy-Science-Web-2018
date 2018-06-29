@@ -16,7 +16,8 @@ $title = 'Dairy Management: Gallery';
 
 
   </script>
-<script src="OLDWEBSITE_6_14_2018/dist/js/jquery.js"></script>
+<!-- <script src="OLDWEBSITE_6_14_2018/dist/js/jquery.js"></script> -->
+<script src="../../dairymgt-site/dist/js/jquery.js"></script>
 
 
   <!-- DESCRIPTION -->

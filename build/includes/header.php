@@ -12,26 +12,7 @@
 
 <!--
 
-head tags should be in each file. add the follow in each page head element.
-
-<meta charset="utf-8">
-<title>Creative Home \ Progressive — Responsive Multipurpose HTML Template</title>
-<meta name="keywords" content="HTML5 Template">
-<meta name="description" content="Progressive — Responsive Multipurpose HTML Template"> -->
-<?php
-//error_reporting(E_ALL);
-
-// TODO: Uncomment prior to DEPLOY
-//require_once($_SERVER['DOCUMENT_ROOT'] . "/visitor/log_visitor.php");
-//log_visitor($title);
-  //or, if you DO want a file to cache, use:
-  //header("Cache-Control: max-age=2592000"); //30days (60sec * 60min * 24hours * 30days)
-
-?>
-
-
 <!-- TITLE -->
-
 <title><?php echo $title ?></title>
 
 <meta charset="UTF-8">
@@ -47,19 +28,6 @@ head tags should be in each file. add the follow in each page head element.
 <!-- <link href="https://cdn.jsdelivr.net/npm/select2@4.0.6-rc.1/dist/css/select2.min.css" rel="stylesheet" /> -->
 <!-- STYLESHEETS -->
 
-<?php // TODO: REMOVE THESE PRIOR TO DEPLOY ?>
-<!-- <link href="assets/css/bootstrap.css" rel="stylesheet">
-
-<link href="assets/css/flexslider.css" rel="stylesheet" >
-<link href="assets/css/animate.css" rel="stylesheet">
-<link href="assets/css/schedule.css" rel="stylesheet">
-<link href="assets/css/gridgallery.css" rel="stylesheet" type="text/css"  />
-<link href="assets/css/venobox.css" rel="stylesheet" type="text/css"/>
-<link href="assets/css/styles.css" rel="stylesheet"/>
-<link href="assets/css/queries.css" rel="stylesheet"/>
-
-<link href="assets/css/ajmain.css" rel="stylesheet"/>
-<link href="assets/css/team-member.css" rel="stylesheet"/> -->
 
 <link href="assets/style.css" rel="stylesheet"/>
 
@@ -68,6 +36,3 @@ head tags should be in each file. add the follow in each page head element.
 <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
 <![endif]-->
 
-<?php // Google Analytics
-// TODO: Uncomment prior to DEPLOY
-//include_once($_SERVER['DOCUMENT_ROOT'] . "/visitor/analyticstracking.php"); ?>

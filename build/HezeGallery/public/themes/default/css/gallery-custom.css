@@ -133,6 +133,13 @@ ul.hezpaging li a.current
 	float:right;
 }
 
+a.backBtn{
+	background-color: #212739;
+	color: #FFF !important;
+	font-weight: 600 !important;
+	border-color:#101010;
+}
+
 .catname {
     bottom: 43px;
     color: white;

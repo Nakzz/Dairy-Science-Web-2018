@@ -20,6 +20,7 @@
 	include(APP_FOLDER.'/models/objects/categories.php');
 	include('hezecom-gallery-theme.php');
 	include('hezecom-gallery-js.php');
+	// include ('chromePhp.php');
 	
 
 	class HezecomGallery {
@@ -35,6 +36,7 @@
 	$catid = get('catid');
 	if(!empty($catid))
 	{
+
 			$hcat=$this->category->SelectOne(get('catid'));
 			$hcatname=$hcat->category_name;
 
@@ -45,7 +47,7 @@
 			$hezegallery.= '
 			<div class="category_heading" >'.$hcatname.'</div>
 			<div  class="backpage" >
-			<a href="'.$_SERVER['PHP_SELF'].'?catid=" class="btn btn-primary" style="background-color:#101010;border-color:#101010;" >Back</a></div>
+			<a href="'.$_SERVER['PHP_SELF'].'?catid=" class="btn btn-primary backBtn" >Back</a></div>
 			<div style="clear:both" ></div>
 			' ;
 			$hezegallery.='<div class="gallery">';
@@ -80,7 +82,8 @@
 			print $hezegallery;
 	}
 	else
-	{	  
+	{	 print "Entered else";
+
 			$hezegallery='<div class="gallery">';
 
 		   foreach($this->category->CategoryGroupList($type) as $hrow)
