@@ -118,9 +118,9 @@ include 'includes/nav-bar.php';
    <div class="media-body"> <strong><p>Evaluates grouping strategies for feeding lactating dairy     cattle</p></strong>
    <p>HTML Online Tool <a href="tools/grouping_strategy/index.php" target="_blank">(Open)</a></p>
    <p>Instructions and Documentation <a href="tools/cluster/FeedGrouping.pdf" target="_blank">(Download)</a></p>
-   <p>Presentation 1 <a href="archive/publications/2012_Cabrera_4-State_Presentation.pdf" target="_blank">(Download)</a></p>
+   <p>Presentation 1 <a href="publications/2012_Cabrera_4-State_Presentation.pdf" target="_blank">(Download)</a></p>
    <p>Presentation 2 <a href="tools/cluster/Lactating_Dairy_Cattle_Feeding_Grouping.pdf" target="_blank">(Download)</a></p>
-   <p>Paper <a href="archive/publications/2012_Cabrera_4-State_Paper.pdf" target="_blank">(Download)</a></p>
+   <p>Paper <a href="publications/2012_Cabrera_4-State_Paper.pdf" target="_blank">(Download)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the  Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/ycPExNW_RSE?rel=0">Link to the  video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
@@ -133,7 +133,7 @@ include 'includes/nav-bar.php';
    <div class="media-body">
    <p><strong>This tool is a “live” summary of data collected from a survey sent to 1,771 farms from Wisconsin and Michigan (WI=971, MI=800) in 2012.</strong></p>
    <p>Online Tool (<a href="/tools/ds/index.php" target="_blank">Open</a>) </p>
-   <p>Paper (<a href="archive/publications/papers/WisMi.pdf" target="_blank">Download</a>) </p>
+   <p>Paper (<a href="publications/papers/WisMi.pdf" target="_blank">Download</a>) </p>
    </div>
        </div>
    </div>
@@ -145,8 +145,8 @@ include 'includes/nav-bar.php';
        <div class="media"> <img class="media-object img-responsive pull-right hidden-xs img-thumbnail" src="assets/img/tools/optigen.png" alt="...">
    <div class="media-body"> <strong><p>Calculates the econnomic value of using Optigen® with lactating    cows. Optigen® replaces a user-defined source of protein and adds a    user-defined source of energy</p></strong>
    <p>HTML Online Tool <a href="tools/optigen/index.php" target="_blank">(Open)</a> </p>
-   <p>Poster <a href="archive/publications/presentations/2009_ADSA_Inostroza.pdf" target="_blank">(Download)</a></p>
-   <p>Paper <a href="archive/publications/Inostroza_etal_10.pdf" target="_blank">(Download)</a> </p>
+   <p>Poster <a href="publications/presentations/2009_ADSA_Inostroza.pdf" target="_blank">(Download)</a></p>
+   <p>Paper <a href="publications/Inostroza_etal_10.pdf" target="_blank">(Download)</a> </p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the        Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/csuIg9zD_W4?rel=0">Link to the        video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
@@ -160,8 +160,8 @@ include 'includes/nav-bar.php';
    <p>Excel SpreadSheet <a href="oldtools/iofsc/spreadsheet.php" target="_blank">(Download)</a></p>
    <p>Instructions <a href="oldtools/iofsc/IOFSC.pdf" target="_blank">(Download)</a> </p>
    <p>Documentation <a href="oldtools/iofsc/IOFSC_doc.pdf" target="_blank">(Download)</a> </p>
-   <p>Presentation <a href="archive/publications/presentations/2009_4STATE_Cabrera.pdf" target="_blank">(Download)</a></p>
-   <p>Paper <a href="archive/publications/papers/2009_4State_Cabrera.pdf" target="_blank">(Download)</a></p>
+   <p>Presentation <a href="publications/presentations/2009_4STATE_Cabrera.pdf" target="_blank">(Download)</a></p>
+   <p>Paper <a href="publications/papers/2009_4State_Cabrera.pdf" target="_blank">(Download)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the        Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/t8TW-QjUmLU?rel=0">Link to the        video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> <strong><p>Spanish (Argentinian) version: Margen Sobre Los Gastos de  Concentrado</p></strong>
    <p>Hoja de Cálculo en Excel <a href="oldtools/iofsc/MSGC/MSGC.xlsm" target="_blank">(Abrir)</a></p>
    <p>Instrucciones en PDF <a href="oldtools/iofsc/MSGC/MSGC.pdf" target="_blank">(Descargar)</a></p>
@@ -178,7 +178,7 @@ include 'includes/nav-bar.php';
    <div class="media-body"> <strong><p>Benchmarks feed costs and income over feed cost (IOFC) for a     group of participating herds</p></strong>
    <p>Web-based Database System <a href="iofscdb/login.php" target="_blank">(Open)</a> </p>
    <p>Documentation <a href="iofscdb/WIFeedEvaluator.pdf" target="_blank">(Open)</a> </p>
-   <p>Presentation <a href="archive/publications/presentations/2010_4STATE_Cabrera.pdf" target="_blank">(Download)</a></p>
+   <p>Presentation <a href="publications/presentations/2010_4STATE_Cabrera.pdf" target="_blank">(Download)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the Video)</a></p> <a class="video_link not_seen" href="http://www.youtube.com/embed/M32GIqqcguQ?rel=0">Link to the video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
    </div>
@@ -271,8 +271,8 @@ include 'includes/nav-bar.php';
    <p>Flash Offline Tool (<a href="oldtools/sexed_semen/EV_SexedSemen.pdf" target="_blank">Download</a>)</p>
    <p>Instructions (<a href="oldtools/sexed_semen/NPVSexedSemen.pdf" target="_blank">Download</a>)</p>
    <p>Documentation (<a href="oldtools/sexed_semen/DCRC_Meeting_09.pdf" target="_blank">Download</a>)</p>
-   <p>Presentation (<a href="archive/publications/presentations/2009_DCRC_Cabrera(c).pdf" target="_blank">Download</a>)</p>
-   <p>Paper (<a href="archive/publications/papers/2009_DCRC_Cabrera.pdf" target="_blank">Download</a>)</p>
+   <p>Presentation (<a href="publications/presentations/2009_DCRC_Cabrera(c).pdf" target="_blank">Download</a>)</p>
+   <p>Paper (<a href="publications/papers/2009_DCRC_Cabrera.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the     Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/_h7-VbrzZXQ?rel=0">Link to the     video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe>
    <p>Spanish Version (Argentina)</p>
@@ -359,8 +359,8 @@ include 'includes/nav-bar.php';
    <p><strong>Calculates the projected net return of a cow or the entire     herd.</strong></p>
    <p>Online Tool (<a href="tools/cow_value_resp/index.php" target="_blank">Open</a>)</p>
    <p>Presentation (<a href="presentations/Wisconsin_Audience/2012_Madison.pdf" target="_blank">Download</a>)</p>
-   <p>Paper (<a href="archive/publications/2012_JDS_Cabrera.pdf" target="_blank">Download</a>) </p>
-   <p>Magazine Article (<a href="archive/publications/2012_Hoards_Cabrera.pdf" target="_blank">Download</a>)</p>
+   <p>Paper (<a href="publications/2012_JDS_Cabrera.pdf" target="_blank">Download</a>) </p>
+   <p>Magazine Article (<a href="publications/2012_Hoards_Cabrera.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the      Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/qCCj1fa-UXw?rel=0">Link to the      video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
@@ -375,7 +375,7 @@ include 'includes/nav-bar.php';
    <p><strong>This tool is a “live” summary of data collected through the University of Wisconsin-Extension Repro Money Program from 40 dairy farms in Wisconsin between the years 2010 and 2014.</strong></p>
    <p>Online Tool (<a href="/tools/ds/index2.php" target="_blank">Open</a>)</p>
    <p>Questionnaire (<a href="additional/Survey7.pdf" target="_blank">Open</a>) </p>
-   <!--        <p>Paper (<a href="archive/publications/2012_JDS_Cabrera.pdf"        target="_blank">Download</a>)      </p>        <p>Magazine Article (<a href="archive/publications/2012_Hoards_Cabrera.pdf"      target="_blank">Download</a>)</p>        <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the      Video)</a></p>      <a class="video_link not_seen"      href="http://www.youtube.com/embed/qCCj1fa-UXw?rel=0">Link to the      video.</a>      <iframe class="video not_seen" align="center" width="560" height="315" src=""      frameborder="0"></iframe>    -->
+   <!--        <p>Paper (<a href="publications/2012_JDS_Cabrera.pdf"        target="_blank">Download</a>)      </p>        <p>Magazine Article (<a href="publications/2012_Hoards_Cabrera.pdf"      target="_blank">Download</a>)</p>        <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the      Video)</a></p>      <a class="video_link not_seen"      href="http://www.youtube.com/embed/qCCj1fa-UXw?rel=0">Link to the      video.</a>      <iframe class="video not_seen" align="center" width="560" height="315" src=""      frameborder="0"></iframe>    -->
    </div>
        </div>
    </div>
@@ -392,8 +392,8 @@ include 'includes/nav-bar.php';
    <p>Flash Offline Tool (<a href="oldtools/sexed_semen/EV_SexedSemen.pdf" target="_blank">Download</a>)</p>
    <p>Instructions (<a href="oldtools/sexed_semen/NPVSexedSemen.pdf" target="_blank">Download</a>)</p>
    <p>Documentation (<a href="oldtools/sexed_semen/DCRC_Meeting_09.pdf" target="_blank">Download</a>)</p>
-   <p>Presentation (<a href="archive/publications/presentations/2009_DCRC_Cabrera(c).pdf" target="_blank">Download</a>)</p>
-   <p>Paper (<a href="archive/publications/papers/2009_DCRC_Cabrera.pdf" target="_blank">Download</a>)</p>
+   <p>Presentation (<a href="publications/presentations/2009_DCRC_Cabrera(c).pdf" target="_blank">Download</a>)</p>
+   <p>Paper (<a href="publications/papers/2009_DCRC_Cabrera.pdf" target="_blank">Download</a>)</p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the    Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/_h7-VbrzZXQ?rel=0">Link to the    video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe>
    <p>Spanish Version (Argentina)</p>
@@ -631,8 +631,8 @@ include 'includes/nav-bar.php';
    <p><strong>Calculates the projected net return of a cow or the entire    herd.</strong></p>
    <p>Online Tool <a href="tools/cow_value_resp/" target="_blank">(Open)</a></p>
    <p>Presentation <a href="presentations/Wisconsin_Audience/2012_Madison.pdf" target="_blank">(Download)</a></p>
-   <p>Paper <a href="archive/publications/2012_JDS_Cabrera.pdf" target="_blank">(Download)</a> </p>
-   <p>Magazine Article <a href="archive/publications/2012_Hoards_Cabrera.pdf" target="_blank">(Download)</a></p>
+   <p>Paper <a href="publications/2012_JDS_Cabrera.pdf" target="_blank">(Download)</a> </p>
+   <p>Magazine Article <a href="publications/2012_Hoards_Cabrera.pdf" target="_blank">(Download)</a></p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the    Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/qCCj1fa-UXw?rel=0">Link to the    video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
@@ -757,7 +757,7 @@ include 'includes/nav-bar.php';
    <p>Price risk management tool that uses the Livestock Gross Margin for dairy insurance. </p>
    <p>Online Tool (<a href="tools/lgm_analyzer/index.php" target="_blank">Open</a>) </p>
    <p>Additional Information (<a href="additional/lgm.php" target="_blank">Open</a>)</p>
-   <p>Paper (<a href="archive/publications/Valvekar.pdf" target="_blank">Download</a>) </p>
+   <p>Paper (<a href="publications/Valvekar.pdf" target="_blank">Download</a>) </p>
    <p>Demo <a data-toggle="modal" href="#" class="link">(Click to View/Hide the  Video)</a></p>
    <a class="video_link not_seen" href="http://www.youtube.com/embed/OFIOPed9zhc?rel=0">Link to the  video.</a> <iframe class="video not_seen" align="center" width="560" height="315" src="" frameborder="0"></iframe> </div>
        </div>
@@ -1012,7 +1012,7 @@ include 'includes/nav-bar.php';
    <p><strong>Predicts seasonal manure excretion of lactating cows</strong></p>
    <p>Excel SpreadSheet (<a href="oldtools/seasonal/spreadsheet.php" target="_blank">Download</a>)</p>
    <p>Documentation (<a href="oldtools/seasonal/NMManure_Manual.pdf" target="_blank">Download</a>)</p>
-   <p>Paper (<a href="archive/publications/PAS08.pdf" target="_blank">Download</a>) </p>
+   <p>Paper (<a href="publications/PAS08.pdf" target="_blank">Download</a>) </p>
    </div>
        </div>
    </div>
