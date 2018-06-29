@@ -23,9 +23,9 @@
 	$dbc = new dboptions();
 	$startpg = pageparam($limit);
 	if($type){
-	$record = $dbc->rawSelect ("SELECT * FROM categories WHERE category_type='$type'  LIMIT {$startpg} , {$limit}");
+	$record = $dbc->rawSelect ("SELECT * FROM categories WHERE category_type='$type' ORDER BY catid DESC LIMIT {$startpg} , {$limit}");
 	}else{
-	$record = $dbc->rawSelect ("SELECT * FROM categories LIMIT {$startpg} , {$limit}");
+	$record = $dbc->rawSelect ("SELECT * FROM categories ORDER BY catid LIMIT {$startpg} , {$limit}");
 	}
 	return $record->fetchAll(PDO::FETCH_OBJ);
 	}
@@ -54,11 +54,11 @@
 	$startpg = pageparam($limit);
 	$record = $dbc->rawSelect("SELECT COUNT(categories.catid) AS totalout, categories.*
 	FROM hgallery INNER JOIN categories ON (hgallery.catid = categories.catid) WHERE categories.category_type='$type'
-	GROUP BY categories.catid ORDER BY categories.category_position ASC LIMIT $limit");
+	GROUP BY categories.catid ORDER BY categories.catid ASC LIMIT $limit");
 	}else{
 	$record = $dbc->rawSelect("SELECT COUNT(hgallery.catid) AS totalout, categories.*
 	FROM hgallery INNER JOIN categories ON (hgallery.catid = categories.catid) WHERE categories.category_type='$type'
-	GROUP BY categories.catid ORDER BY categories.category_position ASC  ");	
+	GROUP BY categories.catid ORDER BY categories.catid ASC  ");	
 	}
 	return $record->fetchAll(PDO::FETCH_OBJ);
 	}

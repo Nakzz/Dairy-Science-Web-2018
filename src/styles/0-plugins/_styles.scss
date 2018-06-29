@@ -150,14 +150,14 @@ p {
 .status {
 	background: url("../assets/img/loading.gif") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
 	float: none;
-	height: 104px;
-	left: calc(50% - 100px);
+	height: 100%;
+	left: calc(50% - 180px);
 	margin: 0 auto;
 	opacity: 1;
 	overflow-y: hidden;
 	position: absolute;
 	text-align: center;
-	top: calc(50% - 52px);
+	top: calc(50% - 125px);
 	width: 100%;
 	z-index: 111;
 }
