@@ -96,7 +96,7 @@
 </div>
 
 <!--PRELOADER-->
-<div class="preloader">
+<!-- <div class="preloader">
 <div class="status"></div>
-</div>
+</div> -->
 <!--/PRELOADER-->

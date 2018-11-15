@@ -1,7 +1,4 @@
-<?php
-$GLOBALS['title'] = 'Dairy Management: Home';
-
-?>
+<?php $title = "Dairy Management: Home" ?>
 
 <!DOCTYPE html>
 <html>
@@ -14,6 +11,7 @@ $GLOBALS['title'] = 'Dairy Management: Home';
      ""
   ];
 
+var pageName = "Home";
   </script>
 
 
@@ -24,7 +22,7 @@ $GLOBALS['title'] = 'Dairy Management: Home';
 	decision support tools to help dairy farmers improve their
 	economic performance along with environmental  stewardship.">	
 
-	<meta name="keywords"  content="" />
+	<meta name="keywords"  content=" dairy management, dairy wisconsin, decision support tools, economic analysis, modeling, simulation, optimization, whole-farm system, expert-system, data analytics, artificial intelligence." />
 	<meta name="author" content="Ajmain Naqib" />
 
 	<?php
@@ -80,11 +78,11 @@ include 'includes/full_screen_video.php';
 									</div>
 								</div>
 								<div class="col-sm-12 col-md-12">
-											<a id="get_directions" class="learn-more-btn btn-effect" href="https://www.google.com/maps/dir/''/Animal+Science,+Elm+Dr,+Madison,+WI+53706/data=!4m5!4m4!1m0!1m2!1m1!1s0x8807acc078fbc397:0xb7e3ed786867978f?sa=X&ved=0ahUKEwj_lY_i0qXaAhXE5YMKHUmAAHEQiBMINTAA" target="_blank"><i class="fas fa-map-marker-alt"></i><span>Get Directions</span></a>
+											<a id="get_directions" class="learn-more-btn btn-effect" href="https://www.google.com/maps/dir/''/Animal Science, Elm Dr, Madison, WI 53706/data=!4m5!4m4!1m0!1m2!1m1!1s0x8807acc078fbc397:0xb7e3ed786867978f?sa=X&ved=0ahUKEwj_lY_i0qXaAhXE5YMKHUmAAHEQiBMINTAA" target="_blank"><i class="fas fa-map-marker-alt"></i><span>Get Directions</span></a>
 								</div>
 							</div>
 
-							<div class="col-lg-5 col-md-5 col-sm-12">
+							<div class="col-lg-5 col-md-5 col-sm-12" id="profilePic">
 								<div class="overlay-effect effects clearfix ">
 
 									<div class="team-member">
@@ -111,14 +109,13 @@ include 'includes/full_screen_video.php';
 									</div>
 
 											<h2><span>Victor E.Cabrera, Ph.D.</span></h2>
-											<h3>Associate Professor Extension Specialist in Dairy Management</h3>
+											<h3>Professor Extension Specialist in Dairy Management</h3>
 										</div>
 									</div>
 
 									<div class="col-lg-4 col-md-4 col-lg-4 paddingtopsmall paddingSmall_bottom">
 
-										<a class="twitter-timeline" height="400" href="https://twitter.com/vecabrera" data-widget-id="343590479574757376">Tweets by @vecabrerai</a>
-										<script>!function(d, s, id){var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location)?'http':'https'; if (!d.getElementById(id)){js = d.createElement(s); js.id = id; js.src = p + "://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs); }}(document, "script", "twitter-wjs");</script>
+<a class="twitter-timeline" data-height="400" href="https://twitter.com/vecabrera?ref_src=twsrc%5Etfw">Tweets by vecabrera</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 									</div>
 								</div>
 							</div>
@@ -145,14 +142,14 @@ include 'includes/full_screen_video.php';
 
 					<div class="row padding_right padding_left ">
 						<div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 paddingSmall_bottom ">
-							<p>Liang, D. F. Sun, M. A. Wattiaux, V. E. Cabrera, J. L. Hedtcke, and E. M. Silva. 2017.
-								Effect of feeding strategies and cropping systems on greenhouse gas emission from Wisconsin
-								certified organic dairy farms. Journal of Dairy Science 100:5957-5973.
+							<p>R. Mur-Novales, F. Lopez-Gatius, P. M. Fricke, and V. E. Cabrera 2018.
+								An economic evaluation of management strategies to mitigate
+the negative effect of twinning in dairy herds. Journal of Dairy Science 101:8335–8349.
 							</p>
 							<center>
 								<img src="assets/img/items/articulo.png" class="img-responsive " style="width: 100%;">
 							</center>
-							<a href="https://www.elsevier.com/about/press-releases/research-and-journals/optimizing-feeding-is-necessary-to-maintain-milk-production-in-organic-herds" target="blank_">Optimizing feeding is necessary to maintain milk production in organic herds</a>
+							<a href="https: //www.sciencedirect.com/science/article/pii/S0022030218305940" target="blank_">An economic evaluation of management strategies to mitigate the negative effect of twinning in dairy herds</a>
 							<hr>
 						</div>
 
@@ -339,3 +336,5 @@ include 'includes/footer.php';
 				<!-- /FOOTER scripts-->
 			</body>
 			</html>
+
+

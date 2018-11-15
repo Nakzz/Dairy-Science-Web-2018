@@ -71,6 +71,7 @@ include 'includes/nav-bar.php';
   </div>
 </section>
 <!--END Section Tittle-->
+<?php include 'includes/pageSlider.php'; ?>
 
 <!-- Section Body-->
 <section class="bodySection">
