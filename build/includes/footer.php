@@ -13,7 +13,7 @@
     <div class="row">
 
 
-      <script type="text/javascript">
+      <script defer type="text/javascript">
       function googleTranslateElementInit() {
         new google.translate.TranslateElement({pageLanguage: 'en', layout: google.translate.TranslateElement.InlineLayout.SIMPLE}, 'google_translate_element');
       }
@@ -62,34 +62,43 @@
   <script type="text/javascript" src="assets/js/jquery-1.11.0.min.js"></script>
   <script type="text/javascript" src="assets/js/jquery-ui-1.10.4.min.js"></script>
 
+<script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+
+  <!-- INITIALIZATION  -->
+  <script defer type="text/javascript" src="assets/js/init.js"></script>
+
+  <!-- GULP GENERATED  -->
+  <script type="text/javascript" src="assets/script.js"></script>
+
+  
   <!--VIMEO VIDEO-->
-      <script type="text/javascript" src="assets/js/venobox.js"></script>
+      <script defer type="text/javascript" src="assets/js/venobox.js"></script>
 
       <!--3D GALLERY-->
-      <script type="text/javascript" src="assets/js/classie.grid.gallery.js"></script>
-  <script type="text/javascript" src="assets/js/modernizr.gridgallery.js"></script>
+      <script defer type="text/javascript" src="assets/js/classie.grid.gallery.js"></script>
+  <script defer type="text/javascript" src="assets/js/modernizr.gridgallery.js"></script>
     <!--3D GALLERY
   <script type="text/javascript" src="assets/js/cbpGridGallery.js"></script>
 -->
-  <script type="text/javascript" src="assets/js/classie.js" ></script>
-  <script type="text/javascript" src="assets/js/modalEffects.js" ></script>
+  <script defer type="text/javascript" src="assets/js/classie.js" ></script>
+  <script defer type="text/javascript" src="assets/js/modalEffects.js" ></script>
 
-    <script type="text/javascript" src="assets/js/nlform.js" ></script>
+    <script defer type="text/javascript" src="assets/js/nlform.js" ></script>
 
       <script type="text/javascript" src="assets/js/bootstrap.min.js" ></script>
 
   <!-- TEAM SLIDER  -->
-  <script type="text/javascript" src="assets/js/jquery.flexslider.js" ></script>
+  <script defer type="text/javascript" src="assets/js/jquery.flexslider.js" ></script>
 
   <!-- SCHEDULE TABS  -->
-      <script type="text/javascript" src="assets/js/modernizr.js" ></script>
-  <script type="text/javascript" src="assets/js/cbpFWTabs.js" ></script>
+      <script defer type="text/javascript" src="assets/js/modernizr.js" ></script>
+  <script defer type="text/javascript" src="assets/js/cbpFWTabs.js" ></script>
 
   <!--SPONSOR SLIDER-->
-  <script type="text/javascript" src="assets/js/jssor.core.js"></script>
-  <script type="text/javascript" src="assets/js/jssor.utils.js"></script>
-  <script type="text/javascript" src="assets/js/jssor.slider.js"></script>
-  <script type="text/javascript" src="assets/js/sponsor_init.js"></script>
+  <script defer type="text/javascript" src="assets/js/jssor.core.js"></script>
+  <script defer type="text/javascript" src="assets/js/jssor.utils.js"></script>
+  <script defer type="text/javascript" src="assets/js/jssor.slider.js"></script>
+  <script defer type="text/javascript" src="assets/js/sponsor_init.js"></script>
 
   <!-- SMOOTH SCROLL  -->
   <script type="text/javascript" src="assets/js/smooth-scroll.js"></script>
@@ -98,25 +107,19 @@
   <script type="text/javascript" src="assets/js/jquery.nicescroll.js"></script>
 
   <!-- SUBSCRIPTION FORM  -->
-  <script type="text/javascript" src="assets/js/notifyMe.js"></script>
+  <script defer type="text/javascript" src="assets/js/notifyMe.js"></script>
 
-  <script type="text/javascript" src="assets/js/jquery.placeholder.js"></script>
+  <script defer type="text/javascript" src="assets/js/jquery.placeholder.js"></script>
 
   <!-- ANIMATION  -->
-  <script type="text/javascript" src="assets/js/wow.min.js"></script>
+  <script defer type="text/javascript" src="assets/js/wow.min.js"></script>
 
   <!--[if lt IE 8]>
     <script src="assets/js/json2.min.js"></script>
   <![endif]-->
-<script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
 
-  <!-- INITIALIZATION  -->
-  <script type="text/javascript" src="assets/js/init.js"></script>
 
-  <!-- GULP GENERATED  -->
-  <script type="text/javascript" src="assets/script.js"></script>
-
-  <script src="https://cdn.jsdelivr.net/npm/select2@4.0.6-rc.1/dist/js/select2.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/select2@4.0.6-rc.1/dist/js/select2.min.js"></script>
 
   <script type="text/javascript">
   console.log("Known Bugs:");

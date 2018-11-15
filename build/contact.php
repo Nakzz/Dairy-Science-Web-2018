@@ -24,11 +24,11 @@ $title = 'Dairy Management: Contact';
 <head>
 <script type="text/javascript">
     function validate(){
-        if(document.getElementById("name").value==""){
+        if(document.getElementById("Full_Name").value==""){
             alert('Please enter your name');
             return false;
         }
-        if(document.getElementById("email").value==""){
+        if(document.getElementById("Email_Address").value==""){
             alert('Please enter your e-mail address');
             return false;
         }
@@ -36,13 +36,18 @@ $title = 'Dairy Management: Contact';
             alert('Please enter subject');
             return false;
         }
-        if (document.getElementById("message").value == ""){
+        if (document.getElementById("Your_Message").value == ""){
             alert('Please enter message');
             return false;
         }else{
             return true;
         }
     }
+
+
+function formSuccess(){
+    $( "#msgSubmit" ).removeClass( "hidden" );
+}
  </script>
   <script type="text/javascript">
 
@@ -53,7 +58,7 @@ $title = 'Dairy Management: Contact';
 
 
   </script>
-	
+
 	<!-- DESCRIPTION -->
 
 	<meta name="description" content="This site is designed to support dairy farming
@@ -69,8 +74,8 @@ $title = 'Dairy Management: Contact';
 	<meta name="author" content="Ajmain Naqib" />
 
 	<?php
-	include 'includes/header.php';
-	?>
+include 'includes/header.php';
+?>
 
 </head>
 
@@ -158,24 +163,24 @@ include 'includes/nav-bar.php';
 
         <div id="contactWebnote" class="col-sm-5">
             <h2>Send a Webnote</h2>
-            <form id="contact-form" role="form" action="includes/contactForm.php" method="post" onSubmit=" return validate()">
+            <form id="contact-form" role="form" onSubmit=" return validate()">
                 <div class="form-group">
-                    <label class="sr-only" for="cname">Name</label>
-                    <input required type="text" name="name" id="name" value="" size="30" class="form-control" placeholder="Name" data-validation-required-message="Please enter your name.">
+                    <label class="sr-only" for="Full_Name">Name</label>
+                    <input required type="text" name="Full_Name" id="Full_Name" value="" size="30" class="form-control" placeholder="Name" data-validation-required-message="Please enter your name.">
                     <p class="help-block text-danger">
                 </div>
                 <div class="form-group">
-                    <label class="sr-only" for="cname">Subject</label>
+                    <label class="sr-only" for="subject">Subject</label>
                     <input required type="text" name="subject" id="subject" value="" size="30" class="form-control" placeholder="Subject" data-validation-required-message="Please enter the subject.">
                     <p class="help-block text-danger">
                 </div>
                 <div class="form-group">
-                    <label class="sr-only" for="cemail">Email</label>
-                    <input required type="email" name="email" id="email" value="" size="30" class="form-control" placeholder="Your E-mail" data-validation-required-message="Please enter your email address.">
+                    <label class="sr-only" for="Email_Address">Email</label>
+                    <input required type="email" name="Email_Address" id="Email_Address" value="" size="30" class="form-control" placeholder="Your E-mail" data-validation-required-message="Please enter your email address.">
                     <p class="help-block text-danger">
                 </div>
                 <div class="form-group">
-                    <textarea class="form-control" name="message" cols="60" rows="4" id="message" placeholder="Message" data-validation-required-message="Please enter your message."></textarea>
+                    <textarea class="form-control" name="Your_Message" cols="60" rows="4" id="Your_Message" placeholder="Message" data-validation-required-message="Please enter your message."></textarea>
                     <p class="help-block text-danger">
                 </div>
                 <div class="text-center">
@@ -202,6 +207,9 @@ include 'includes/logoRow.php';
 <?php
 include 'includes/footer.php';
 ?>
+<script  type="text/javascript" src="includes/mailer/js/jquery-1.11.2.min.js"></script>
+<script type="text/javascript" src="includes/mailer/js/validator.min.js"></script>
+<script type="text/javascript" src="includes/mailer/js/form-scripts.js"></script>
 <!-- /FOOTER scripts-->
 </body>
 </html>

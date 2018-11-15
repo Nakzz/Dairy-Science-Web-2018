@@ -107,7 +107,7 @@ include 'includes/nav-bar.php';
           </div>
           <div class="text-center">
             <h3><span>Victor E.Cabrera, Ph.D.</span></h3>
-            <h4>Associate Professor Extension Specialist in Dairy Management</h4>
+            <h4>Professor Extension Specialist in Dairy Management</h4>
           </div>
 
         </div>
@@ -137,9 +137,9 @@ include 'includes/nav-bar.php';
     <h1>Professional Experience</h1>
 
       <ul>
-        <li>        Associate Professor and Extension Dairy Specialist in Dairy Management, University of Wisconsin-Madison 2013-Present</li>
-        <li>        Assistant Professor and Extension Dairy Specialist in Dairy Management, University of Wisconsin-Madison 2008-2013</li>
-        <li>        Assistant Professor and Extension Dairy Specialist</li>
+      <li>         Professor and Extension Dairy Specialist in Dairy Management, University of Wisconsin-Madison 2018-Present</li>
+        <li>        Associate Professor and Extension Dairy Specialist in Dairy Management, University of Wisconsin-Madison 2014-2018</li>
+        <li>        Assistant Professor and Extension Dairy Specialist in Dairy Management, University of Wisconsin-Madison 2008-2014</li>
         <li>        Assistant Professor and Extension Dairy Specialist</li>
         <li>        New Mexico State University 2006-2008 Post-Doctoral Research Associate University of Miami, 2004-2006</li>
         <li>        Teaching and Research Assistant University of Florida 1999, 2001-2004</li>

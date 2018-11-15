@@ -104,7 +104,7 @@ include 'includes/nav-bar.php';
       </div>
 
       <div class="col-sm-12">
-        <h2>Previous Awards</h2>
+        <h2 style="padding-top: 0px !important;  margin-top: 0px !important;">Previous Awards</h2>
         <ul style="text-align:left; font-size:1.3em;" >
             <li>
                 1998, 1999, 2001-2004. University of Florida.
