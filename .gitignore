@@ -2,6 +2,8 @@
 connection.php
 db.php
 
+DBCredentials.php
+      
 devDirectory
 logo
 node_modules
